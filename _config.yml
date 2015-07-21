@@ -1,0 +1,20 @@
+# Dependencies
+markdown:         redcarpet
+pygments:         true
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            Morungos
+description:      'Morungos Pad'
+url:              http://morungos.github.io
+
+author:
+  name:           '@morungos'
+  url:            http://morungos.github.io
+
+paginate:         5
+
+# Custom vars
+version:          1.0.0
