@@ -1,9 +1,9 @@
 ---
 layout: post
-title: The sociology of biologists and bioinformaticians 
+title: The sociology of biologists and bioinformaticians
 ---
 
-Morgan Taschuck's posting "Biologists and bioinformaticians have different software needs" makes for an interesting read, but it's drawn a fascinating amount of really quite strongly felt responses.
+Morgan Taschuk's posting ["Biologists and bioinformaticians have different software needs"](https://modernmodelorganism.wordpress.com/2015/07/19/biologists-and-bioinformaticians-have-different-software-needs/) makes for an interesting read, but it's drawn a fascinating amount of really quite strongly felt responses.
 
 However, big caveat: it's not fair to put this at Morgan's door, she was reporting BOSC, and others were raising it there:
 
