@@ -8,10 +8,11 @@ system for a virtual machine so that a VM can't bypass the host's firewall.
 
 On Virtualbox, there are a number of networking modes, but the ones that are
 problematic are "Host Only" and "Bridged". These essentially have kernel modules
-that tap into the core networking systems so that packets can be sent and received
+that manage various parts of the host environment, including one that taps into
+the core networking systems so that packets can be sent and received
 directly, bypassing the host security systems.
 
-So it seems that the following command unloads that kernel extension:
+So it seems that the following command unloads that one particular kernel extension:
 
     sudo kextunload -b org.virtualbox.kext.VBoxNetFlt
 
