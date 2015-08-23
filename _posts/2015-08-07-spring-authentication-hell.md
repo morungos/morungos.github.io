@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Spring authentication hell
+author: Stuart
 ---
 
 Don't get me wrong, I love the Spring framework.

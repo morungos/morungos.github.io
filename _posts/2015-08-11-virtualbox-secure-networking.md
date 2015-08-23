@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Virtualbox secure networking
+author: Stuart
 ---
 
 A work challenge that came up today is: is it possible to lock down the networking

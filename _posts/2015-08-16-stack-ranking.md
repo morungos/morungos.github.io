@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Stack ranking and Campbell's Law
+author: Stuart
 ---
 
 A friend of mine tweeted this today.
