@@ -1,36 +1,26 @@
-<!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular
-     styles, `#sidebar-checkbox` for behavior. -->
-<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
+<div class="sidebar pure-u-1 pure-u-md-1-4">
+    <div class="header">
+        <h1 class="brand-title">Morungos Blog</h1>
+        <h2 class="brand-tagline">Cognition, technology, society</h2>
 
-<!-- Toggleable sidebar -->
-<div class="sidebar" id="sidebar">
-  <div class="sidebar-item">
-    <p>{{ site.description }}</p>
-  </div>
+        <nav class="nav">
+            <ul class="nav-list">
 
-  <nav class="sidebar-nav">
-    <a class="sidebar-nav-item{% if page.title == "Home" %} active{% endif %}" href="/">Home</a>
+                {% for node in pages_list %}
+                  {% if node.title != null %}
+                    {% if node.layout == "page" %}
+                    <li class="nav-item">
+                        <a class="pure-button" href="{{ node.url }}">{{ node.title }}</a>
+                    </li>
+                    {% endif %}
+                  {% endif %}
+                {% endfor %}
 
-    {% comment %}
-      The code below dynamically generates a sidebar nav of pages with
-      `layout: page` in the front-matter. See readme for usage.
-    {% endcomment %}
 
-    {% assign pages_list = site.pages %}
-    {% for node in pages_list %}
-      {% if node.title != null %}
-        {% if node.layout == "page" %}
-          <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">{{ node.title }}</a>
-        {% endif %}
-      {% endif %}
-    {% endfor %}
-
-    <a class="sidebar-nav-item" href="http://turalt.com">Turalt</a>
-  </nav>
-
-  <div class="sidebar-item">
-    <p>
-      &copy; {{ site.time | date: '%Y' }}. 
-    </p>
-  </div>
+                <li class="nav-item">
+                    <a class="pure-button" href="http://turalt.com">Turalt</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
 </div>
