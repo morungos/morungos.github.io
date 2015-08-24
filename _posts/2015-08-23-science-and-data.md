@@ -29,7 +29,7 @@ they could.
 Enter one participant, who we'll call "Fran" because that isn't their name.
 This participant was strikingly fast. Afterwards, as we debriefed the
 participant (I so love that phrase) "Fran" said that they'd actually just
-pressed any button as fast as the mesage appeared on the screen. They didn't
+pressed any button as fast as the message appeared on the screen. They didn't
 attempt to classify the message at all!
 
 So now the ethical quandary. Should this data stand? "Fran" had not followed
