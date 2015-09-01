@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Spreadsheet hell
+title: Comparison of XLSX modules for Perl
 author: Stuart
 ---
 
@@ -70,4 +70,4 @@ So for now, the choice seems to be dependent on the task:
     if you need complete access to the Excel representations, and your files aren't that
     big, or you have plenty of runtime capacity
   * Use [Spreadsheet::ParseXLSX](https://metacpan.org/pod/Spreadsheet::ParseXLSX) for quick
-    access to the underlying data of an XLSX spreadsheet. 
+    access to the underlying data of an XLSX spreadsheet.
