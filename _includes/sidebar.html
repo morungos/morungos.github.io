@@ -6,7 +6,7 @@
         <nav class="nav">
             <ul class="nav-list">
 
-                {% for node in pages_list %}
+                {% for node in site.pages %}
                   {% if node.title != null %}
                     {% if node.layout == "page" %}
                     <li class="nav-item">
