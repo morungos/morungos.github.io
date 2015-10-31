@@ -7,10 +7,10 @@
             <ul class="nav-list">
 
                 {% for node in site.pages %}
-                  {% if node.title != null %}
+                  {% if node.menu != null %}
                     {% if node.layout == "page" %}
                     <li class="nav-item">
-                        <a class="pure-button" href="{{ node.url }}">{{ node.title }}</a>
+                        <a class="pure-button" href="{{ node.url }}">{{ node.menu }}</a>
                     </li>
                     {% endif %}
                   {% endif %}
