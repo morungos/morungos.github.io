@@ -4,15 +4,61 @@ title: Information ecosystems and the engineering myth
 author: Stuart
 ---
 
-### A response to: "The Atlantic Was Wrong. Software Engineers Do Exist."
+### A response to: "The Atlantic Was Wrong. Software Engineers Do Exist"
+
+The debate starts with this:
 
 <blockquote>
-  However, there are still software engineers deserving of the title, and
-  the clue lies in a term used by Bogost himself: infrastructure.
+  An article written by Ian Bogost in The Atlantic today declared that
+  programmers should “stop calling themselves engineers”, declaring it a
+  disservice to the civic professionals who build our skyscrapers and heavy
+  machinery.
 </blockquote>
 
-First of all, attitudes to what counts as an engineer do vary between
-countries. In Canada, it's a highly regulated profession, clearly skilled.
+It is a spirited response, defending engineering as part of the software
+sector. Unfortunately, it does so on the basis that what software engineers
+do is, essentially *harder* than what developers and programmers do.
+
+<blockquote>
+  If Bogost is correct, and today’s computer programmers don’t really do that
+  much complicated work, then we must acknowledge there is still a quiet class
+  of true “software engineers” who are working hard to make it easy on the rest
+  of us.
+</blockquote>
+
+The fallacy is fairly obvious when stated as two assumptions:
+
+1. Engineering involves an aspect of public responsibility and service
+2. Today’s computer programmers don’t do that much complicated work
+
+Therefore
+
+3. There exist true software engineers
+
+This is a non sequitur. As stated, there is no way to draw this
+conclusion, or even to link the premises. There are ways to connect them, but
+they involve bridging inferences, such as:
+
+1A. Engineering work that involves public responsibility is complicated
+
+Bogost's point (1) is much better defended, although it's still contestable.
+Attitudes to what counts as engineering vary between countries. In Canada, it's
+a highly regulated profession, clearly skilled. That isn't true elsewhere. In
+the UK, for example, repair technicians are typically engineers, yet they
+would fall well outside Bogost's interpretation. So (1) is not universally
+true, although there are states and sectors where it is.
+
+Now, what about (1A)? In some areas, it's probably true. The electrical code
+in Ontario is about 1500 pages, so it's a fair bet it's complicated. And this is
+just a specification, it doesn't necessarily cover how things are supposed to be
+done, just what is supposed to be done. 
+
+, but we can fill in the implication.
+The implied link is that "true" engineering is complicated, because it requires
+acceptance of public responsibility and service.
+
+
+
 In the UK, it's often only semi-skilled.
 
 <blockquote>
@@ -42,4 +88,4 @@ encapsulated to a point where nobody is aware of it. Software is different:
 highly engineered components (and an operating system kernel is a fairly good
 example) provides a nice clean interface, and by and large, people don't need
 to know what's going on inside. In fact, the whole point in having an operating
-system is to hide things like hardware differences. 
+system is to hide things like hardware differences.
