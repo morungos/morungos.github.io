@@ -7,11 +7,11 @@ permalink:        pretty
 # Setup
 title:            Morungos
 description:      'Morungos Blog'
-url:              http://morungos.github.io
+url:              https://morungos.github.io
 
 author:
   name:           '@morungos'
-  url:            http://morungos.github.io
+  url:            https://morungos.github.io
 
 paginate:         5
 
