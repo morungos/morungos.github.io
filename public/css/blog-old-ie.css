@@ -96,11 +96,11 @@ h3 {
     padding: 2em 1em 0;
 }
 
-.post {
+.post, .page {
     padding-bottom: 2em;
 }
 
-.post-title {
+.post-title, .page-title {
     font-size: 2em;
     color: #222;
     margin-bottom: 0.2em;
@@ -112,7 +112,7 @@ h3 {
     margin-left: 1em;
 }
 
-.post-description {
+.post-description, .page-description {
     font-family: Georgia, "Cambria", serif;
     color: #444;
     line-height: 1.8em;
