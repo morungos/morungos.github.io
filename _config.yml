@@ -1,14 +1,14 @@
-title:              Clean Blog
-email:              your-email@example.com
-description:        A Blog Theme by Start Bootstrap
-author:             Start Bootstrap
+title:              Morungos Blog
+email:              stuart@morungos.com
+description:        ""
+author:             Stuart Watt
 baseurl:            ""
-url:                "https://startbootstrap.github.io"
+url:                "https://morungos.github.io"
 
 # Social Profiles
-twitter_username:   SBootstrap
-github_username:    StartBootstrap
-facebook_username:  StartBootstrap
+twitter_username:   morungos
+github_username:    morungos
+facebook_username:  
 instagram_username:  
 linkedin_username:
 

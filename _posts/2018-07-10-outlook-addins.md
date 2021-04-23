@@ -2,7 +2,7 @@
 layout: post
 title: Outlook add-ins on the Mac
 author: Stuart
-background: '/img/posts/01.jpg'
+## background: '/img/posts/01.jpg'
 ---
 
 One of our projects at [Turalt](https://turalt.com) involves an add-in component for Outlook, 
