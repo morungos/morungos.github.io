@@ -5,6 +5,8 @@ author:             Stuart Watt
 baseurl:            ""
 url:                "https://morungos.github.io"
 
+permalink:          pretty
+
 # Social Profiles
 twitter_username:   morungos
 github_username:    morungos
