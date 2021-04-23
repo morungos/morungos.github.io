@@ -1,19 +1,27 @@
-# Dependencies
-highlighter:      'rouge'
+title:              Morungos
+email:              stuart@morungos.com
+description:        ""
+author:             Stuart Watt
+baseurl:            ""
+url:                "https://morungos.github.io"
 
-# Permalinks
-permalink:        pretty
+permalink:          pretty
 
-# Setup
-title:            Morungos
-description:      'Morungos Blog'
-url:              https://morungos.github.io
+# Social Profiles
+twitter_username:   morungos
+github_username:    morungos
+facebook_username:  
+instagram_username:  
+linkedin_username:  morungos
 
-author:
-  name:           '@morungos'
-  url:            https://morungos.github.io
+# Add your google-analytics ID here to activate google analytics
+# google_analytics:   UA-XXXXXXXXX-X # out your google-analytics code
 
-paginate:         5
-
-# Custom vars
-version:          1.0.0
+# Build settings
+markdown:           kramdown
+paginate:           5
+paginate_path:      "/posts/page:num/"
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap ## Uncomment this line to silently generate a sitemaps.org compliant sitemap for your Jekyll site
