@@ -1,29 +1,22 @@
 {
-    "title": "Clean Blog Jekyll",
-    "name": "startbootstrap-clean-blog-jekyll",
+    "title": "Morungos Blog Jekyll",
+    "name": "morungos-blog-jekyll",
     "version": "4.0.10",
-    "description": "Clean Blog is a Medium inspired blog theme for Bootstrap.",
-    "keywords": [
-        "css",
-        "sass",
-        "html",
-        "responsive",
-        "theme",
-        "template"
-    ],
-    "homepage": "https://startbootstrap.com/themes/clean-blog-jekyll",
+    "description": "Morungos Blog on Jekyll.",
+    "keywords": [],
+    "homepage": "https://morungos.github.io",
     "bugs": {
-        "url": "https://github.com/StartBootstrap/startbootstrap-clean-blog-jekyll/issues",
-        "email": "feedback@startbootstrap.com"
+        "url": "https://github.com/morungos/morungos.github.io/issues",
+        "email": "stuart@morungos.com"
     },
     "license": "MIT",
-    "author": "Start Bootstrap",
+    "author": "Stuart Watt",
     "contributors": [
         "David Miller (http://davidmiller.io/)"
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/StartBootstrap/startbootstrap-clean-blog-jekyll.git"
+        "url": "https://github.com/morungos/morungos.github.io.git"
     },
     "dependencies": {
         "bootstrap": "4.5.0",
@@ -32,7 +25,7 @@
         "startbootstrap-clean-blog": "5.0.9"
     },
     "devDependencies": {
-        "browser-sync": "2.26.7",
+        "browser-sync": "2.26.14",
         "gulp": "4.0.2"
     }
 }
