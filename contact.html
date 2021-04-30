@@ -5,7 +5,9 @@ background: '/img/bg-contact.jpg'
 ---
 
 <p>
-  Want to get in touch? Contact me by email, on Twitter, LinkedIn, or 
-  Github, and I'll get back to you as soon as possible.
+  Want to get in touch? Contact me by 
+  <a href="mailto:{{ site.email | encode_email }}">email</a>, on 
+  <a href="https://twitter.com/{{ site.twitter_username }}">Twitter</a>, or
+  <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}">LinkedIn</a>,
+  and I'll get back to you as soon as possible.
 </p>
-
