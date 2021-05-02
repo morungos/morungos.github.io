@@ -139,9 +139,14 @@ We do still use a [Digital Ocean load balancer](https://www.digitalocean.com/pro
 so web requests that come into our
 servers go through that, and get relayed to the *private* IP addresses for our servers,
 not the public IP addresses (which literally block every single thing but public-key ssh for 
-management reasons).
+management reasons). 
 
-Normally, we do every single thing through HTTPS, so SSL termination is key. However, 
+However, we use our load balancers in passthrough mode for SSL. Although it's much easier 
+to terminate the SSL at the load balancer, that would mean unencrypted data flows outside
+servers, and we really do not want that -- our privacy policy is that all data 
+transmitted between servers is encrypted.
+
+Normally, all our web servers require HTTPS, so SSL is essential to our nginx setup. However, 
 the load balancer also does health checks, and those prefer HTTP, so we allow one single
 HTTP endpoint for the health checks. Everything else gets SSL checked, and either served
 as a static file or proxied over HTTP internally to one of the service processes. 
