@@ -7,9 +7,10 @@ summary: |-
   We've updated our server platform to make it smaller,
   simpler, and easier to manage -- and save us money. This is how we did it.
 image: '/img/posts/oakwood-station-construction.jpg'
+image_description: 'Construction cranes at Oakwood station on the new Eglinton line'
 ---
 
-We've recently updated our server platform to a new approach, to make it smaller,
+We've recently updated our server platform at Turalt to a new approach, to make it smaller,
 simpler, and easier to manage -- while saving us a little money too. We don't use
 Kubernetes, and we're unlikely to need it for a while. In fact, virtually all our
 infrastructure runs on a small number of 1Gb servers. So this is how we do it.
