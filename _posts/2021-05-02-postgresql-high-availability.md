@@ -97,6 +97,13 @@ the failover process in a consistent way. keepalived is certainly a lot more
 powerful, and we're very likely to use it again some day, but for now, repmgrd
 works fine. 
 
+The main advantage of repmgrd is that it is nicely integrated with and designed for
+PostgreSQL, so it doesn't need anything like as much configuration as keepalived, 
+which, being more general purpose, can handle cluster failover for many other
+different services. For example, it provides pre-built scripts that allow a new standby node
+to synchronize data from an upstream primary. With keepalived, that's something you'd need
+to configure yourself.
+
 ## Service processes
 
 The dynamic parts of our application run as [Express](https://expressjs.com/) 
@@ -189,8 +196,9 @@ performance across the entire cluster.
 That about describes the technical infrastructure, so how do we get it onto 
 the servers?
 
-We use [Ansible](https://www.ansible.com/) for that. Instead of worrying about Kubernetes, Ansible simply
-allows coordinated ssh access to servers, with a whole bunch of idempotent
+We use [Ansible](https://www.ansible.com/) for that. Instead of worrying about Puppet, 
+Chef, or Kubernetes, Ansible simply allows coordinated ssh access to more-or-less bare 
+servers, with a whole bunch of idempotent
 actions that do things like create directories, copy files, templating, 
 executing shell commands when needed, and so on.
 
@@ -217,7 +225,7 @@ Apart from redis, PostgreSQL, and logging, everything else is identical on all s
 which makes Ansible nice and simple.
 
 [Ansible](https://www.ansible.com/) is something of an acquired taste. The concept is a nice one, but
-the messy use of YAML files for everything is not as clean as it might be.
+the messy use of YAML files for everything is not as clean as it might be. 
 
 ## And the result is...
 
@@ -226,7 +234,16 @@ machine at any time without interruption or loss of data or service. It's
 cheap and fairly easy to maintain, without the layers of complexity of a
 Kubernetes setup. 
 
-We also gained in a few places: we now have redundancy in our logging system,
+The main loss? Digital Ocean's database service was very very good, and pro-actively
+dealt with issues before we even had to worry about them. 
+
+We have gained in a few places, though: we now have redundancy in our logging system,
 and direct access to our database servers, which means we can implement our
 own backup strategies a little more easily than is usually allowed by cloud-native
-services.
+services. It's just as easy to scale, as we can add more application servers 
+very simply. And if the database service does need to expand, it's very easy
+to use Ansible to segment off the database management to a few larger and more
+dedicated servers.
+
+And to cap it all, it costs around 25% of the amount we were paying before, by eliminating
+the need for the dedicated database service and logging server.
