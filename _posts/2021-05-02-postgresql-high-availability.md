@@ -13,18 +13,26 @@ image_description: 'Construction cranes at Oakwood station on the new Eglinton l
 We've recently updated our server platform at Turalt to a new approach, to make it smaller,
 simpler, and easier to manage -- while saving us a little money too. We don't use
 Kubernetes, and we're unlikely to need it for a while. In fact, virtually all our
-infrastructure runs on a small number of 1Gb servers. So this is how we do it.
+infrastructure runs on a small number of 1Gb servers. So this is how we do it. 
 
 First, a little history. Initially, we used [MariaDB](https://mariadb.com/) 
 because (a) it wasn't Oracle,
 and (b) it was fast and easy. But... as soon as you need replication, it can
 become impossibly hard. There are few good and easy solutions. It wasn't as if
 we were committed to MariaDB -- all our database logic is written using knexjs
-so switching to a new dialect was always going to be pretty quick and easy. And 
-then, our hosting service offered a managed [PostgreSQL](https://www.postgresql.org/) service, which was perfect.
-As a startup in [Digital Ocean's](https://www.digitalocean.com/) (excellent) 
+so switching to a new dialect was always going to be pretty quick and easy. 
+
+The problem is, we needed replication early on. Our analysis endpoints need to work
+24/7, so we need to be able to apply an update while still running. This means
+we need more than one server, so we can progressively remove one from the service,
+update it, and then add it back. Coupled with the need for a database system that
+is solid and reliable and also available 24/7, this was a lot to ask. 
+
+And then, our hosting service offered a managed [PostgreSQL](https://www.postgresql.org/) 
+service, which was perfect. As a startup in [Digital Ocean's](https://www.digitalocean.com/) (excellent) 
 [Hatch](https://www.digitalocean.com/hatch/) program, we didn't even need to pay for it
-for a year. 
+for a year. This meant we didn't need to worry about the database at all, and all our
+servers could be simple, identical, application servers. 
 
 Fast forward, and after we graduated from Hatch, we now get billed. It's not a lot
 for a wealthy startup, but for us and those who bootstrap, it's enough we'd rather not pay for it. So, 
@@ -88,13 +96,20 @@ need for server performance, so we do not really need a very fast database. We c
 write blocks of a hundred records or so when we need to, and we don't even need to
 wait for the insert to complete most of the time.
 
-## repmgrd versus keepalived
+## High availability: repmgrd versus keepalived
 
-The choice between [repmgrd](https://repmgr.org/docs/current/using-repmgrd.html) 
-and [keepalived](https://github.com/acassen/keepalived) was not a simple one, and after some 
-trial and error (and pain) it seemed that repmgrd was simply easier to automate
+To make any cluster handle outages, you need monitoring processes that keep an eye on other 
+servers, and remove them if something goes wrong. The two common choices for PostgreSQL
+are [repmgrd](https://repmgr.org/docs/current/using-repmgrd.html) 
+and [keepalived](https://github.com/acassen/keepalived). repmgrd only works for PostgreSQL,
+but contains builtin monitoring for it; keepalived is more general-purpose, and the price
+you pay for that it that it doesn't know as much about the innards, so you need to put more
+into your scripts for tracking and management. 
+
+The choice between them was not a simple one, and after some 
+trial and error (and pain) we found that repmgrd was easier to automate
 the failover process in a consistent way. keepalived is certainly a lot more 
-powerful, and we're very likely to use it again some day, but for now, repmgrd
+powerful, and we're very likely to use it again some day, but for now, and for us, repmgrd
 works fine. 
 
 The main advantage of repmgrd is that it is nicely integrated with and designed for
