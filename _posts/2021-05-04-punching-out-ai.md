@@ -9,12 +9,13 @@ summary: |-
   properly channeled -- has the potential to expose and confront those abuses.
 image: '/img/posts/punch-and-policeman.jpg'
 image_description: ''
+excerpt_separator: "<!-- more -->"
 ---
 
 Artificial intelligence has a power problem. Look at the modern trends to:
 
  * ["Bossware" applications](https://www.eff.org/deeplinks/2020/06/inside-invasive-secretive-bossware-tracking-workers), 
-   [sold to managers to keep employees under control](https://www.techradar.com/best/best-employee-monitoring-software)
+   [sold to managers to keep employees under control](https://www.techradar.com/best/best-employee-monitoring-software)<!-- more -->
  * Surveillance companies like [Palantir, building and mining vast datasets for 
    the benefits of the military and governments.](https://www.theguardian.com/world/2017/jul/30/palantir-peter-thiel-cia-data-crime-police)
  * Gig economy companies like [Uber](https://www.dqindia.com/bizarre-case-uber-drivers-job-loss-faulty-artificial-intelligence-software/) and [Amazon](https://www.cnbc.com/2020/10/24/how-amazon-prevents-unions-by-surveilling-employee-activism.html), using AI to keep their workers
