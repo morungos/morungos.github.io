@@ -1,0 +1,15 @@
+<script type='text/javascript'>
+  var Countly = Countly || {};
+  Countly.q = Countly.q || [];
+  Countly.app_key = "666c2b830e0fd9f5b1530f4b880b1c99a7b26887";
+  Countly.url = "https://analytics.turalt.com"; 
+  Countly.q.push(['track_sessions']);
+  Countly.q.push(['track_pageview']);
+  (function() {
+    var cly = document.createElement('script'); cly.type = 'text/javascript'; 
+    cly.async = true;
+    cly.src = 'https://cdn.jsdelivr.net/npm/countly-sdk-web@latest/lib/countly.min.js';
+    cly.onload = function(){Countly.init()};
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(cly, s);
+  })();
+  </script>
