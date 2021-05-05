@@ -26,6 +26,7 @@
     },
     "devDependencies": {
         "browser-sync": "2.26.14",
-        "gulp": "4.0.2"
+        "gulp": "4.0.2",
+        "xmlhttprequest-ssl": ">=1.6.2"
     }
 }
