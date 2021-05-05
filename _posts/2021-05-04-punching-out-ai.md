@@ -25,7 +25,7 @@ Artificial intelligence has a power problem. Look at the modern trends to:
    looking the wrong way during an exam](https://www.theverge.com/2020/10/22/21526792/proctorio-online-test-proctoring-lawsuit-universities-students-coronavirus).
 
 In all of these, AI is exploiting the more vulnerable members of society, 
-while maining the power and wealth of an elite. 
+while maintaining the power and wealth of an elite. 
 
 In all of my applications, I've hoped to *punch up*, designing applications that help individuals
 resist the power complexities of their world and workplaces. As I said about 
