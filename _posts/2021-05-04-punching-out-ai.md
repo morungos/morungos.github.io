@@ -8,7 +8,7 @@ summary: |-
   as a trickster character, one that can cause chaos and abuse, but --
   properly channeled -- has the potential to expose and confront those abuses.
 image: '/img/posts/punch-and-policeman.jpg'
-image_description: ''
+image_description: "Mr Punch and the Policeman from Daniel Hanton's Punch and Judy show"
 excerpt_separator: "<!-- more -->"
 ---
 
