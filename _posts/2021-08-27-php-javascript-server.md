@@ -26,7 +26,7 @@ provides a relatively fast check for developers that nothing too bad is broken.
 For example, we're porting a lot of what we used to do through scripts into a RESTful
 API, so the way error checking, redirects, and even sessions are used changes 
 quite often, and it's good to have a rough indication of where the problems arise
-when we do this.
+when we do this. 
 
 The handiness here comes mainly from the way we can run this often from the 
 command line, so we can pick up code as we break it and fix it quickly and often,
@@ -34,9 +34,11 @@ rather than making a large block of changes and then doing a manual scan for iss
 I mean, we do all that too, but it is infinitely easier when we at least exercise
 the majority of the code and fix all the missing variables and superficially broken
 logic as soon as we can, so our manual scans get to the core problems quicker. 
+In Don Norman's terms, we're closing the [gulf of evaluation](https://www.interaction-design.org/literature/book/the-glossary-of-human-computer-interaction/gulf-of-evaluation-and-gulf-of-execution).
 
-We actually aren't using this to check that the system works, we're mainly using it
-to flush out as many error messages as we can in a short space of time.
+So, we actually aren't doing this to check that the system works, we're using it
+to flush out as many error messages as we can in a short space of time, so we can
+address them in context.
 
 The issues with PHP are that to do this kind of test, we want a quick command-line server 
 (so we can run it as developers, without having to deploy all the time) that
@@ -56,12 +58,12 @@ PHP being PHP, there are several options people use, but two common approaches:
 ```
 
 So it turns out that the request environment for these can be quite different, in
-lots of different ways. The standalone `php` server is single-threaded, so there's 
+unusual and subtle ways. The standalone `php` server is single-threaded, so there's 
 never a problem with requests happening at the same time. The standalone `php` server
 will also conveniently serve static files, which `php-fpm` never does, but it can't do
 redirects for `/`, for example. Also, while environment
-variables typically do show in the requests for `php`, the `$_SERVER` variable is very 
-different. So, if you test using `php` and deploy using `php-fpm`, there are 
+variables typically do show in the requests for `php`, the `$_SERVER` variable contains
+some very different data. So, if you test using `php` and deploy using `php-fpm`, there are 
 some significant risks that your application will break in production. In other
 words, it's okay for actual development, but not to be trusted flushing out bugs
 when you modernize.
