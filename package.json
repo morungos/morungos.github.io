@@ -17,7 +17,8 @@
         "url": "https://github.com/morungos/morungos.github.io.git"
     },
     "scripts": {
-        "serve": "bundle exec jekyll serve"
+        "serve": "bundle exec jekyll serve",
+        "serve-drafts": "bundle exec jekyll serve --drafts"
     },
     "dependencies": {
         "bootstrap": "4.5.0",
