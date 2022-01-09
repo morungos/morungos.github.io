@@ -1,6 +1,8 @@
 // Global styling for this template
+html {
+  font-size: 1.1rem;
+}
 body {
-  font-size: 18px;
   color: $gray-900;
   @include serif-font;
 }

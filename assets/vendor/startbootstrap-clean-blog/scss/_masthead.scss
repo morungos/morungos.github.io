@@ -19,17 +19,17 @@ header.masthead {
   .page-heading,
   .post-heading,
   .site-heading {
-    padding: 125px 0 75px;
+    padding: 110px 0 50px;
     color: white;
     @media only screen and (min-width: 768px) {
-      padding: 125px 0;
+      padding: 110px 0 70px;
     }
   }
   .page-heading,
   .site-heading {
     text-align: center;
     h1 {
-      font-size: 44px;
+      font-size: 32px;
       margin-top: 0;
     }
     .subheading {
@@ -42,7 +42,8 @@ header.masthead {
     }
     @media only screen and (min-width: 768px) {
       h1 {
-        font-size: 64px;
+        font-size: 48px;
+        margin-top: 20px;
       }
     }
   }
