@@ -11,12 +11,13 @@
     },
     "license": "MIT",
     "author": "Stuart Watt",
-    "contributors": [
-        "David Miller (http://davidmiller.io/)"
-    ],
+    "contributors": [],
     "repository": {
         "type": "git",
         "url": "https://github.com/morungos/morungos.github.io.git"
+    },
+    "scripts": {
+        "serve": "bundle exec jekyll serve"
     },
     "dependencies": {
         "bootstrap": "4.5.0",
