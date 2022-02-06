@@ -15,7 +15,8 @@ Is it a science, aiming to tackle the big questions about human behaviour
 and experience? Or is it a more practically-oriented engineering 
 discipline, driven to build technology that can transform the world we live in? 
 
-Today, much of modern artificial intelligence looks increasingly like a "Big Science" (Weinberg, 1961). 
+Today, much of modern artificial intelligence looks like Alvin Weinberg's "Big Science" 
+[(Weinberg, 1961)](https://www.science.org/doi/10.1126/science.134.3473.161). 
 A Big Science follows the pattern of Lawrence's 
 [Berkeley National Laboratory](https://en.wikipedia.org/wiki/Lawrence_Berkeley_National_Laboratory).
 It is driven by large-scale funding, into the billions of dollars from 
@@ -29,9 +30,9 @@ The hallmarks of this new Big Science version of artificial intelligence are, im
 immense goals, and immense funding. GPT-3 and its analogues 
 reflect their origins in Big Science. And it's not alone. OpenAI's GPT-3 and DeepMind's AlphaFold papers have over
 thirty authors each, and acknowledges many more, including entire teams and communities.
-This is very typical of Big Science.[^1]
+This is very typical of Big Science.[^BigScienceAuthors]
 
-[^1]:
+[^BigScienceAuthors]:
     These author lists are tiny by the scale of some Big Science projects. 
     [The current record is a physics paper with 5,154 authors](https://www.nature.com/articles/nature.2015.17567).
 
@@ -46,29 +47,35 @@ for training compute alone.
 At that scale, you need to know it's going in the right direction before you 
 press the start button.
 
+In Table 1 below, I've sketched out the characteristics that distinguish a Big Science approach from
+a Little Science one. Of course, these are somewhat stereotyped. In practice, there is a
+big blurry area between them -- although there's evidence of a
+[long-term drift towards a 'Big Science culture'](https://www.degruyter.com/document/doi/10.7312/pric91844/html?lang=en) 
+in many STEM fields, such that a large proportion of 
+the work is pulled in that direction. Funding calls today may be focused on grand challenges, 
+for example, or the creation of collaborative networks. 
+
 | "Big Science"  | "Little Science" |
 |-----------|----------|
 | Centralized | Distributed |
 | Collaboration-centred | Individual-centred |
+| Integrated into the economy | Independent from the economy |
 | High brand value | Low brand value |
-| > $1B funding | modest funding |
+| > $1B funding | Modest funding |
 | Grand challenges | Targeted questions |
 | Planned | Responsive |
+| Communication by press release | Communication by academic article |
 | Applied research | Pure research |
-| Confidence, belief | Skepticism, questioning |
+| Attitude of confidence, belief | Attitude of skepticism, questioning |
 | Consequentialist ethics | Virtue ethics |
 | Guided by theory | Guided by experiment |
 {:.w-100}
 
-Of course, these are somewhat stereotyped. In practice, there is a
-blurry area between them -- although there's evidence of a
-[general drift towards a 'Big Science culture'](https://www.degruyter.com/document/doi/10.7312/pric91844/html?lang=en) 
-in many STEM fields, such that a large proportion of 
-the work is pulled in that direction. Funding calls may be focused on grand challenges, 
-for example, or the creation of collaborative networks. 
+**Table 1. Characteristics of Big Science and Little Science**
+{:.text-muted.}
 
 The problem is: Big Science does not always work, and even when it does, it does not always function
-like a good science. As Alvin Weinberg (one of the founders of Big Science initiatives)
+like a good science. As Weinberg (one of the founders of Big Science initiatives)
 put it:
 
 > "The inevitable result is the injection of a journalistic flavor into Big
@@ -76,15 +83,18 @@ put it:
 > serious writings about Big Science were carefully separated from the
 > journalistic writings, little harm would be done. But they are not so
 > separated. Issues of scientific or technical merit tend to get argued in the
-> popular, not the scientific, press" (Weinberg, 1961)
+> popular, not the scientific, press" 
+> [(Weinberg, 1961)](https://www.science.org/doi/10.1126/science.134.3473.161). 
 
-Is this happening with artificial intelligence today? I believe so. There are 
-several initiatives that appear to fit the model, including:
+Is this happening with artificial intelligence today? I believe so. Many of the
+characteristics in Table 1 are widespread. But in addition to that, there are
+quite a few initiatives that appear to the model almost exactly. Here are the ones
+that I first thought of:
 
- * [Open AI](https://openai.com/), founded in 2015 by, among others, Elon Musk, Sam Altman,
-   and Peter Thiel. Open AI's actual intent is hard to assess: originally 
+ * [OpenAI](https://openai.com/), founded in 2015 by, among others, Elon Musk, Sam Altman,
+   and Peter Thiel. OpenAI's actual intent is hard to assess: originally 
    it claimed to "democratize" AI to mitigate technological risks, but it 
-   has since pivoted to a for-profit model and closed models. Open AI is closely integrated 
+   has since pivoted to a for-profit model and closed models. OpenAI is closely integrated 
    with both academic work (like Stanford's "foundational models") and corporate
    research centres in Big Tech companies like Google and Facebook.
  * [Alphabet's AI work](https://ai.google/) is perhaps the hardest to classify, because
@@ -98,25 +108,25 @@ several initiatives that appear to fit the model, including:
    $1B of funding and several thousand employees. Watson is perhaps most intriguing
    as it 'evolved' from GOFAI to ML, and integrates both.
 
-Given that the defining features of true Big Science are: collaboration, scale, and immense 
-funding, it seems reasonable to assert that, in these organizations at least, 
-artificial intelligence is managed according to a Big Science model. 
+*[Note: There's a fair case for considering Japan's "Fifth Generation Computer" project
+from 1982 to 1992 as another Big Science project broadly in the field of AI,
+albeit based on an earlier version of the field.]*
 
-Based on this, I'd suggest a date for the Big Science version of artificial intelligence
-to 2014, give or take. 
+Given that the defining features of true Big Science are: collaboration, grand scale, and 
+immense funding, it seems reasonable to assert that, in these organizations at least, 
+artificial intelligence is converging onto to a Big Science model. And it is also worth 
+looking at the timeline here. The shift -- if there was a shift to a Big Science version 
+of artificial intelligence -- appears to date to around 2014, give or take. 
 
-*[Note: There's a good case for considering Japan's "Fifth Generation Computer" project
-from 1982 to 1992 as another Big Science project broadly in the field of AI, one that burnt out
-in the Second AI Winter. Certainly, it had the typical features.]*
+So, how did we get there? What caused these fundamental shifts in the nature
+of artificial intelligence.
 
-## What is a science anyway?
+## Kuhn's model: AI winters and paradigm shifts
 
-Let's set aside the Big Science versus Little Science issue for a moment. I'll 
-come back to it soon, I promise.
-
-Most of the people writing about how science works inevitably start with, and 
-usually finish with, Thomas Kuhn's 
-[*The Structure of Scientific Revolutions*](https://press.uchicago.edu/ucp/books/book/chicago/S/bo13179781.html). 
+Most of the people writing about how science -- any science -- works, inevitably start with (and 
+usually finish with) Thomas Kuhn's 
+[*The Structure of Scientific Revolutions*](https://press.uchicago.edu/ucp/books/book/chicago/S/bo13179781.html),
+a classic in the philosophy of science. A flawed classic, but a classic nevertheless.
 
 Note that Kuhn’s topic was *scientific revolutions*, not everyday science. He drew an explicit
 parallel to a (political) revolution. According to Kuhn, sciences go through a kind
@@ -126,27 +136,66 @@ and the "scientific revolution" resolves that crisis by replacing the old paradi
 with a new one, one which has different concepts and methods, and can continue to
 explore the field.
 
-I'm going to tell two stories, 
+And this brings me to the second point people invariably make when writing about
+artificial intelligence: "AI winters". One of the more notable features of 
+artificial intelligence as a science have been the occasional stalls, 
+often called "AI winters", where funding and progress seemed to recede. To date, 
+there have been two substantial AI winters, from around 1973 to 1980, and from 
+1987 to the mid 1990s. 
 
-> **Story 1**. After about three decades of research, Good Old Fashioned AI[^2] (GOFAI) entered  
-> a crisis over the effort involved in building systems. It was simply too expensive to manage the 
-> knowledge. This required a Kuhnian paradigm shift. That shift was supplied by a machine-learning-based
-> approach. The new, machine learning paradigm for artificial intelligence, *enabled* a 
-> Big Science version of artificial intelligence to get under way. In effect, the crisis
-> was an AI Winter and GOFAI 
-> was replaced in a *revolution*, a paradigm shift to machine learning.
+A common account is that AI winters were, essentially Kuhnian
+crisis points. 
+[Thomas Goldstein argued it: "So how did the AI winter end? It didn't! We just gave up"](https://twitter.com/tomgoldsteincs/status/1484609273162309634).
+Others, such as 
+[Drew McDermott](https://www.aaai.org/ojs/index.php/aimagazine/article/view/494/430), 
+have described them more as cyclical, driven by hype and disillusionment.
+And [Melanie Mitchell](https://arxiv.org/pdf/2104.12871.pdf)
+accepts both hype cycles and a fundamental shift to deep learning circa 2010.
 
-[^2]:
-    I'm using John Haugeland's term here, as it's a nice convenient label
+James Lighthill, whose 1973 report arguably precipitated the first AI 
+winter, did not describe it as cyclical, but certainly used language 
+suggestive of a crisis: "it is unrealistic to expect highly generalised 
+systems that can handle a large knowledge base effectively in a learning 
+or self-organising mode to be developed in the 20th century" 
+[(Lighthill, 1973)](http://www.chilton-computing.org.uk/inf/literature/reports/lighthill_report/p001.htm).
+
+None of these accounts mention Kuhn explicitly, and McDermott's cyclical pattern
+doesn't fit Kuhn's model. But, the apparently-permanent shift to machine learning does, and so 
+does Lighthill's commentary. Goldstein's narrative, in particular, is extremely Kuhnian,
+and he was presenting to the National Science Foundation.
+So I think it is fair to say that the shift from what 
+[John Haugeland called "Good Old Fashioned AI"](https://direct.mit.edu/books/book/4347/Artificial-IntelligenceThe-Very-Idea)
+(GOFAI)[^GOFAI] to machine learning was interpreted by many a Kuhnian paradigm shift.
+
+[^GOFAI]:
+    Haugeland's term here is a nice label
     for the primarily symbolic approach to artificial intelligence that 
     dominated from the 1960s to the 1990s. 
 
+As an aside, I'll add that I don't think this particular shift was purely scientific.
+It is notable that both major AI winters corresponded with global recessions: the first with
+a global oil crisis and a Wall Street crash, and the second with Black Monday.
+So both occurred during periods of global economic retrenchment, and it makes
+sense that investments that were not perceived as delivering enough value were 
+cut. Economics will, inevitably, play a huge rule in the value judgements in
+deciding whether or not there is a crisis in the first place.
+
+So let me tell this as a story about the transformation of artificial intelligence into a Big Science.
+
+> **Story 1**. After about three decades of research, Good Old Fashioned AI (GOFAI) entered  
+> a crisis over the effort involved in building systems. It was simply too expensive to manage the 
+> knowledge. This required a Kuhnian paradigm shift. That shift was towards by a machine-learning-based
+> approach, which overcame the knowledge problem. The new, machine learning paradigm for 
+> artificial intelligence, *enabled* a Big Science version of artificial intelligence to get 
+> under way. The AI winter was a crisis and GOFAI 
+> was replaced in a *revolutionary* paradigm shift to machine learning.
+
 But let's look at Story 1 in detail. First off, there's a problem with the
-timeline. The GOFAI Second AI Winter peaked around 1990, but the paradigm 
-shift dates to, maybe if we are generous and pin it on the AlexNet paper, 2012. 
-A difference of twenty two years. That's a long time for a revolution. And we
+timeline. The second AI Winter peaked around 1990, but the paradigm 
+shift dates to, maybe if we are generous and pin it on the AlexNet paper, around 2012. 
+A gap of twenty two years. That's a long time for a revolution. And we
 can't claim that machine learning wasn't already around: it was literally driving
-commercial products in the 1990s. The paradigm shift (if such it was) was not triggered by the
+commercial products in the 1990s. The paradigm shift (if such it was) was *not* triggered by the
 crisis, but by something else. So, what did happen in the 2010s that laid
 the foundations for it?
 
@@ -158,14 +207,15 @@ NASA if you didn't know it was possible to launch some kind of a rocket
 into orbit (NASA was re-constituted as a space agency a year after the launch
 of Sputnik 1). 
 
+## Laudan's model: evolving research traditions
+
 The problem with a Kuhnian account is that it denies the possibility of any
 kind of *evolution* in a science. There's essentially two states: stability 
 and crisis. In practice, this is why more sophisticed philosophers of science,
 like Larry Laudan, use more nuanced models.
 
 [Barbara Von Eckardt's excellent "What is Cognitive Science?"](https://mitpress.mit.edu/books/what-cognitive-science) 
-builds on 
-Laudan's work to map out a different model. In this model, sciences are 
+builds on Laudan's work to map out a different model. In this model, sciences are 
 driven by a community following one of several possible research traditions. 
 Because a research tradition (which is a set of methods and related assumptions)
 can *evolve*, sciences can progress without going through a crisis. 
@@ -175,7 +225,7 @@ is extremely precise. Every word matters. I wouldn't recommend it unless
 you need a definitive account of the structure of the science, but if you do: 
 it's a strong and valuable foundation.]*
 
-Von Eckardt's modified version[^3] of Laudan's original structure is as follows:
+Von Eckardt's modified version[^VonEckardt] of Laudan's original structure is as follows:
 
 1. A scientific community SC desires goal G (e.g., to explain some phenomena D)
 2. The research traditions currently available to SC are RT1, RT2 ... RTn
@@ -183,7 +233,7 @@ Von Eckardt's modified version[^3] of Laudan's original structure is as follows:
 4. Any applied RT is not foundationally flawed (its foundational assumptions are not 
    unsound, untrue, or without sufficient conceptual resources to explain G)
 
-[^3]:
+[^VonEckardt]:
     Von Eckardt's primary modification from Laudan's is to drop one factor, whether or not
     a chosen tradition is required to have a higher rate of progress than the others. 
     This makes sense, and also explains why empirical and theoretical communities 
@@ -194,52 +244,61 @@ multiple communities, using different research traditions, even for the same
 goal. Machine learning and GOFAI could co-exist, but, for the most part, not
 within the same scientific community at the same time.
 
-Some possibilities:
+This certainly happened in the interregnum between 1990 and 2010. 
+Artificial intelligence, even GOFAI, was 
+[not dead yet](https://memes.getyarn.io/yarn-clip/b0983867-bc6d-4bb8-a89e-1dee600ebbdf/gif). 
+And alongside it there was, in particular, plenty of work in evolutionary computing.
+Early versions of word embeddings 
+[(Deerwester et al.'s 1988 "latent semantic analysis")](https://www.semanticscholar.org/paper/Improving-information-retrieval-using-latent-Deerwester-Dumais/70380dfd9b5e3ea1148471bf7449c1380d62c6d9)
+were growing. 
 
- * Introduction of NVIDIA's CUDA (2007), transforming the cost effectiveness of 
-   the kinds of compute for ML.
+So let's revise our story.
 
-**Story 2**. Good Old Fashioned AI entered a crisis over the effort 
-involved in building systems. There was a global economic downturn, and 
-artificial intelligence funding was cut. Researchers re-branded and re-positioned
-themselves, in fields ranging from cognitive science to knowledge management. 
-These fields, *and particularly knowledge management* focused on the core
-problem of the cost of knowledge. Recommender systems were emerging, and, 
-incorporated new assumptions that the cost of knowledge was generally high, rather
-than low. Machine learning was slowly incorporated into text and image processing
-in social media and electronic commerce. And then, in the early 2010s, GPUs
-made the high compute costs of machine learning much more affordable. So, by
-the mid 2010s, there was proof of viability via AlexNet, proof of need in
-recommender system usage in Amazon etc., and a step change in compute economics -- enough
-to create conditions for a Big Science scale investment.
+> **Story 2**. After about three decades of research, the scientific community centred around one 
+> research tradition, Good Old Fashioned AI (GOFAI) hit a problem. The effort involved in building 
+> systems was becoming uneconomic. It was simply too expensive to manage the knowledge. 
+> One of its foundational assumptions, that it was economically viable to capture
+> and use knowledge to build applications, was found to be false. Other research
+> traditions, not incorporating this assumption, were less affected. Accordingly, 
+> the GOFAI community evolved, in various ways. One new community embraced the problem, 
+> and branched into *knowledge management*[^KM], including early *recommender systems*.
+> Another related branch focused in improving methods, developing methodologies like 
+> [CommonKADS](https://commonkads.org/). Over time, machine learning techniques, 
+> particularly those that assisted knowledge acquisition, became an established part of
+> those evolved research traditions, and GOFAI simply faded out.
 
-## The alternative: bricolage in science
+[^KM]:
+    The timing here is significant. The dramatic growth in knowledge management started
+    *exactly* as the 'AI winter' was hitting its height, between 1990 and 1993. And 
+    the central assumption of knowledge management was that *knowledge is expensive*.
+    The change in foundational assumptions coincides perfectly with the fall in 
+    expert systems and the right in knowledge management. Also, many of the people 
+    switched from one field to the other. I was one of them! This was, at least 
+    partly, a change in *positioning*. However, it also prepared the ground for 
+    increased use of machine learning.
 
-Weinberg was explicit that "We must make Big Science
-flourish without, at the same time, allowing it to trample Little Science"
-(Weinberg, 1961). And I've sketched a stereotypical version of Little 
-Science above, in Table 1. 
+Sadly, this doesn't explain everything either. It does account for the early evolution
+of knowledge management and machine learning/information retrieval technology,
+which grew dramatically after 1990. But it doesn't really explain the transformations
+around 2010, as well as a more Kuhnian paradigm shift would. And it does leave us
+with some rather intriguing questions about the apparent death of, e.g., genetic
+algorithms, which had a very distinct peak around 1998 and *also* dropped off the 
+grid by 2010, despite no obvious flaws in any of the fundamental assumptions.
 
-However, I want to emphasize one specific method that is distinctive
-to Little Science: *bricolage*. Lévi Strauss draws a distinction between
-"bricoleurs" and "engineers" as a metaphor for mythical thought, but the
-concept has taken on a life of its own, particularly as used in
-learning and problem solving, e.g., by Seymour Papert. 
+However, this is where Von Eckardt's tweak to Laudan's model is important. She dropped
+the requirement that a community select the research tradition that optimizes progress.
+And she's right. The people in a scientific community have different goals, like
+securing funding, promotion, and publications. In a Big Science world, these
+matter more than in Little Science. So the selection of research tradition optimizes
+personal career prospects as well as the scientific goal G.
 
-In this sense, bricolage, put simply, means 'tinkering', playing around, trying
-ideas, and testing them. It's an effective problem-solving strategy, although
-more so in the absence of guiding knowledge. Engineering, by contrast, 
-is thinks about goals, and means to an end, i.e., using knowledge first.
+Put simply: if it's easier to get grants and publications in deep learning than in 
+genetic algorithms, people are going to switch.
 
-How does this relate to science? As 
-[Coppola and Elliot (2005)](https://www.researchgate.net/profile/Nw-Coppola/publication/3230376_Big_Science_or_Bricolage_An_Alternative_Model_for_Research_in_Technical_Communication/links/0deec522f3a2f4d688000000/Big-Science-or-Bricolage-An-Alternative-Model-for-Research-in-Technical-Communication.pdf) 
-put it, the opposite to Big Science is, in many respects, bricolage. 
+Anyway, we're still short of an explanation for the shift to machine learning, 
+so let's try another explanation.
 
-Bricolage doesn't work in Big Science. It can't. When you are building 
-something the scale of GPT-3, or the LHC, or the Manhattan Project, 
-experiments have to be few and far between. 
-
-## Coherence of a Big Science
+## Mulkay's model: branching research traditions
 
 When we look at a field like artificial intelligence, it is easy to 
 imagine -- thanks to the Big Science framing -- that it is a coherent
@@ -248,11 +307,16 @@ differences.
 
 This is a long way from the truth. 
 
-Despite the shared identities and methods and assumptions -- on the ground, 
-artificial intelligence is actually made up of many hundreds of smaller communities,
-which branch and merge and share and compete with one another.
+Michael Mulkay (in 
+["Three Kinds of Scientific Development"](https://journals.sagepub.com/doi/abs/10.1111/j.1467-954X.1975.tb02231.x?journalCode=sora)) extends the Kuhnian model (which he calls the "model of closure")
+by showing that despite the shared identities and methods and assumptions -- on the ground, 
+a science is made up of many smaller communities. Mulkay argues that 
+research traditions (which, remember, include methods as well as assumptions)
+evolve when people migrate between communities, taking ideas and methods with 
+them as they go. And this migrations don't only happen *within* a field, 
+but more importantly, *between* fields. 
 
-For example, among some of the fields include:
+For example, in artificial intelligence, some of the fields include:
 
 Image classification; image segmentation; speech segmentation; 
 image generation; text generation; speech synthesis; planning; optimization algorithms; 
@@ -263,11 +327,128 @@ causal inference; robotics; decision making; regression;
 dataset construction; safety; privacy; interpretability, and so on.
 
 At a typical conference, you might see these manifest as "tracks". These are
-the communities that make the field work. By and large, people prefer to stick
-with one field, and will usually know most of the others within that field.
+the scientific communities that make the field work. By and large, people prefer to stick
+with one field, and will personally know most of the others within that field.
+But they generally won't work across all: few people will work full-time on both, for example,
+speech synthesis and computational biology, or image generation and causal inference.
+However, people may move between fields from time to time, perhaps because they
+change job, or meet a new collaborator.
 
-What a typical conference does, however, is *allow people to move between these tracks*.
-And this is where the scientific magic happens.
+There are many parallels between the Laudan/Von Eckardt model and Mulkay's 
+(not a huge surprise, Laudan and Von Eckardt are philosophers and Mulkay's from
+sociology, so they might well observe similarities). But Mulkay is clearer about
+the level of granularity, and about the mechanics of the evolution of
+research traditions. *Concepts and methods* move between research traditions
+because *people* move between research traditions.
+
+So let's see if we can use this to improve our explanation.
+
+> **Story 3**. After about three decades of research, the scientific community centred around one 
+> research tradition, GOFAI expert systems hit a problem. The effort involved in building 
+> systems was becoming uneconomic. It was simply too expensive to manage the knowledge. 
+> One of its foundational assumptions, that it was economically viable to capture
+> and use knowledge to build applications, was found to be false. Other research
+> traditions, not incorporating this assumption, such as the neural network community, 
+> were less affected. The GOFAI expert system communitybranched into knowledge management, 
+> early recommender systems, and methodologies, repositioning itself to maintain funding.
+> Time passed. One day, a neural network researcher saw a departmental seminar by a 
+> computer vision researcher, who was using GPUs to greatly improve performance. They
+> adapted the idea to neural networks, and it showed promise, as they gradually scaled
+> to bigger datasets. By the early 2010s, GPUs
+> had provem to make the high compute costs of machine learning much more affordable. And by
+> the mid 2010s, there was proof of viability via AlexNet, proof of need in
+> recommender system usage in Amazon etc., and a step change in compute economics -- enough
+> to create conditions for a Big Science scale investment.
+{: #story3 }
+
+The first observation about this story is that the "crisis" and the "paradigm shift"
+are decoupled, allowing us to account for the twenty year gap between the two. In fact,
+the first half of the story is identical. The difference is the account of 
+how deep learning got its traction: it was not a reaction to a crisis, but
+an (initially small-scale) exploration of a possibly-valuable method.
+
+Secondly, this account doesn't work at the 'artificial intelligence' level, but
+eventually reaches it through a bottom-up spread of buy-in, as the new methods
+spread virally between communities. 
+
+This story is not randomly made up. If we think of AlexNet again in this light, 
+its true innovation was the re-purposing of GPUs, but that work was already under 
+way at another lab *in the same institution*.
+
+Now I can't prove this, but I will bet
+$10 (Canadian) that the actual innovations came from the 
+[OpenVIDIA](https://stemhave.com/prog/OpenVIDIA.html)
+project on computer vision,
+which, like Hinton's group, was also based at the University of Toronto, but in the 
+[EyeTap Personal Imaging Lab](http://www.eyetap.org/). OpenVIDIA, developed from 2004 to 2006,
+was leveraging GPUs for image processing. (The EyeTap,
+developed by Steve Mann, was a precursor to Google Glass.)
+Anyway, OpenVIDIA [embraced CUDA](https://forums.developer.nvidia.com/t/cuda-on-openvidia/17415) as it emerged in 2007. 
+[Cudamat (Mnih, 2009)](http://www.cs.utoronto.ca/~vmnih/docs/cudamat_tr.pdf), 
+also at Toronto, then integrated Python
+with CUDA, and 
+[Alex Krizhevsky was using CUDA in 2009](https://www.eecg.utoronto.ca/~moshovos/CUDA08/arx/convnet_report.pdf), 
+and 
+[Ilya Sutskever by 2010](http://proceedings.mlr.press/v9/martens10a/martens10a.pdf). 
+And after all that, applying the same methods to ImageNet is not a big leap, 
+and certainly not a revolutionary reaction to a crisis in GOFAI. It is appropriation
+of a useful method, through what is very likely personal contact at the same 
+university department, and some reciprocal exchanges between 
+OpenVIDIA and NVIDIA.
+
+## The alternative: bricolage in science
+
+Not all science is Big Science. Even Weinberg, arguably its biggest advocate, 
+was explicit that "We must make Big Science
+flourish without, at the same time, allowing it to trample Little Science"
+(Weinberg, 1961).
+
+However, I want to add to Table 1 above, one more distinction between Big
+Science and Little Science: where Big Science uses engineering, Little Science
+uses *"bricolage"*.
+
+Bricolage (a loan-word from French, roughly equivalent to the English "DIY" or "tinkering")
+was introduced as a concept by Claude Lévi-Strauss in 
+*The Savage Mind*. He uses it to describe how conceptual structures are
+put together, piece by piece.
+
+Bricolage, put simply, means 'tinkering', playing around, trying
+ideas, and testing them. It's an effective problem-solving strategy, although
+more so in the absence of guiding knowledge. Engineering, by contrast, 
+is thinks about goals, and means to an end, i.e., using knowledge first.
+
+Unhelpfully for us, Lévi-Strauss contrasts bricolage with "science" more than "engineering". 
+Essentially, his distinction is that the bricoleur pieces together 
+conceptual structures from (often second-hand) observations, bottom-up, where the scientist interprets
+observations from conceptual structures, top-down. Although, as Lévi-Strauss
+himself put it, "both approaches are equally valid" (Lévi-Strauss, 1962, p22). What is 
+confusing for us is that Lévi-Strauss's use of "science" is more of
+an ideal than a reality. If we look at 
+[Goldstein's distinction between "science" and "principled machine learning"](https://twitter.com/tomgoldsteincs/status/1484609273162309634),
+it exactly matches Lévi-Strauss's,
+except that science has reversed its polarity -- Goldstein's science,
+and ours, especially Little Science, happen substantially through bricolage -- and
+therefore aligns with science, rather than opposing it in Lévi-Strauss's original usage.
+Instead, I'd contrast bricolage more with engineering, where there is a more
+'principled' construction -- after all contrasting do-it-yourself with engineering
+does make more sense.
+
+In many ways, it is better to use 
+[Seymour Papert's adaptation of bricolage](https://lcl.media.mit.edu/resources/readings/childrens-machine.pdf)
+as a method for building mental constructs, i.e., *learning*. Learning
+happens through bricolage, and whether it is creating new concepts and 
+methods in science, or new concepts and methods in a child's mind, the
+process is virtually the same. For example, if we revisit the later parts of [Story 3](#story3) through
+the lens of bricolage, the "do it yourself" assembly and re-purposing of 
+tools and ideas is extremely clear.
+
+The problem is: bricolage doesn't work well in Big Science. It can't. When you are building 
+something the scale of GPT-3, the Human Genome Project, the LHC, or the Manhattan Project, 
+experiments have to be few and far between. The scale, and the cost, simply make 
+tinkering unacceptable or uneconomic, and usually both. 
+
+## Coherence of a Big Science
+
 
 Again contrasting with Kuhn's story of science, Michael Mulkay proposed a 
 ["branching model" of science](https://journals.sagepub.com/doi/10.1111/j.1467-954X.1975.tb02231.x),
@@ -370,21 +551,26 @@ Weinberg, in 1961, argued that two necessary changes were:
 > laboratories, and with some interlocking staff." (Weinberg, 1961)
 
 These changes are both now intrinsic to the way science is done today, and
-both have rewritten the career system radically for those involved.[^5] Not
+both have rewritten the career system radically for those involved.[^BigScienceCareers] Not
 in a particularly good way, either. Big Science, being structured around
 organizations, often converges on a pyramidal, hierarchical structure. And 
 like an iceberg, only the tip may be visible.
 
-[^5]:
+[^BigScienceCareers]:
     Especially so in North America. Big Science is (and always has been) as much
     a political project as a scientific one. 
     International competition drives it at least as
-    much as national pride in science.
+    much as national pride in science. In fact, there is always an 
+    international dimension to any true Big Science, although it may be either
+    [competitive](https://itif.org/publications/2021/01/25/who-winning-ai-race-china-eu-or-united-states-2021-update) 
+    or 
+    [collaborative](https://www.genome.gov/human-genome-project),
+    and [sometimes both](https://www.nasa.gov/50th/50th_magazine/coldWarCoOp.html).
 
 ## "But is it capitalism?"
 
 It might seem that Big Science is what happens when capitalism gets 
-engaged with science, and given my examples (Open AI, etc.) this is an
+engaged with science, and given my examples (OpenAI, etc.) this is an
 issue that deserves serious consideration. 
 
 My answer is: not always. Some of the older Big Science projects, e.g.,
@@ -454,12 +640,12 @@ actions, including, for example, the abuse of Henrietta Lacks' DNA,
 and the creation of the atom bomb.
 
 This pattern is also visible in artificial intelligence work. 
-Self-driving cars are indubitably a Big Science project[^6], and the
+Self-driving cars are indubitably a Big Science project[^BigScienceAGI], and the
 consequentialist *narratives* are clear. (Here, I'm talking about
 *researcher* ethics, not the ethics that they look to implement, i.e., 
 what shapes the "self-driving project", not how a self-driving car should operate.)
 
-[^6]:
+[^BigScienceAGI]:
     I've not touched on AGI, which is an even bigger Big Science project
     in its grandiosity. However, I'm not certain it has risen to the 
     Big Science threshold yet. There is neither the massive funding nor
@@ -472,10 +658,39 @@ and institutional interests and scientific goals.
 
 To return to Von Eckhart's model, Big Science's goals will invariably be partly
 be non-scientific, driven by the need for perpetuation of the institution. 
-For example, Open AI's goal is not (only) pursuit of truth, or building good
-technology, so much as perpetuation of Open AI itself.
+For example, OpenAI's goal is not (only) pursuit of truth, or building good
+technology, so much as perpetuation of OpenAI itself.
 
-## Where do we go now?
+## AI, Big Science, and the future
+
+So, what does the current Big Science approach to artificial intelligence
+mean for us, as practitioners in the field?
+
+First and foremost, we are, like it or not, in a world which has tilted
+towards a Big Science model, particularly and especially in artificial intelligence. 
+This is a problem. On this point, Goldstein is right: some rebalancing is needed
+to promote bricolage/experimentation/Little Science, to keep the flow of innovation
+going in a world which is flooded with Big Science tech, like foundation models.
+Without this rebalancing, Big Science will stagnate, and we cannot sustain
+the expectations. In fact, given the sheer amount of high-brand-value, 
+innovation-by-press-release, we might not be able to anyway. 
+
+But I believe the mechanics of the process are different. AI winters -- such
+as they exist -- are not Kuhnian in origin. Instead, the dynamics of Big Science
+interrupts the ability of communities to inter-connect. The stagnation is more
+the consequence of the Big Science institutional pattern 'freezing' existing research traditions, 
+and preventing the creation and evolution of new ones from within. They are more
+Big Science structural crises, at least partly driven by economic factors,
+and especially human and compute costs.
+
+And when it fails (and they do) it fails on a big scale. For example, the
+[Human Brain Project](https://www.humanbrainproject.eu/en/) crashed badly,
+and Japan's Fifth Generation computer project failed to live up to its promise.
+Although inevitably, it is likely there will have been all sorts of interesting
+results (and people) that have influenced later science.
+
+
+
 
 Unlike, for example, 
 [Goldstein](https://twitter.com/tomgoldsteincs/status/1484609273162309634), 
