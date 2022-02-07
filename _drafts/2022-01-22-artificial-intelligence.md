@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Artificial intelligence: Big Science or bricolage'
+title: 'Artificial intelligence: Big Science, bricolage, and building bridges'
 author: Stuart
 background: '/img/posts/angry-cat-laptop.jpg'
 summary: |-
@@ -115,8 +115,10 @@ This is very typical of Big Science.[^BigScienceAuthors]
 [^BigScienceAuthors]:
     These author lists are tiny by the scale of some Big Science projects. 
     [The current record is a physics paper with 5,154 authors](https://www.nature.com/articles/nature.2015.17567).
-    Thirty authors is small by Big Science standards, but it's extremely large by
-    historical standards in artificial intelligence and machine learning.
+    Thirty authors is small by Big Science standards, but it's large by
+    historical standards in artificial intelligence and machine learning. de Solla Price (1986)
+    discusses the impact of Big Science on publishing more than I will here, but 
+    I will note that this is an easily tested hypthesis (e.g., see Kahn, 2016).
 
 Naturally, there are problems with the Big Science approach. It doesn't always work -- there have been
 Big Failures too (for example, Biosphere 2, and the Human Brain Project). 
@@ -180,14 +182,15 @@ systems that can handle a large knowledge base effectively in a learning
 or self-organising mode to be developed in the 20th century" 
 [(Lighthill, 1973)](http://www.chilton-computing.org.uk/inf/literature/reports/lighthill_report/p001.htm).
 
-None of these accounts mention Kuhn explicitly, and McDermott's cyclical pattern
+These accounts do not mention Kuhn explicitly, and McDermott's cyclical pattern
 doesn't fit Kuhn's model. But, the apparently-permanent shift to machine learning does, and so 
 does Lighthill's commentary. Goldstein's narrative, in particular, is extremely Kuhnian,
 [he even uses the phrase "seismic shift"](https://twitter.com/tomgoldsteincs/status/1484609296004530176?s=20&t=j-CIqbLD_v6_UR-HzJZt8A),
-and he was presenting to the National Science Foundation.
+and he was presenting to the National Science Foundation. And Bommassani et al. (2021),
+defending their "foundation models" do explicitly call them a paradigm shift (from what, they don't say).
 So I think it is fair to say that the shift from what 
 [John Haugeland called "Good Old Fashioned AI"](https://direct.mit.edu/books/book/4347/Artificial-IntelligenceThe-Very-Idea)
-(GOFAI)[^GOFAI] to machine learning was interpreted by many a Kuhnian paradigm shift
+(GOFAI)[^GOFAI] to machine learning can be interpreted as a Kuhnian paradigm shift
 across an AI winter.
 
 [^GOFAI]:
@@ -641,7 +644,7 @@ be non-scientific, driven by the need for perpetuation of the institution.
 For example, OpenAI's goal is not (only) pursuit of truth, or building good
 technology, as much as perpetuation of OpenAI itself.
 
-## AI, Big Science, and the future
+## The future of AI in a Big Science world
 
 We are, whether we like it or not, in a world which has tilted
 towards a Big Science model, across all sciences. 
@@ -748,7 +751,6 @@ _**Disclosure**: I've worked on several Big Science projects, including the
 [International Cancer Genome Project](https://dcc.icgc.org/) and 
 [AACR Project Genie](https://www.aacr.org/professionals/research/aacr-project-genie/)._
 
-
 ## Notes
 
 * footnotes will be placed here. This line is necessary
@@ -760,7 +762,13 @@ Baneke, D. (2020). Let’s not talk about science: the normalization of Big Scie
 
 Beck, U. (1992). *Risk Society: towards a new modernity*. London: SAGE Publications.
 
+Bommasani, R., Hudson, D. A., Adeli, E., Altman, R., Arora, S., von Arx, S., et al. (2021). On the opportunities and risks of foundation models. arXiv preprint: http://arxiv.org/abs/2108.07258.
+
+Collins, H. M. LIGO becomes big science. *Historical Studies in the Physical and Biological Sciences*, **33**(2), 261-297.
+
 Coppola, N. W., & Elliot, N. (2005). Big Science or bricolage: an alternative model for research in technical communication. *IEEE Transactions on Professional Communication*, **48**(3), 261–268.
+
+de Solla Price, D. J. (1986). *Little science, big science... and beyond*. New York: Columbia University Press.
 
 Esparza, J., & Yamada, T. (2007). The discovery value of “Big Science” *Journal of Experimental Medicine*, **204**(4), 701–704.
 
@@ -769,7 +777,13 @@ Presented at NSF CIF Town Hall, January 10 2022. See also: https://twitter.com/t
 
 Kahn, M. J. (2016). Big Science, co-publication and collaboration: getting to the core. In the proceedings of the 21st International Conference on Science and Technology Indicators. Valencia, Spain, 653-660.
 
+Kuhn, T. S. (1970). The structure of scientific revolutions (2nd ed.) University of Chicago Press.
+
 Lauer, M. S. (2014). Personal reflections on Big Science, Small Science, or the right mix. *Circulation Research*, **114**(7), 1080–1082.
+
+Lévi-Strauss, C. (1984). The savage mind. Man and World (Vol. 17).
+
+Lighthill, J. (1973). Artificial Intelligence: a general survey.
 
 McDermott, D., Waldrop, M. M., Chandrasekaran, B., McDermott, J., & Schank, R.
 (1985). The dark ages of AI: a panel discussion at AAAI-84. *AI Magazine*, **6**(3),
@@ -777,7 +791,13 @@ McDermott, D., Waldrop, M. M., Chandrasekaran, B., McDermott, J., & Schank, R.
 
 Mitchell, M. (2021). Why AI is harder than we think. Proceedings of the Genetic and Evolutionary Computation Conference (GECCO ’21), p3.
 
+Mnih, V. (2009). Cudamat: a CUDA-based matrix class for python. Department of Computer Science, University of Toronto, UTML TR 2009–004.
+
 Papert, S. (1993). Rethinking School In The Age Of The Computer. In *The Children’s Machine* (pp. 138–156). 
+
+Scriven, M. (2008). The concept of a transdiscipline: and of evaluation as a transdiscipline. *Journal of MultiDisciplinary Evaluation*, **5**(10), 65–66.
+
+Von Eckardt, B. (1992). *What is cognitive science?*, MIT Press.
 
 Weinberg, A. (1961). Impact of large-scale science on the United States.
 *Science*, **134**(3473), 161–164.
