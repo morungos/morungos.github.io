@@ -22,38 +22,33 @@ A Big Science follows the pattern of Lawrence's
 It is driven by large-scale funding, into the billions of dollars from 
 both public and private sources. It is tightly integrated into the foundational
 economic connections of the day (in the case of BNL, the mid-20th century military-industrial complex).
-When we look at organizations like OpenAI, Google Brain, and even Palantir, we can see
-the family resemblance. And governments see their Big Science investments in
-artificial intelligence as sources of national pride and international competitiveness.
+There are many examples in other areas of science, such as the Human Genome Project,
+ITER and the Joint European Torus, CERN and the Large Hadron Collider, and 
+the US Apollo program.
 
-The hallmarks of this new Big Science version of artificial intelligence are, immense teams, 
-immense goals, and immense funding. GPT-3 and its analogues 
-reflect their origins in Big Science. And it's not alone. OpenAI's GPT-3 and DeepMind's AlphaFold papers have over
-thirty authors each, and acknowledges many more, including entire teams and communities.
-This is very typical of Big Science.[^BigScienceAuthors]
+The hallmarks of Big Science are: immense teams, specific but enormous goals, and 
+massive amounts of funding. 
 
-[^BigScienceAuthors]:
-    These author lists are tiny by the scale of some Big Science projects. 
-    [The current record is a physics paper with 5,154 authors](https://www.nature.com/articles/nature.2015.17567).
-
-Big Science transforms the way science is done. You can't try stuff and 
+Big Science transforms the way science is done. You can't quickly try an idea and 
 see what happens. Even getting the point of starting an experiment may cost
-millions, so you need solid guidance before you take that step. GPT-3, 
-for example, cost over 
-[$10 million for a single run](https://towardsdatascience.com/the-future-of-ai-is-decentralized-848d4931a29a). 
-AlphaFold, similarly, at cost price, would be around 
-[$7 million](https://venturebeat.com/2020/11/30/deepmind-claims-its-ai-can-predict-how-proteins-will-fold-with-state-of-the-art-accuracy/#:~:text=DeepMind%20declined%20to%20reveal%20the,to%20about%20%24688%2C128%20per%20week.) 
-for training compute alone.
-At that scale, you need to know it's going in the right direction before you 
-press the start button.
+millions or even billions, so you need solid guidance before you take that step. The Large Hadron
+Collider, for example, cost nearly $5 billion and took a decade to build before 
+it even started running experiments.
 
 In Table 1 below, I've sketched out the characteristics that distinguish a Big Science approach from
 a Little Science one. Of course, these are somewhat stereotyped. In practice, there is a
 big blurry area between them -- although there's evidence of a
 [long-term drift towards a 'Big Science culture'](https://www.degruyter.com/document/doi/10.7312/pric91844/html?lang=en) 
 in many STEM fields, such that a large proportion of 
-the work is pulled in that direction. Funding calls today may be focused on grand challenges, 
-for example, or the creation of collaborative networks. 
+the work is pulled in that direction[^Initiatives]. Funding calls today may be focused on grand challenges, 
+for example, or the creation of collaborative networks.
+
+[^Initiatives]:
+    I'm consciously excluding umbrella-style initiatives here. For example, the EU's Horizon 2020
+    and the NSF National AI Research Institutes are not typical Big Science, for several 
+    reasons: they're often distributed, and there isn't the unity of purpose. Research consortia
+    formed through these initiatives may be partly shaped by these forces, but they aren't 
+    typical of them.
 
 | "Big Science"  | "Little Science" |
 |-----------|----------|
@@ -62,7 +57,7 @@ for example, or the creation of collaborative networks.
 | Integrated into the economy | Independent from the economy |
 | High brand value | Low brand value |
 | > $1B funding | Modest funding |
-| Grand challenges | Targeted questions |
+| One grand challenge | Multiple, targeted questions |
 | Planned | Responsive |
 | Communication by press release | Communication by academic article |
 | Applied research | Pure research |
@@ -74,23 +69,18 @@ for example, or the creation of collaborative networks.
 **Table 1. Characteristics of Big Science and Little Science**
 {:.text-muted.}
 
-The problem is: Big Science does not always work, and even when it does, it does not always function
-like a good science. As Weinberg (one of the founders of Big Science initiatives)
-put it:
-
-> "The inevitable result is the injection of a journalistic flavor into Big
-> Science which is fundamentally in conflict with the scientific method. If the
-> serious writings about Big Science were carefully separated from the
-> journalistic writings, little harm would be done. But they are not so
-> separated. Issues of scientific or technical merit tend to get argued in the
-> popular, not the scientific, press" 
-> [(Weinberg, 1961)](https://www.science.org/doi/10.1126/science.134.3473.161). 
-
 Is this happening with artificial intelligence today? I believe so. Many of the
-characteristics in Table 1 are widespread. But in addition to that, there are
+characteristics in Table 1 are widespread, and there are organizations and initiatives
+that typify virtually all of them, to the point they are almost exemplary. There are
 quite a few initiatives that appear to the model almost exactly. Here are the ones
 that I first thought of:
 
+ * [IBM Watson](https://www.ibm.com/watson), building on IBM's competitive
+   chess and Jeopardy, Watson was launched as an IBM business in 2014 with
+   $1B of funding and several thousand employees. Watson is perhaps most intriguing
+   as it 'evolved' from GOFAI to ML, and integrates both. Originally intended as
+   a universal, open-domain, natural language question answering system, it since evolved with
+   the addition of perceptual and other techniques.
  * [OpenAI](https://openai.com/), founded in 2015 by, among others, Elon Musk, Sam Altman,
    and Peter Thiel. OpenAI's actual intent is hard to assess: originally 
    it claimed to "democratize" AI to mitigate technological risks, but it 
@@ -103,20 +93,51 @@ that I first thought of:
    extremely hard to identify a strategy beyond "let's build stuff and see what sticks".
    Those differences aside, it's definitively a Google-ified version of Big Science.
    DeepMind was acquired by Google in 2014, and Google's AI division dates to 2017.
- * [IBM Watson](https://www.ibm.com/watson), building on IBM's competitive
-   chess and Jeopardy, Watson was launched as an IBM business in 2014 with
-   $1B of funding and several thousand employees. Watson is perhaps most intriguing
-   as it 'evolved' from GOFAI to ML, and integrates both.
 
 There's a fair case for considering Japan's "Fifth Generation Computer" project
 from 1982 to 1992 as another Big Science project broadly in the field of AI,
 albeit based on an earlier version of the field.
 
+That covers the centralizing, community-oriented aspect, and the grand vision
+aspect. Over and above that, there's the cost and the funding, which is also transforming work in artificial
+intelligence. GPT-3, for example, cost over 
+[$10 million for a single run](https://towardsdatascience.com/the-future-of-ai-is-decentralized-848d4931a29a). 
+AlphaFold, similarly, at cost price, would be around 
+[$7 million](https://venturebeat.com/2020/11/30/deepmind-claims-its-ai-can-predict-how-proteins-will-fold-with-state-of-the-art-accuracy/#:~:text=DeepMind%20declined%20to%20reveal%20the,to%20about%20%24688%2C128%20per%20week.) 
+for training compute alone.
+At that scale, you need to know it's going in the right direction before you 
+press the start button.
+
+So when we look at organizations like OpenAI, IBM's Watson, DeepMind, and even the likes of MIT's and Stanford's AI work, we can see a Big Science family resemblance. "Foundation models" like GPT-3 and its analogues reflect their origins in Big Science. For example, OpenAI's GPT-3 and DeepMind's AlphaFold papers have over
+thirty authors each, but also acknowledge many more, including entire teams and communities.
+This is very typical of Big Science.[^BigScienceAuthors]
+
+[^BigScienceAuthors]:
+    These author lists are tiny by the scale of some Big Science projects. 
+    [The current record is a physics paper with 5,154 authors](https://www.nature.com/articles/nature.2015.17567).
+    Thirty authors is small by Big Science standards, but it's extremely large by
+    historical standards in artificial intelligence and machine learning.
+
+Naturally, there are problems with the Big Science approach. It doesn't always work -- there have been
+Big Failures too (for example, Biosphere 2, and the Human Brain Project). 
+And even when it does work, it does not always function
+like a *good* science. As Weinberg (one of the founders of Big Science initiatives)
+put it:
+
+> "The inevitable result is the injection of a journalistic flavor into Big
+> Science which is fundamentally in conflict with the scientific method. If the
+> serious writings about Big Science were carefully separated from the
+> journalistic writings, little harm would be done. But they are not so
+> separated. Issues of scientific or technical merit tend to get argued in the
+> popular, not the scientific, press" 
+> [(Weinberg, 1961)](https://www.science.org/doi/10.1126/science.134.3473.161). 
+
 Given that the defining features of true Big Science are: collaboration, grand scale, and 
 immense funding, it seems reasonable to assert that, in these organizations at least, 
-artificial intelligence is converging onto to a Big Science model. And it is also worth 
-looking at the timeline here. The shift -- if there was a shift to a Big Science version 
-of artificial intelligence -- appears to date to around 2014, give or take. 
+and those aspiring to compete with them,
+artificial intelligence is converging to to a Big Science model. And it is also worth 
+noting the timeline here. The shift -- if there was a shift to a Big Science version 
+of artificial intelligence -- appears to date quite specifically to around 2014, give or take. 
 
 So, how did we get there? What caused these fundamental shifts in the nature
 of artificial intelligence.
@@ -124,7 +145,7 @@ of artificial intelligence.
 ## Kuhn's model: AI winters and paradigm shifts
 
 Most of the people writing about how science -- any science -- works, inevitably start with (and 
-usually finish with) Thomas Kuhn's 
+often finish with) Thomas Kuhn's 
 [*The Structure of Scientific Revolutions*](https://press.uchicago.edu/ucp/books/book/chicago/S/bo13179781.html),
 a classic in the philosophy of science. It is a flawed classic, but a classic nevertheless.
 
@@ -139,11 +160,11 @@ explore the field.
 And this brings me to the second point people invariably make when writing about
 artificial intelligence: "AI winters". One of the more notable features of 
 artificial intelligence as a science have been the occasional stalls, 
-often called "AI winters", where funding and progress seemed to recede. To date, 
+"AI winters", where funding and progress seemed to recede. To date, 
 there have been two substantial AI winters, from around 1973 to 1980, and from 
 1987 to the mid 1990s. 
 
-A common account is that AI winters were, essentially Kuhnian
+A common account is that the AI winters were, essentially Kuhnian
 crisis points. 
 [Thomas Goldstein argued it: "So how did the AI winter end? It didn't! We just gave up"](https://twitter.com/tomgoldsteincs/status/1484609273162309634).
 Others, such as 
@@ -162,21 +183,23 @@ or self-organising mode to be developed in the 20th century"
 None of these accounts mention Kuhn explicitly, and McDermott's cyclical pattern
 doesn't fit Kuhn's model. But, the apparently-permanent shift to machine learning does, and so 
 does Lighthill's commentary. Goldstein's narrative, in particular, is extremely Kuhnian,
-[he uses the phrase "seismic shift"](https://twitter.com/tomgoldsteincs/status/1484609296004530176?s=20&t=j-CIqbLD_v6_UR-HzJZt8A),
+[he even uses the phrase "seismic shift"](https://twitter.com/tomgoldsteincs/status/1484609296004530176?s=20&t=j-CIqbLD_v6_UR-HzJZt8A),
 and he was presenting to the National Science Foundation.
 So I think it is fair to say that the shift from what 
 [John Haugeland called "Good Old Fashioned AI"](https://direct.mit.edu/books/book/4347/Artificial-IntelligenceThe-Very-Idea)
-(GOFAI)[^GOFAI] to machine learning was interpreted by many a Kuhnian paradigm shift.
+(GOFAI)[^GOFAI] to machine learning was interpreted by many a Kuhnian paradigm shift
+across an AI winter.
 
 [^GOFAI]:
     Haugeland's term here is a nice label
     for the primarily symbolic approach to artificial intelligence that 
     dominated from the 1960s to the 1990s. 
 
-As an aside, I'll add that I don't think this particular shift was purely scientific.
-It is notable that both major AI winters corresponded with global recessions: the first with
+As an aside, I'll comment that personally, I am not convinced. I don't think this particular 
+shift was purely scientific.
+It is notable that both major AI winters corresponded with global economic recessions: the first with
 a global oil crisis and a Wall Street crash, and the second with Black Monday.
-So both occurred during periods of global economic retrenchment, and it makes
+So both occurred during periods of economic retrenchment, and it makes
 sense that investments that were not perceived as delivering enough value were 
 cut. Economics will, inevitably, play a huge rule in the value judgements in
 deciding whether or not there is a crisis in the first place.
@@ -190,6 +213,7 @@ So let me tell this as a story about the transformation of artificial intelligen
 > artificial intelligence, *enabled* a Big Science version of artificial intelligence to get 
 > under way. The AI winter was a crisis and GOFAI 
 > was replaced in a *revolutionary* paradigm shift to machine learning.
+{: #story1 }
 
 But let's look at Story 1 in detail. First off, there's a problem with the
 timeline. The second AI Winter peaked around 1990, but the paradigm 
@@ -203,10 +227,13 @@ the foundations for it?
 The second problem with Story 1 is that it can't explain any Big Science at
 all. Big Science can *scale* a research tradition, but it can't create one.
 All the fundamental methods and assumptions need to be in place, before it can assemble
-the funding necessary to go large. For example, you couldn't get funding for 
+the funding and economic support systems necessary to go large. For example, you couldn't get funding for 
 NASA if you didn't know it was possible to launch some kind of a rocket
 into orbit (NASA was re-constituted as a space agency a year after the launch
-of Sputnik 1). 
+of Sputnik 1). All Big Science initiatives need a proof of viability as well as
+enough of a social imperative before they can get started. A crisis implies an
+absence of any proof of viability (within the domain, at least) so we need to
+look for a better explanation.
 
 ## Laudan's model: evolving research traditions
 
@@ -267,6 +294,7 @@ So let's revise our story.
 > [CommonKADS](https://commonkads.org/). Over time, machine learning techniques, 
 > particularly those that assisted knowledge acquisition, became an established part of
 > those evolved research traditions, and GOFAI simply faded out.
+{: #story2 }
 
 There are points when abandoning a technique is *rational*, i.e., when -- given the
 available technology -- other techniques perform better. i.e., the exact same technique 
@@ -471,62 +499,28 @@ something the scale of GPT-3, the Human Genome Project, the LHC, or the Manhatta
 experiments have to be few and far between. The scale, and the cost, simply make 
 tinkering unacceptable or uneconomic, and usually both. 
 
-## Coherence of a Big Science
+## Is Big Science AI the child of capitalism?
 
-
-Again contrasting with Kuhn's story of science, Michael Mulkay proposed a 
-["branching model" of science](https://journals.sagepub.com/doi/10.1111/j.1467-954X.1975.tb02231.x),
-which overlaps with it to some extent. Mulkay's model of science is based
-on this recognition of smaller communities, and argues that much of the evolution
-in research traditions (which, remember, include methods as well as assumptions)
-happens when people migrate between communities, taking ideas and methods with 
-them as they go. And this migrations don't only happen *within* a field, 
-but more importantly, between fields. 
-
-We can even think of AlexNet again in this light. Its true innovation was
-the re-purposing of GPUs, already under way with NVIDIA's work on CUDA and 
-development of Tesla GPUs. This wasn't a method from within artificial
-intelligence. 
-
-Instead (and while I can't prove this) I'd 
-bet $10 that it came from the 
-[OpenVIDIA](https://stemhave.com/prog/OpenVIDIA.html)
-project on computer vision, which
-was also based at the University of Toronto, but in the 
-[EyeTap Personal Imaging Lab](http://www.eyetap.org/), and developed from 2004 to 2006. (The EyeTap,
-developed by Steve Mann, was a precursor to Google Glass.) Anyway, OpenVIDIA
-was leveraging GPUs for image processing, then 
-[embraced CUDA](https://forums.developer.nvidia.com/t/cuda-on-openvidia/17415) as it emerged in 2007. 
-[Cudamat (Mnih, 2009)](http://www.cs.utoronto.ca/~vmnih/docs/cudamat_tr.pdf), 
-also at Toronto, integrated Python
-with CUDA, and 
-[Alex Krizhevsky was using CUDA in 2009](https://www.eecg.utoronto.ca/~moshovos/CUDA08/arx/convnet_report.pdf), 
-and 
-[Ilya Sutskever by 2010](http://proceedings.mlr.press/v9/martens10a/martens10a.pdf). 
-And after all that, applying the same methods to ImageNet is not a big leap, 
-and certainly not a revolutionary reaction to a crisis in GOFAI.
-
-So, according to Mulkay's branching model, you can think of a science almost like 
-an ecosystem, exploring research niches that correspond to ecological ones, 
-searching for opportunities to grow and thrive. In other words, *bricolage*. 
-People tinker with ideas, borrowing them, adapting them, and adjusting them
-to meet their needs.
-
-And if we look at statistics as an example, multiple paradigms (e.g., Fisher versus 
-Neyman-Pearson) can co-exist, for extremely long periods, potentially hundreds 
-of years. Even in physics, quantum and relativistic physics have yet to be unified
-in any people can agree on.
-
-## Social impact of Big Science
+It could be argued that that 
+[Big Science is what happens when capitalism gets engaged with science](https://www.washingtonpost.com/outlook/2019/06/03/is-thirst-profit-harming-scientific-research/), 
+and given my examples (OpenAI, etc.) this is an point that deserves serious consideration. 
+But is it actually true? Is Big Science really the child of capitalism?
 
 Much of our world has been transformed by Big Sciences. They can be extremely valuable in all sorts
 of different ways, even incidentally. Many of the classic examples of Big Science
 include NASA, CERN, the Human Genome Project, have all generated results that
-are transforming our lives. 
+are transforming our lives. And none of them would have been possible without
+very substantial investment, in one form or another.
 
-However, there are costs, too. The way science is done today, at all
+But are they capitalist? Not always. Some of the older Big Science projects, e.g.,
+NASA's Apollo programme, CERN, were very much not-capitalist. And Big Science
+was also a big deal in the Soviet Union. The space race was driven more
+by international competition and the Cold War than by capitalism. 
+The Human Genome Project, too, was not overtly capitalist.
+
+However, Big Science does reflect a fundamentally different science. The way science is done today, at all
 levels, can be traced to the structural changes of Big Science. For example,
-Weinberg, in 1961, argued that two necessary changes were: 
+Weinberg (its biggest advocate), argued in 1961 that two necessary changes were: 
 
 > "First, a great expansion in the use of short-tenure,
 > postdoctoral fellows at the big laboratories, and second, the establishment
@@ -550,25 +544,12 @@ like an iceberg, only the tip may be visible.
     [collaborative](https://www.genome.gov/human-genome-project),
     and [sometimes both](https://www.nasa.gov/50th/50th_magazine/coldWarCoOp.html).
 
-## "But is it capitalism?"
-
-It might seem that Big Science is what happens when capitalism gets 
-engaged with science, and given my examples (OpenAI, etc.) this is an
-issue that deserves serious consideration. 
-
-My answer is: not always. Some of the older Big Science projects, e.g.,
-NASA's Apollo programme, CERN, were very much not-capitalist. And Big Science
-was also a big deal in the Soviet Union. The space race was certainly more
-driven by international competition and the Cold War than by capitalism. 
-
-The Human Genome Project, too, was not overtly capitalist.
-
-But there is a good case to answer as to whether the tilt towards Big Science,
+So how do we explain these global changes? Perhaps the tilt towards Big Science,
 what we might call "bigsciencification", is an effect of "late modernity".
 Science is directly linked to risk, and late modernity's management of 
-risk (what Ulrich Beck calls the "risk society"). Science itself has changed,
-fundamentally, by this: it has been democratized and secularized,
-and diffused into wider society. 
+risk (what Ulrich Beck calls the "risk society"). The changes in science,
+its democratization and secularization, its diffusion into wider society,
+are effects of its transformation under late modernity.
 
 Beck is worth quoting in full:
 
@@ -596,8 +577,8 @@ sponsorship and governments replaces it. But there is a cost. As Beck puts it:
 Beck's thesis also accounts for the transformation of the Big Science
 approach, from orthogonal to capital in the first half of the 20th Century, 
 to aligned with it today. So, I'd argue: no, this is not simply capitalism. If it is 
-anything, it is late modernity, which *also* is transforming capitalism. The causes run 
-deeper. It's not simply a case of artificial intelligence, to borrow from John Wyndham,
+anything, it is late modernity, which is *also* transforming capitalism (not in a good way). The causes run 
+deeper. It's not simply a case of modern artificial intelligence, to borrow from John Wyndham,
 being "too contaminated by capital to keep afloat".
 
 But that is not to belittle the problem. There *is* a problem, a big one. 
@@ -607,7 +588,7 @@ everywhere, from the armies of post-doctoral researchers, to the
 hyper-wealthy owners of private research monopolies. 
 
 Without serious work on the part of scientists, 
-social scientists, governments, and industry, this will edge out the
+social scientists, governments, and industry, this will push out the
 bricoleurs who will create the next generation of innovations and
 discoveries.
 
@@ -679,85 +660,87 @@ the consequence of the Big Science institutional pattern 'freezing' existing res
 and inhibiting the creation and evolution of new ones that compete with them. 
 
 We need to accept that multiple scientific communities with multiple 
-research traditions is a Good Thing. We need to fund work other than
-deep learning, other than neural networks, and even -- shock! -- other
-than machine learning -- if we are to build a strong and vibrant field,
+research traditions is a Good Thing -- this is why, for me at least [Story 3](#story3)
+has a plausibility that [Story 1](#story1) and [Story 2](#story2) do not. 
+We need to fund work other than deep learning, other than neural networks, 
+and even -- shock! -- other than machine learning -- if we are to build a strong and vibrant field,
 robust from hype cycles.
 
-
-## Overcoming failure
-
-Instead, I think there are a few 
- 
-
-The challenge is not, despite calls from those like Weinberg and Lauer (2014),
+But this is about more than funding. The challenge is not, despite calls from those like 
+Weinberg and Lauer (2014),
 to "achieve the right mix". It is: how do we preserve Little Science in a
 dominant culture of Big Science, i.e., when the values of Big Science are 
 considered "normal"? 
 
+I can think of four good things we can do -- I am sure there are plenty more, but
+this is where I would begin.
+
+**Thing One: empower and support the bricoleurs**. The easiest way to re-balance Big Science and 
+Little Science would be to give some of the resources to Little Science. There are
+many ways to do this. One would be as simple as a universal basic income. Remember,
+science has become more democratized, citizen science is a thing now. Another is to
+build a better career system (in fact, a real career system) for post-doctoral 
+researchers, who have been true victims of the interaction between late
+modernity and Big Science's fundamental career changes. More of a 
+challenge is how to truly open and democratize the networks, but, for example, 
+opening up conferences and workshops would be a start. Make it easy, and cheap,
+not only for people to *use* artificial intelligence (after all, the
+software is essentially free now) but to *participate in it*. 
+
+**Thing Two: bring forward a humanized, Slow Science, Slow AI**. 
 [Yoshia Bengio has explicitly pointed to](https://yoshuabengio.org/2020/02/26/time-to-rethink-the-publication-process-in-machine-learning/)
 ["Slow Science"](http://slow-science.org/)
 (which very much matches the branching, bricolage-oriented, Little Science style).
-He does this as a reaction to the Big Science problems in machine learning:
+He does this as a reaction to the Big Science problems in machine learning. 
 
-I think the
+**Thing Three: reframe machine learning as a transdiscipline**.
+Transdisciplines are a special kind of science. Michael Scriven describes them as: 
+"a discipline that has standalone 
+status as a discipline and is also used as an methodological or analytical 
+tool in several other disciplines" 
+[(Scriven, 2008)](https://journals.sfu.ca/jmde/index.php/jmde_1/article/download/161/201/). 
+His examples include: statistics, logic,
+design, and communication, with possible evidence for ethics, computer
+science, and information science (and, therefore, information retrieval).
+There is a lot to be said for artificial intelligence, and *especially* machine learning, as 
+transdisciplines. It transforms the relationship to related sciences and fields, such as 
+engineering, linguistics, medicine, and psychology: strengthening connections between them.
+Machine learning needs to learn this from statistics -- what I'd call the queen of transdisciplines.
+Machine learning folks need to build tight collaborations with people in other fields, while still
+preserving their identity and innovation as a field in their own right. Until they do become a 
+transdiscipline, this XKCD will continue to apply.
 
-* **Thing One: frame artificial intelligence and machine learning as transdisciplines**
-  Transdisciplines are a special kind of science. Michael Scriven describes them as: 
-  "a discipline that has standalone 
-  status as a discipline and is also used as an methodological or analytical 
-  tool in several other disciplines" 
-  [(Scriven, 2008)](https://journals.sfu.ca/jmde/index.php/jmde_1/article/download/161/201/). 
-  His examples include: statistics, logic,
-  design, and communication, with possible evidence for ethics, computer
-  science, and information science (and, therefore, information retrieval).
-  There is a lot to be said for artificial intelligence, and especially machine learning, as 
-  transdisciplines. It transforms the relationship to related sciences and fields, such as 
-  engineering, linguistics, medicine, and psychology: strengthening connections between them.
+{::options parse_block_html="true" /}
+<figure>
+![Here to Help, by XKCD](https://imgs.xkcd.com/comics/here_to_help.png)
+<figcaption>
+[Here to Help, by XKCD](https://xkcd.com/1831/)
+</figcaption>
+</figure>
+{::options parse_block_html="false" /}
 
-* **Thing Two: empower and support the bricoleurs**. The easiest way to re-balance Big Science and 
-  Little Science would be to give some of the resources to Little Science. There are
-  many ways to do this. One would be as simple as a universal basic income. Remember,
-  science has become more democratized, citizen science is a thing now. More of a 
-  challenge is how to integrate everyone into the networks, but, for example, 
-  opening up conferences and workshops would be a start. Make it easy, and cheap,
-  not only for people to *use* artificial intelligence (after all, the
-  software is essentially free now) but to *participate in it*. 
+**Thing Four: stop worrying about AI winters**. We need to stop thinking about machine
+learning as a Kuhnian paradigm shift from GOFAI. It's a set of methods -- a very powerful set of
+methods -- that were unlocked by technical innovations. I am glad they were unlocked,
+because I like them. But a Kuhnian model is unhelpful for several reasons. First, 
+it explicitly regards all past artificial intelligence work as, essentially, junk
+[(see, for example, the way Goldstein put it)](https://twitter.com/tomgoldsteincs/status/1484609313947725827?s=20&t=1457k-3uJN40-46gjHR7rA).
+This is both false and socially corrosive. It is good to be conscious of hype cycles,
+and we need to be far more critical of the way Big Science feeds them. When we look
+in more detail, as in [Story 3](#story3), we see smaller communities exchanging ideas
+and methods in a more dynamic way. 
 
-* **Thing Three: prize validity**. 
+I am sure Big Science is here to stay. It is too deeply intertwined with
+modern scientific practices to fall away any time soon. But, I hope you will think
+about it, and its effects on the way we work and the way we interact. Big Science
+can make real things which would otherwise be impossible. Large language models
+-- for all their inherent problems -- are important to study, and we need to 
+learn from them, even if we have to remain critical of their many biases and shortcomings.
+But, I hope you will remember that, in practice, Big Science is not enough. We need
+the bricoleurs, we need the Little Scientists, because these are the ones providing
+the pieces for the next groundbreaking changes in our understanding. 
 
-
-[^8]:
-    According to Scriven, a transdiscipline is 
-
-    See Scriven, M. (2008). "The Concept of a Transdiscipline: And of Evaluation 
-    as a Transdiscipline", *Journal of MultiDisciplinary Evaluation*, **5**(10), 65-66.
-
-
-
-
-
-There are other, more traditional research groups, but these exemplify the 
-defining features of Big Science: collaboration, scale, immense funding, and
-
-
-
-
-
-Now, don't get me wrong: Big Science 
-
-Defining features, include: work is attached to the brand, not an individual.
-
-
-
-Note that some of the driving factors here are social. 
-
-Yoshua Bengio "Slow Science" (https://yoshuabengio.org/2020/02/26/time-to-rethink-the-publication-process-in-machine-learning/)
-
-
-## How does science work?
-
-
+And long live the bricoleurs, may their tinkering be forever rewarding.
 
 * * * 
 
@@ -766,36 +749,35 @@ _**Disclosure**: I've worked on several Big Science projects, including the
 [AACR Project Genie](https://www.aacr.org/professionals/research/aacr-project-genie/)._
 
 
-
-
-
-Is artificial intelligence a science? An academic field? Or is it a more
-practically-oriented engineering discipline. Today, the picture is a little
-confusing. There is a strong experimental strand, especially visible in
-competitive forums like Kaggle and in benchmarking, where *anything goes*, so
-long as the results look good -- and the time for reflection and discussion on
-good practice comes later.
-
-But there's also a more considered, more engineering strand. It's not enough
-to come up with a wild idea when you're building something commercially. GPT-3
-was not simply an experiment -- it was a considered and planned path towards a
-vision of commercially-useful language models.
-
-So let's dive in, and see if we can understand how artificial intelligence
-became the thing that it is, how it works, and whether that can guide us as we
-make for a better field for everyone.
-
-
-
-To be fair to Goldstein, both are possible. In fact, if artificial intelligence
-is organized as (or becomes) a transdiscipline[^1], like, e.g., statistics (and
-there's probably good reason for that to be the case) we'd expect theoretical
-work to be *both* a distinct community *and* integrated into problem areas.
-
-Of course, if it truly were a transdiscipline right now, we'd not be able to make 
-jokes like this. So the evidence is that it currently isn't, in practice. But...
-I can dream. 
-
-#### [XKCD]
-
 ## Notes
+
+* footnotes will be placed here. This line is necessary
+{:footnotes}
+
+## References
+
+Baneke, D. (2020). Let’s not talk about science: the normalization of Big Science and the moral economy of modern astronomy. *Science Technology and Human Values*, **45**(1), 164–194.
+
+Beck, U. (1992). *Risk Society: towards a new modernity*. London: SAGE Publications.
+
+Coppola, N. W., & Elliot, N. (2005). Big Science or bricolage: an alternative model for research in technical communication. *IEEE Transactions on Professional Communication*, **48**(3), 261–268.
+
+Esparza, J., & Yamada, T. (2007). The discovery value of “Big Science” *Journal of Experimental Medicine*, **204**(4), 701–704.
+
+Goldstein, T. (2022). Deep learning needs more science! Or... can deep learning end the AI winter? 
+Presented at NSF CIF Town Hall, January 10 2022. See also: https://twitter.com/tomgoldsteincs/status/1484609296004530176
+
+Kahn, M. J. (2016). Big Science, co-publication and collaboration: getting to the core. In the proceedings of the 21st International Conference on Science and Technology Indicators. Valencia, Spain, 653-660.
+
+Lauer, M. S. (2014). Personal reflections on Big Science, Small Science, or the right mix. *Circulation Research*, **114**(7), 1080–1082.
+
+McDermott, D., Waldrop, M. M., Chandrasekaran, B., McDermott, J., & Schank, R.
+(1985). The dark ages of AI: a panel discussion at AAAI-84. *AI Magazine*, **6**(3),
+122–122.
+
+Mitchell, M. (2021). Why AI is harder than we think. Proceedings of the Genetic and Evolutionary Computation Conference (GECCO ’21), p3.
+
+Papert, S. (1993). Rethinking School In The Age Of The Computer. In *The Children’s Machine* (pp. 138–156). 
+
+Weinberg, A. (1961). Impact of large-scale science on the United States.
+*Science*, **134**(3473), 161–164.
