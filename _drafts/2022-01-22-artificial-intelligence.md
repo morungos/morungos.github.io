@@ -1,12 +1,12 @@
 ---
 layout: post
-title: 'Artificial intelligence: Big Science, bricolage, and building bridges'
+title: 'Artificial intelligence: Big Science, bricolage, and better collaboration'
 author: Stuart
-background: '/img/posts/angry-cat-laptop.jpg'
+background: '/img/posts/complex-clock.jpg'
 summary: |-
   
-image: '/img/posts/angry-cat-laptop.jpg'
-image_description: ""
+image: '/img/posts/complex-clock.jpg'
+image_description: "A complex fractal clock image"
 ---
 
 Artificial intelligence is a field with an identity crisis. Despite being
@@ -147,7 +147,7 @@ of artificial intelligence.
 ## Kuhn's model: AI winters and paradigm shifts
 
 Most of the people writing about how science -- any science -- works, inevitably start with (and 
-often finish with) Thomas Kuhn's 
+often finish with) Thomas Kuhn's (1962)
 [*The Structure of Scientific Revolutions*](https://press.uchicago.edu/ucp/books/book/chicago/S/bo13179781.html),
 a classic in the philosophy of science. It is a flawed classic, but a classic nevertheless.
 
@@ -361,7 +361,7 @@ differences.
 
 This is a long way from the truth. 
 
-Michael Mulkay (in 
+Michael Mulkay (in, 1975,
 ["Three Kinds of Scientific Development"](https://journals.sagepub.com/doi/abs/10.1111/j.1467-954X.1975.tb02231.x?journalCode=sora)) extends the Kuhnian model (which he calls the "model of closure")
 by showing that despite the shared identities and methods and assumptions -- on the ground, 
 a science is made up of many smaller communities. Mulkay argues that 
@@ -430,7 +430,7 @@ This story is not randomly made up. If we think of AlexNet again in this light,
 its true innovation was the re-purposing of GPUs, but that work was already under 
 way at another lab *in the same institution*.
 
-Now I can't prove this, but I will bet
+Now I can't prove this, but I will bet the grand sum of
 $10 (Canadian) that the actual innovations came from the 
 [OpenVIDIA](https://stemhave.com/prog/OpenVIDIA.html)
 project on computer vision,
@@ -489,7 +489,7 @@ Instead, I'd contrast bricolage more with engineering, where there is a more
 does make more sense.
 
 In many ways, it is better to use 
-[Seymour Papert's adaptation of bricolage](https://lcl.media.mit.edu/resources/readings/childrens-machine.pdf)
+[Seymour Papert's 1993 adaptation of bricolage](https://lcl.media.mit.edu/resources/readings/childrens-machine.pdf)
 as a method for building mental constructs, i.e., *learning*. Learning
 happens through bricolage, and whether it is creating new concepts and 
 methods in science, or new concepts and methods in a child's mind, the
@@ -515,11 +515,19 @@ include NASA, CERN, the Human Genome Project, have all generated results that
 are transforming our lives. And none of them would have been possible without
 very substantial investment, in one form or another.
 
-But are they capitalist? Not always. Some of the older Big Science projects, e.g.,
+But are they capitalist? Not necessarily, not intrinsically. Some of the older Big Science projects, e.g.,
 NASA's Apollo programme, CERN, were very much not-capitalist. And Big Science
 was also a big deal in the Soviet Union. The space race was driven more
 by international competition and the Cold War than by capitalism. 
-The Human Genome Project, too, was not overtly capitalist.
+The Human Genome Project, too, was not very obviously capitalist.[^CapitalismAI]
+
+[^CapitalismAI]:
+    I admit that the artificial intelligence manifestation of Big Science does
+    *seem* substantially more capitalist. But, recall that all Big Science
+    initiatives do have tight economic integration, and always have had. And 
+    that capitalism does have a different attitude to innovation. I will come
+    back to this point shortly, in the light of Ulrich Beck's model of the
+    risk society. 
 
 However, Big Science does reflect a fundamentally different science. The way science is done today, at all
 levels, can be traced to the structural changes of Big Science. For example,
@@ -775,6 +783,8 @@ Esparza, J., & Yamada, T. (2007). The discovery value of “Big Science” *Jour
 Goldstein, T. (2022). Deep learning needs more science! Or... can deep learning end the AI winter? 
 Presented at NSF CIF Town Hall, January 10 2022. See also: https://twitter.com/tomgoldsteincs/status/1484609296004530176
 
+Haugeland, J. (1989). *Artificial intelligence: the very idea*. MIT Press.
+
 Kahn, M. J. (2016). Big Science, co-publication and collaboration: getting to the core. In the proceedings of the 21st International Conference on Science and Technology Indicators. Valencia, Spain, 653-660.
 
 Kuhn, T. S. (1970). The structure of scientific revolutions (2nd ed.) University of Chicago Press.
@@ -792,6 +802,8 @@ McDermott, D., Waldrop, M. M., Chandrasekaran, B., McDermott, J., & Schank, R.
 Mitchell, M. (2021). Why AI is harder than we think. Proceedings of the Genetic and Evolutionary Computation Conference (GECCO ’21), p3.
 
 Mnih, V. (2009). Cudamat: a CUDA-based matrix class for python. Department of Computer Science, University of Toronto, UTML TR 2009–004.
+
+Mulkay, M. J. (1975). Three models of scientific development. *The Sociological Review*, **23**(3), 509–526.
 
 Papert, S. (1993). Rethinking School In The Age Of The Computer. In *The Children’s Machine* (pp. 138–156). 
 
