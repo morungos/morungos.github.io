@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Artificial intelligence: Big Science, bricolage, and better collaboration'
+title: 'Artificial intelligence: Big Science, bricolage, and beyond'
 author: Stuart
 background: '/img/posts/complex-clock.jpg'
 summary: |-
@@ -32,7 +32,7 @@ There are many examples in other areas of science, such as the Human Genome Proj
 ITER and the Joint European Torus, CERN and the Large Hadron Collider, and 
 the US Apollo program.
 
-The hallmarks of Big Science are: immense teams, specific but enormous goals, and 
+In summary, the hallmarks of Big Science are: immense teams, specific but lofty goals, and 
 massive amounts of funding. 
 
 Big Science transforms the way science is done. You can't quickly try an idea and 
@@ -41,7 +41,7 @@ millions or even billions, so you need solid guidance before you take that step.
 Collider, for example, cost nearly $5 billion and took a decade to build before 
 it even started running experiments.
 
-In Table 1 below, I've sketched out the characteristics that distinguish a Big Science approach from
+In Table 1 below, I've sketched out the characteristics that I believe distinguish a Big Science approach from
 a Little Science one. Of course, these are somewhat stereotyped. In practice, there is a
 big blurry area between them -- although there's evidence of a
 [long-term drift towards a 'Big Science culture'](https://www.degruyter.com/document/doi/10.7312/pric91844/html?lang=en) 
@@ -122,7 +122,7 @@ for training compute alone.
 At that scale, you need to know it's going in the right direction before you 
 press the start button.
 
-So when we look at organizations like OpenAI, IBM's Watson, DeepMind, and even the likes of MIT's and Stanford's AI work, we can see a Big Science family resemblance. "Foundation models" like GPT-3 and its analogues reflect their origins in Big Science. Stanford's foundation models paper (Bommasani et al., 2021) has 113 authors, and has not even been formally published, yet was widely disseminated through press channels. Even OpenAI's GPT-3 and DeepMind's AlphaFold papers have over
+So when we look at organizations like OpenAI, IBM's Watson, DeepMind, and even the likes of MIT's and Stanford's AI work, we can see a Big Science family resemblance. "Foundation models" like GPT-3 and its analogues reflect their origins in Big Science. Stanford's foundation models paper (Bommasani *et al*., 2021) has 113 authors, and has not even been formally published, yet was widely disseminated through press channels. Even OpenAI's GPT-3 and DeepMind's AlphaFold papers have over
 thirty authors each, and additionally acknowledge many more, including entire teams and communities.
 This is all very typical of Big Science.[^BigScienceAuthors]
 
@@ -147,6 +147,11 @@ put it:
 > separated. Issues of scientific or technical merit tend to get argued in the
 > popular, not the scientific, press" 
 > [(Weinberg, 1961)](https://www.science.org/doi/10.1126/science.134.3473.161). 
+
+"Foundation models" are an excellent example of this effect. In many ways, discussion
+of this method -- and we need to be open about this, it is a methodological shift
+from much previous work -- has had to happen *outside science* because of 
+Bommasani *et al*.'s choice to eschew academic publishing.
 
 Given that the defining features of true Big Science are: collaboration, grand scale, and 
 immense funding, it seems reasonable to assert that, in these organizations at least, 
@@ -200,12 +205,12 @@ These accounts do not mention Kuhn explicitly, and McDermott's cyclical pattern
 doesn't fit Kuhn's model. But, the apparently-permanent shift to machine learning does, and so 
 does Lighthill's commentary. Goldstein's narrative, in particular, is extremely Kuhnian,
 [he even uses the phrase "seismic shift"](https://twitter.com/tomgoldsteincs/status/1484609296004530176?s=20&t=j-CIqbLD_v6_UR-HzJZt8A),
-and he was presenting to the National Science Foundation. And Bommassani et al. (2021),
-defending their "foundation models" do explicitly call them a paradigm shift (from what, they don't say).
+and he was presenting to the National Science Foundation. And Bommassani *et al*. (2021),
+defending "foundation models" do explicitly call them a paradigm shift (although from what, they don't say).
 So I think it is fair to say that the shift from what 
 [John Haugeland (1989) called "Good Old Fashioned AI"](https://direct.mit.edu/books/book/4347/Artificial-IntelligenceThe-Very-Idea)
-(GOFAI)[^GOFAI] to machine learning can be interpreted as a Kuhnian paradigm shift
-across an AI winter.
+(GOFAI)[^GOFAI] to machine learning can be interpreted as a Kuhnian paradigm shift,
+with the AI winter as the outward manifestation of the underlying crisis.
 
 [^GOFAI]:
     Haugeland's term here is a nice label
@@ -234,8 +239,8 @@ So let me tell this as a story about the transformation of artificial intelligen
 
 But let's look at Story 1 in detail. First off, there's a problem with the
 timeline. The second AI Winter peaked around 1990, but the paradigm 
-shift dates to, maybe if we are generous and pin it on the AlexNet paper, around 2012. 
-A gap of twenty two years. That's a long time for a revolution. And we
+shift dates to, maybe if we are generous and pin it on the AlexNet paper (Krizhevsky *et al*., 2012), around 2012. 
+A gap of *twenty two years*. That's a long time for a revolution. And we
 can't claim that machine learning wasn't already around: it was literally driving
 commercial products in the 1990s. The paradigm shift (if such it was) was *not* triggered by the
 crisis, but by something else. So, what did happen in the 2010s that laid
@@ -297,7 +302,7 @@ Artificial intelligence, even GOFAI, was
 [not dead yet](https://memes.getyarn.io/yarn-clip/b0983867-bc6d-4bb8-a89e-1dee600ebbdf/gif). 
 And alongside it there was, in particular, plenty of work in evolutionary computing.
 Early versions of word embeddings 
-[(Deerwester et al.'s 1988 "latent semantic analysis")](https://www.semanticscholar.org/paper/Improving-information-retrieval-using-latent-Deerwester-Dumais/70380dfd9b5e3ea1148471bf7449c1380d62c6d9)
+[(Deerwester *et al*.'s 1988 "latent semantic analysis")](https://www.semanticscholar.org/paper/Improving-information-retrieval-using-latent-Deerwester-Dumais/70380dfd9b5e3ea1148471bf7449c1380d62c6d9)
 were growing, though, because a scientific community could find itself in a position
 where an amendment to research traditions would yield improved understanding. In this case,
 the dominant vector-space model in information retrieval was improved by PCA-based machine
@@ -471,6 +476,15 @@ of a useful method, through what is very likely personal contact at the same
 university department, and some reciprocal exchanges between 
 OpenVIDIA and NVIDIA.
 
+Personally, I love the insights coming from the likes of Collins and Mulkay, 
+looking not at how science *ought to* work, but at how it *does* work, in 
+practice, in the ground. Harry Collins provided some of the most thoughtful and
+valuable commentaries on GOFAI, in 1990's "Artificial Experts", and again on 
+language in AI in 2018's "Artifictional Intelligence" (much of which is directly 
+relevant to large language model work). Both are well worth a read. I truly 
+hope that constructive criticisms like these continue from the social sciences
+as well as within the field. 
+
 ## The alternative: bricolage in science
 
 Not all science is Big Science. Even Weinberg, arguably its biggest advocate, 
@@ -641,11 +655,11 @@ and the creation of the atom bomb.
     institutional/communal structure. Individual ethical frameworks are inevitably
     less significant when dealing with a group. And there are some powerful 
     dynamics, like 
-    ["collective narcissism" (Golec de Zavala et al. 2018)](https://eprints.mdx.ac.uk/4252/1/Golec_collectivenarcissism.pdf), 
+    ["collective narcissism" (Golec de Zavala *et al*. 2018)](https://eprints.mdx.ac.uk/4252/1/Golec_collectivenarcissism.pdf), 
     which can trigger extreme hostility to criticism. 
     I think communal narcissism is one possible reasonable explanation for the 
     utter fiasco of Google's treatment of its own AI ethics people, which was 
-    triggered initially by criticism from within. However, the point is that
+    triggered initially by fair criticism from within (Bender *et al*., 2021). However, the point is that
     as an institutional/communal enterprise, any Big Science introduces psychosocial
     forces which (a) may not be present in Little Science, and (b) may not be
     conducive to *good science*.
@@ -665,9 +679,12 @@ what shapes the "self-driving project", not how a self-driving car should operat
 As [Hardin argues](https://www.pdcnet.org/wcp20/content/wcp20_1999_0001_0231_0246),
 Big Science *needs* external formal ethical regulatory systems and processes in a way that Little 
 Science may not. This is inevitable given the conflicts between organizational
-and institutional interests and scientific goals. 
+and institutional interests and scientific goals. Sadly, for the most part,
+regulation in artificial intelligence is not heading an ideal direction; at present it seems to be 
+grounded primarily in governmental rules. We need *processes*. And we need mechanisms that
+do *not* result in people getting fired for alerting the community to ethical concerns. 
 
-To return to Von Eckhart's model, Big Science's goals will invariably be partly
+To return to Von Eckhart's model, a Big Science's goals will invariably be partly
 be non-scientific, driven by the need for perpetuation of the institution. 
 For example, OpenAI's goal is not (only) pursuit of truth, or building good
 technology, as much as perpetuation of OpenAI itself.
@@ -765,13 +782,18 @@ I am sure Big Science is here to stay. It is too deeply intertwined with
 modern scientific practices to fall away any time soon. But, I hope you will think
 about it, and its effects on the way we work and the way we interact. Big Science
 can make real things which would otherwise be impossible. Large language models
--- for all their inherent problems -- are important to study, and we need to 
+-- for all their inherent problems (Bender *et al*., 2021) -- are vital to study; we need to 
 learn from them, even if we have to remain critical of their many biases and shortcomings.
-But, I hope you will remember that, in practice, Big Science is not enough. We need
-the bricoleurs, we need the Little Scientists, because these are the ones providing
-the pieces for the next groundbreaking changes in our understanding. 
+However, as Weinberg (1961) said, even back then, we do need to distinguish scientific from popular
+commentary, while remembering both have a part to play. The thread from the Big Science
+approach is that it removes entire topics from scientific discourse and plays them out in public alone.
 
-And long live the bricoleurs, may their tinkering be forever rewarding.
+So, I hope you will remember that, in practice, Big Science is not enough. We need
+the bricoleurs, we need the Little Scientists, because these are the ones providing
+the guidance, the reflections, and the pieces for the next groundbreaking changes 
+in our understanding. 
+
+Long live the bricoleurs, may their tinkering be forever rewarding.
 
 * * * 
 
@@ -790,9 +812,13 @@ Baneke, D. (2020). Let’s not talk about science: the normalization of Big Scie
 
 Beck, U. (1992). *Risk Society: towards a new modernity*. London: SAGE Publications.
 
-Bommasani, R., Hudson, D. A., Adeli, E., Altman, R., Arora, S., von Arx, S., et al. (2021). On the opportunities and risks of foundation models. arXiv preprint: http://arxiv.org/abs/2108.07258.
+Bender, E. M., Gebru, T., McMillan-Major, A., & Shmitchell, S. (2021). On the dangers of stochastic parrots: can language models be too big? In the proceedings of the 2021 ACM Conference on Fairness, Accountability, and Transparency (Vol. 1). ACM. 
 
-Collins, H. M. LIGO becomes big science. *Historical Studies in the Physical and Biological Sciences*, **33**(2), 261-297.
+Bommasani, R., Hudson, D. A., Adeli, E., Altman, R., Arora, S., von Arx, S., *et al*. (2021). On the opportunities and risks of foundation models. arXiv preprint: http://arxiv.org/abs/2108.07258.
+
+Collins, H. M. (1990). *Artificial experts*. MIT Press.
+
+Collins, H. M. (2003). LIGO becomes big science. *Historical Studies in the Physical and Biological Sciences*, **33**(2), 261-297.
 
 Coppola, N. W., & Elliot, N. (2005). Big Science or bricolage: an alternative model for research in technical communication. *IEEE Transactions on Professional Communication*, **48**(3), 261–268.
 
@@ -810,6 +836,8 @@ Haugeland, J. (1989). *Artificial intelligence: the very idea*. MIT Press.
 Kahn, M. J. (2016). Big Science, co-publication and collaboration: getting to the core. In the proceedings of the 21st International Conference on Science and Technology Indicators. Valencia, Spain, 653-660.
 
 Kuhn, T. S. (1970). The structure of scientific revolutions (2nd ed.) University of Chicago Press.
+
+Krizhevsky, A., Sutskever, I., & Hinton, G. E. (2012). ImageNet classification with deep convolutional neural networks. *Advances in Neural Information Processing Systems*, **25**.
 
 Lauer, M. S. (2014). Personal reflections on Big Science, Small Science, or the right mix. *Circulation Research*, **114**(7), 1080–1082.
 
