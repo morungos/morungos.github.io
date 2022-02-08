@@ -760,7 +760,7 @@ transdiscipline, this XKCD will continue to apply.
 
 {::options parse_block_html="true" /}
 <figure>
-![Here to Help, by XKCD](https://imgs.xkcd.com/comics/here_to_help.png)
+![Here to Help, by XKCD](https://imgs.xkcd.com/comics/here_to_help.png){:.mw-100}
 <figcaption>
 [Here to Help, by XKCD](https://xkcd.com/1831/)
 </figcaption>
@@ -829,7 +829,7 @@ Deerwester, S., Dumais, S., Landauer, T., Furnas, G., & Beck, L. (1988). Improvi
 Esparza, J., & Yamada, T. (2007). The discovery value of “Big Science” *Journal of Experimental Medicine*, **204**(4), 701–704.
 
 Goldstein, T. (2022). Deep learning needs more science! Or... can deep learning end the AI winter? 
-Presented at NSF CIF Town Hall, January 10 2022. See also: https://twitter.com/tomgoldsteincs/status/1484609296004530176
+Presented at NSF CIF Town Hall, January 10 2022. See also: [his Twitter threads summary](https://twitter.com/tomgoldsteincs/status/1484609296004530176).
 
 Haugeland, J. (1989). *Artificial intelligence: the very idea*. MIT Press.
 
