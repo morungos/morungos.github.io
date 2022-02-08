@@ -808,39 +808,61 @@ _**Disclosure**: I've worked on several Big Science projects, including the
 
 ## References
 
-Baneke, D. (2020). Let’s not talk about science: the normalization of Big Science and the moral economy of modern astronomy. *Science Technology and Human Values*, **45**(1), 164–194.
+Baneke, D. (2020). Let’s not talk about science: the normalization of Big
+Science and the moral economy of modern astronomy. *Science Technology and
+Human Values*, **45**(1), 164–194.
 
-Beck, U. (1992). *Risk Society: towards a new modernity*. London: SAGE Publications.
+Beck, U. (1992). *Risk Society: towards a new modernity*. London: SAGE
+Publications.
 
-Bender, E. M., Gebru, T., McMillan-Major, A., & Shmitchell, S. (2021). On the dangers of stochastic parrots: can language models be too big? In the proceedings of the 2021 ACM Conference on Fairness, Accountability, and Transparency (Vol. 1). ACM. 
+Bender, E. M., Gebru, T., McMillan-Major, A., & Shmitchell, S. (2021). On the
+dangers of stochastic parrots: can language models be too big? In the
+proceedings of the 2021 ACM Conference on Fairness, Accountability, and
+Transparency (Vol. 1). ACM.
 
-Bommasani, R., Hudson, D. A., Adeli, E., Altman, R., Arora, S., von Arx, S., *et al*. (2021). On the opportunities and risks of foundation models. arXiv preprint: http://arxiv.org/abs/2108.07258.
+Bommasani, R., Hudson, D. A., Adeli, E., Altman, R., Arora, S., von Arx, S.,
+*et al*. (2021). On the opportunities and risks of foundation models. arXiv
+preprint: [http://arxiv.org/abs/2108.07258](http://arxiv.org/abs/2108.07258).
 
 Collins, H. M. (1990). *Artificial experts*. MIT Press.
 
-Collins, H. M. (2003). LIGO becomes big science. *Historical Studies in the Physical and Biological Sciences*, **33**(2), 261-297.
+Collins, H. M. (2003). LIGO becomes big science. *Historical Studies in the
+Physical and Biological Sciences*, **33**(2), 261-297.
 
-Coppola, N. W., & Elliot, N. (2005). Big Science or bricolage: an alternative model for research in technical communication. *IEEE Transactions on Professional Communication*, **48**(3), 261–268.
+Coppola, N. W., & Elliot, N. (2005). Big Science or bricolage: an alternative
+model for research in technical communication. *IEEE Transactions on
+Professional Communication*, **48**(3), 261–268.
 
-de Solla Price, D. J. (1986). *Little science, big science... and beyond*. New York: Columbia University Press.
+de Solla Price, D. J. (1986). *Little science, big science... and beyond*. New
+York: Columbia University Press.
 
-Deerwester, S., Dumais, S., Landauer, T., Furnas, G., & Beck, L. (1988). Improving information-retrieval with latent semantic indexing. In the proceedings of the ASIS annual meeting (Vol. 25, pp. 36–40).
+Deerwester, S., Dumais, S., Landauer, T., Furnas, G., & Beck, L. (1988).
+Improving information-retrieval with latent semantic indexing. In the
+proceedings of the ASIS annual meeting (Vol. 25, pp. 36–40).
 
-Esparza, J., & Yamada, T. (2007). The discovery value of “Big Science” *Journal of Experimental Medicine*, **204**(4), 701–704.
+Esparza, J., & Yamada, T. (2007). The discovery value of “Big Science”.
+*Journal of Experimental Medicine*, **204**(4), 701–704.
 
-Goldstein, T. (2022). Deep learning needs more science! Or... can deep learning end the AI winter? 
-Presented at NSF CIF Town Hall, January 10 2022. See also: [his Twitter threads summary](https://twitter.com/tomgoldsteincs/status/1484609296004530176).
+Goldstein, T. (2022). Deep learning needs more science! Or... can deep learning
+end the AI winter? Presented at NSF CIF Town Hall, January 10 2022. See also:
+[his Twitter threads
+summary](https://twitter.com/tomgoldsteincs/status/1484609296004530176).
 
 Haugeland, J. (1989). *Artificial intelligence: the very idea*. MIT Press.
 
-Kahn, M. J. (2016). Big Science, co-publication and collaboration: getting to the core. In the proceedings of the 21st International Conference on Science and Technology Indicators. Valencia, Spain, 653-660.
+Kahn, M. J. (2016). Big Science, co-publication and collaboration: getting to
+the core. In the proceedings of the 21st International Conference on Science
+and Technology Indicators. Valencia, Spain, 653-660.
 
-Kuhn, T. S. (1970). *The structure of scientific revolutions* (2nd ed.) University of Chicago Press.
+Kuhn, T. S. (1970). *The structure of scientific revolutions* (2nd ed.)
+University of Chicago Press.
 
-Krizhevsky, A., Sutskever, I., & Hinton, G. E. (2012). ImageNet classification with deep convolutional neural networks. *Advances in Neural Information Processing Systems*, **25**.
+Krizhevsky, A., Sutskever, I., & Hinton, G. E. (2012). ImageNet classification
+with deep convolutional neural networks. *Advances in Neural Information
+Processing Systems*, **25**.
 
-Lauer, M. S. (2014). Personal reflections on Big Science, Small Science, or the right mix. *Circulation Research*, **114**(7), 1080–1082.
-
+Lauer, M. S. (2014). Personal reflections on Big Science, Small Science, or the
+right mix. *Circulation Research*, **114**(7), 1080–1082.
 Lévi-Strauss, C. (1984). *The savage mind*. Man and World (Vol. 17).
 
 Lighthill, J. (1973). Artificial Intelligence: a general survey.
@@ -849,15 +871,20 @@ McDermott, D., Waldrop, M. M., Chandrasekaran, B., McDermott, J., & Schank, R.
 (1985). The dark ages of AI: a panel discussion at AAAI-84. *AI Magazine*, **6**(3),
 122–122.
 
-Mitchell, M. (2021). Why AI is harder than we think. Proceedings of the Genetic and Evolutionary Computation Conference (GECCO ’21), p3.
+Mitchell, M. (2021). Why AI is harder than we think. Proceedings of the Genetic
+and Evolutionary Computation Conference (GECCO ’21), p3.
 
-Mnih, V. (2009). Cudamat: a CUDA-based matrix class for python. Department of Computer Science, University of Toronto, UTML TR 2009–004.
+Mnih, V. (2009). Cudamat: a CUDA-based matrix class for python. Department of
+Computer Science, University of Toronto, UTML TR 2009–004.
 
-Mulkay, M. J. (1975). Three models of scientific development. *The Sociological Review*, **23**(3), 509–526.
+Mulkay, M. J. (1975). Three models of scientific development. *The Sociological
+Review*, **23**(3), 509–526.
 
-Papert, S. (1993). Rethinking School In The Age Of The Computer. In *The Children’s Machine* (pp. 138–156). 
+Papert, S. (1993). Rethinking School In The Age Of The Computer. In *The
+Children’s Machine* (pp. 138–156).
 
-Scriven, M. (2008). The concept of a transdiscipline: and of evaluation as a transdiscipline. *Journal of MultiDisciplinary Evaluation*, **5**(10), 65–66.
+Scriven, M. (2008). The concept of a transdiscipline: and of evaluation as a
+transdiscipline. *Journal of MultiDisciplinary Evaluation*, **5**(10), 65–66.
 
 Von Eckardt, B. (1992). *What is cognitive science?*, MIT Press.
 
