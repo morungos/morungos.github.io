@@ -515,11 +515,11 @@ confusing for us is that Lévi-Strauss's use of "science" is more of
 an ideal than a reality. If we look at 
 [Goldstein's distinction between "science" and "principled machine learning"](https://twitter.com/tomgoldsteincs/status/1484609273162309634),
 it exactly matches Lévi-Strauss's,
-except that science has reversed its polarity -- Goldstein's science,
+except that science has 'reversed its polarity' -- Goldstein's science,
 and ours, especially Little Science, happen substantially through bricolage -- and
-therefore aligns with science, rather than opposing it in Lévi-Strauss's original usage.
+therefore *align with* science, rather than opposing it in Lévi-Strauss's original usage.
 Instead, I'd contrast bricolage more with engineering, where there is a more
-'principled' construction -- after all contrasting do-it-yourself with engineering
+'principled' construction -- after all, contrasting do-it-yourself with engineering
 does make more sense.
 
 In many ways, it is better to use 
@@ -794,6 +794,13 @@ the guidance, the reflections, and the pieces for the next groundbreaking change
 in our understanding. 
 
 Long live the bricoleurs, may their tinkering be forever rewarding.
+
+* * * 
+
+_**Afterword**: Thank you for reading this far. I'm planning on some more quantitative analysis of work in the field, maybe even
+some qualitative too._
+
+_[If you choose to support me through @buymeacoffee, I'd be both grateful and motivated.](https://www.buymeacoffee.com/morungos)_
 
 * * * 
 
