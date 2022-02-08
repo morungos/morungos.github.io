@@ -104,7 +104,7 @@ that I first thought of:
  * [Alphabet's AI work](https://ai.google/) is perhaps the hardest to classify, because
    there is an interlocking network of semi-autonomous corporations, e.g., DeepMind, and more 
    academic groups, e.g., Google Brain. Also, Google being Google, it is 
-   extremely hard to identify a strategy beyond "let's build stuff and see what sticks".
+   hard to identify a strategy beyond "let's build stuff and see what sticks".
    Those differences aside, it's definitively a Google-ified version of Big Science.
    DeepMind was acquired by Google in 2014, and Google's AI division dates to 2017.
 
@@ -336,9 +336,9 @@ of knowledge could have far-reaching effects on the direction of research.
     *exactly* as the 'AI winter' was hitting its height, between 1990 and 1993. And 
     the central assumption of knowledge management was that *knowledge is expensive*.
     The change in foundational assumptions coincides perfectly with the fall in 
-    expert systems and the right in knowledge management. Also, many of the people 
-    switched from one field to the other. I was one of them! This was, at least 
-    partly, a change in *positioning*. However, it also prepared the ground for 
+    expert systems and the rise in knowledge management. Also, many people 
+    switched from one field to the other (I was one of them!) This was, at least 
+    partly, a change in *positioning*, not a change in direction. However, it also prepared the ground for 
     increased use of machine learning.
 
 Sadly, this doesn't explain everything either. It does account for the early evolution
