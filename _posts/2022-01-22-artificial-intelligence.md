@@ -835,13 +835,13 @@ Haugeland, J. (1989). *Artificial intelligence: the very idea*. MIT Press.
 
 Kahn, M. J. (2016). Big Science, co-publication and collaboration: getting to the core. In the proceedings of the 21st International Conference on Science and Technology Indicators. Valencia, Spain, 653-660.
 
-Kuhn, T. S. (1970). The structure of scientific revolutions (2nd ed.) University of Chicago Press.
+Kuhn, T. S. (1970). *The structure of scientific revolutions* (2nd ed.) University of Chicago Press.
 
 Krizhevsky, A., Sutskever, I., & Hinton, G. E. (2012). ImageNet classification with deep convolutional neural networks. *Advances in Neural Information Processing Systems*, **25**.
 
 Lauer, M. S. (2014). Personal reflections on Big Science, Small Science, or the right mix. *Circulation Research*, **114**(7), 1080–1082.
 
-Lévi-Strauss, C. (1984). The savage mind. Man and World (Vol. 17).
+Lévi-Strauss, C. (1984). *The savage mind*. Man and World (Vol. 17).
 
 Lighthill, J. (1973). Artificial Intelligence: a general survey.
 
