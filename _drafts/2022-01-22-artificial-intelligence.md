@@ -15,7 +15,13 @@ Is it a science, aiming to tackle the big questions about human behaviour
 and experience? Or is it a more practically-oriented engineering 
 discipline, driven to build technology that can transform the world we live in? 
 
-Today, much of modern artificial intelligence looks like Alvin Weinberg's "Big Science" 
+This article will be partly history, partly analysis -- and partly opinion.
+What I intend is that it will outline some of the shifts have happened in
+the way artificial intelligence works today, and how those are influenced by
+our social interactions within the different communities that make up
+artificial intelligence. 
+
+Today, much of modern artificial intelligence looks increasingly like Alvin Weinberg's "Big Science" 
 [(Weinberg, 1961)](https://www.science.org/doi/10.1126/science.134.3473.161). 
 A Big Science follows the pattern of Lawrence's 
 [Berkeley National Laboratory](https://en.wikipedia.org/wiki/Lawrence_Berkeley_National_Laboratory).
@@ -69,8 +75,16 @@ for example, or the creation of collaborative networks.
 **Table 1. Characteristics of Big Science and Little Science**
 {:.text-muted.}
 
+Harry Collins (2003) uses a richer typology, distinguishing "centralized big science"
+from "federal big science", with an overlapping mixed category showing aspects of both.
+It's a fascinating and remarkable history of the evolution of one particular example,
+the Laser Interferometer Gravitational-Wave Observatory (LIGO). I'd very much recommend
+reading it, as a beautiful illustration of how the culture and structure of the organization affects
+the science that is done. Big Science -- however it is done -- transforms the way we 
+work together, and through that, what we do.
+
 Is this happening with artificial intelligence today? I believe so. Many of the
-characteristics in Table 1 are widespread, and there are organizations and initiatives
+characteristics in Table 1 are widespread within our field, and there are organizations and initiatives
 that typify virtually all of them, to the point they are almost exemplary. There are
 quite a few initiatives that appear to the model almost exactly. Here are the ones
 that I first thought of:
@@ -108,9 +122,9 @@ for training compute alone.
 At that scale, you need to know it's going in the right direction before you 
 press the start button.
 
-So when we look at organizations like OpenAI, IBM's Watson, DeepMind, and even the likes of MIT's and Stanford's AI work, we can see a Big Science family resemblance. "Foundation models" like GPT-3 and its analogues reflect their origins in Big Science. For example, OpenAI's GPT-3 and DeepMind's AlphaFold papers have over
-thirty authors each, but also acknowledge many more, including entire teams and communities.
-This is very typical of Big Science.[^BigScienceAuthors]
+So when we look at organizations like OpenAI, IBM's Watson, DeepMind, and even the likes of MIT's and Stanford's AI work, we can see a Big Science family resemblance. "Foundation models" like GPT-3 and its analogues reflect their origins in Big Science. Stanford's foundation models paper (Bommasani et al., 2021) has 113 authors, and has not even been formally published, yet was widely disseminated through press channels. Even OpenAI's GPT-3 and DeepMind's AlphaFold papers have over
+thirty authors each, and additionally acknowledge many more, including entire teams and communities.
+This is all very typical of Big Science.[^BigScienceAuthors]
 
 [^BigScienceAuthors]:
     These author lists are tiny by the scale of some Big Science projects. 
@@ -189,7 +203,7 @@ does Lighthill's commentary. Goldstein's narrative, in particular, is extremely 
 and he was presenting to the National Science Foundation. And Bommassani et al. (2021),
 defending their "foundation models" do explicitly call them a paradigm shift (from what, they don't say).
 So I think it is fair to say that the shift from what 
-[John Haugeland called "Good Old Fashioned AI"](https://direct.mit.edu/books/book/4347/Artificial-IntelligenceThe-Very-Idea)
+[John Haugeland (1989) called "Good Old Fashioned AI"](https://direct.mit.edu/books/book/4347/Artificial-IntelligenceThe-Very-Idea)
 (GOFAI)[^GOFAI] to machine learning can be interpreted as a Kuhnian paradigm shift
 across an AI winter.
 
@@ -209,7 +223,7 @@ deciding whether or not there is a crisis in the first place.
 
 So let me tell this as a story about the transformation of artificial intelligence into a Big Science.
 
-> **Story 1**. After about three decades of research, Good Old Fashioned AI (GOFAI) entered  
+> **Story 1**. After about three decades of research, Good Old Fashioned AI entered  
 > a crisis over the effort involved in building systems. It was simply too expensive to manage the 
 > knowledge. This required a Kuhnian paradigm shift. That shift was towards by a machine-learning-based
 > approach, which overcame the knowledge problem. The new, machine learning paradigm for 
@@ -247,9 +261,12 @@ like Larry Laudan, use more nuanced models.
 
 [Barbara Von Eckardt's excellent "What is Cognitive Science?"](https://mitpress.mit.edu/books/what-cognitive-science) 
 builds on Laudan's work to map out a different model. In this model, sciences are 
-driven by a community following one of several possible research traditions. 
+driven by a community following one of several possible "research traditions". 
 Because a research tradition (which is a set of methods and related assumptions)
-can *evolve*, sciences can progress without going through a crisis. 
+can *evolve*, sciences can progress without going through a crisis. In this sense,
+GOFAI and machine learning are distinct research traditions, different because 
+while their domains may overlap, but their methods and assumptions -- particularly relating to
+curating data and expertise -- are very different.
 
 *[Note: "What is Cognitive Science?" is excellent, but a tough read, because it 
 is extremely precise. Every word matters. I wouldn't recommend it unless 
@@ -272,7 +289,7 @@ Von Eckardt's modified version[^VonEckardt] of Laudan's original structure is as
 
 According to this model, artificial intelligence could accommodate
 multiple communities, using different research traditions, even for the same 
-goal. Machine learning and GOFAI could co-exist, but, for the most part, not
+goal. Machine learning and GOFAI could (and did) co-exist, but, for the most part, not
 within the same scientific community at the same time.
 
 This certainly happened in the interregnum between 1990 and 2010. 
@@ -281,12 +298,15 @@ Artificial intelligence, even GOFAI, was
 And alongside it there was, in particular, plenty of work in evolutionary computing.
 Early versions of word embeddings 
 [(Deerwester et al.'s 1988 "latent semantic analysis")](https://www.semanticscholar.org/paper/Improving-information-retrieval-using-latent-Deerwester-Dumais/70380dfd9b5e3ea1148471bf7449c1380d62c6d9)
-were growing. 
+were growing, though, because a scientific community could find itself in a position
+where an amendment to research traditions would yield improved understanding. In this case,
+the dominant vector-space model in information retrieval was improved by PCA-based machine
+learning techniques.
 
 So let's revise our story.
 
 > **Story 2**. After about three decades of research, the scientific community centred around one 
-> research tradition, Good Old Fashioned AI (GOFAI) hit a problem. The effort involved in building 
+> research tradition, Good Old Fashioned AI hit a problem. The effort involved in building 
 > systems was becoming uneconomic. It was simply too expensive to manage the knowledge. 
 > One of its foundational assumptions, that it was economically viable to capture
 > and use knowledge to build applications, was found to be false. Other research
@@ -361,7 +381,7 @@ differences.
 
 This is a long way from the truth. 
 
-Michael Mulkay (in, 1975,
+Michael Mulkay (in the 1975,
 ["Three Kinds of Scientific Development"](https://journals.sagepub.com/doi/abs/10.1111/j.1467-954X.1975.tb02231.x?journalCode=sora)) extends the Kuhnian model (which he calls the "model of closure")
 by showing that despite the shared identities and methods and assumptions -- on the ground, 
 a science is made up of many smaller communities. Mulkay argues that 
@@ -777,6 +797,8 @@ Collins, H. M. LIGO becomes big science. *Historical Studies in the Physical and
 Coppola, N. W., & Elliot, N. (2005). Big Science or bricolage: an alternative model for research in technical communication. *IEEE Transactions on Professional Communication*, **48**(3), 261–268.
 
 de Solla Price, D. J. (1986). *Little science, big science... and beyond*. New York: Columbia University Press.
+
+Deerwester, S., Dumais, S., Landauer, T., Furnas, G., & Beck, L. (1988). Improving information-retrieval with latent semantic indexing. In the proceedings of the ASIS annual meeting (Vol. 25, pp. 36–40).
 
 Esparza, J., & Yamada, T. (2007). The discovery value of “Big Science” *Journal of Experimental Medicine*, **204**(4), 701–704.
 
