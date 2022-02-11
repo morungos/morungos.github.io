@@ -508,7 +508,7 @@ was introduced as a concept by Claude Lévi-Strauss in
 *The Savage Mind*. He uses it to describe how conceptual structures are
 put together, piece by piece.
 
-Bricolage, put simply, means 'tinkering', playing around, trying
+Bricolage, put simply, means playing around, trying
 ideas, and testing them. It's an effective problem-solving strategy, although
 more so in the absence of guiding knowledge. Engineering, by contrast, 
 is thinks about goals, and means to an end, i.e., using knowledge first.
