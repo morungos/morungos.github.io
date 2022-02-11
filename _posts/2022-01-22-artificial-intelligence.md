@@ -4,10 +4,17 @@ title: 'Artificial intelligence: Big Science, bricolage, and beyond'
 author: Stuart
 background: '/img/posts/complex-clock.jpg'
 summary: |-
-  
+  Does Big Science break the way we collaborate in artificial intelligence? This
+  article argues that yes, it excludes the bricoleurs, the explorers, who are 
+  building the next generation of breakthroughs.
+excerpt: |-
+  Does Big Science break the way we collaborate in artificial intelligence? Yes,
+  it excludes the bricoleurs, the explorers, who are building the next generation of breakthroughs...
 image: '/img/posts/complex-clock.jpg'
 image_description: "A complex fractal clock image"
 ---
+
+_[This article is also available as a PDF](/assets/artificial-intelligence-big-science.pdf)_
 
 Artificial intelligence is a field with an identity crisis. Despite being
 over sixty years old, it is struggling to establish a coherent self-image.
