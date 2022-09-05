@@ -54,6 +54,11 @@ a small language model, to generate made-up Scots proverbs while preserving as m
 possible of their language and rhetorical style, each with an accompanying image, and to 
 tweet them every few hours. 
 
+If you want to take a look, check out [@ScotsProverbBot](https://twitter.com/ScotsProverbBot) on Twitter,
+although it's early days, and the collection will grow over time. It's currently set 
+to tweet out a new proverb every eight hours, starting at noon Edinburgh time 
+(obviouasly).
+
 ## Building a Twitter bot
 
 An intriguing part was building the bot itself with a proper degree of legitimacy. 
