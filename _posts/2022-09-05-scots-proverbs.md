@@ -12,8 +12,9 @@ image_description: "A lovely mountainous landscape in Scotland, crags in front, 
 ---
 
 For quite some time, I've been fascinated by the language of inspirational quotes
-and proverbs.  And so, on a recent trip visiting family, I stumbled on a copy of Alexander Hislop's
-"The Proverbs Of Scotland", a collection of about 4,000 dating from around 1862. 
+and proverbs.  And so, on a recent trip visiting family, I stumbled on a copy of 
+[Alexander Hislop's "The Proverbs Of Scotland"](https://www.gutenberg.org/ebooks/26150), 
+a collection of about 4,000 dating from around 1862. 
 Some of my favourites include:
 
 > “It's a gude warld, but it's ill divided”
@@ -101,11 +102,11 @@ the pure JavaScript ONNX would also have been fine, just a little slower. It's s
 bad, it generates whole proverbs and accompanying rendered images at about 3 per second, and
 since I'm aiming to tweet every eight hours or so, this is fine.
 
-[**Note:** there's also an excellent translator from ONNX to C, which generates straight C 
-code with zero runtime dependencies. I've successfully used this to put this kind of language
-model onto, for example, a Pico 2040 microcontroller. Done naively it is relatively slow, 
-due to emulation of floating point arithmetic, but it works fine. Quantizing for space, 
-and even more for performance, is a future task.]
+[**Note:** [there's also an excellent translator from ONNX to C](https://github.com/kraiskil/onnx2c), 
+which generates straight C code with zero runtime dependencies. I've successfully used this to put this kind of language
+model onto, for example, a Pico RP2040 microcontroller. Done naively it is relatively slow, 
+due to emulation of floating point arithmetic, but it works fine. The model developed for
+proverbs would fit fine in an RP2040 if we wanted to embed it in a physical artifact.]
 
 ## Images
 
@@ -145,10 +146,17 @@ model considerably. I'd love to switch to transformers, but I'm using character 
 models due to the relatively small amount of data, and character transformers aren't 
 the very easiest.
 
+It's also likely that I open up some variation in the designs and layouts
+relatively soon.
+
 ## Follow the account
 
 To keep track, [follow @ScotsProverbBot on Twitter](https://twitter.com/ScotsProverbBot).
+And maybe me, too, [I'm @morungos on Twitter](https://twitter.com/morungos).
 
-_**Afterword**: Thank you for reading. 
+### Afterword
+
+Thank you for reading. And I hope you enjoy it, and want to find out a little more 
+about the Scots language.
 
 _[If you choose to support me through @buymeacoffee, I'd be grateful, happy, and caffeinated.](https://www.buymeacoffee.com/morungos)_
