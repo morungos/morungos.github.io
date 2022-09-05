@@ -136,6 +136,15 @@ the best, but to be sure we don't break any rules with anything too naughty.
 
 !["He wha was better than my shoon than a cow o’ your meat"](/img/posts/5ada0cc1c48581a1192a74b83a261e0fa5d51b09.jpeg){: .w-100 }
 
+## Future plans
+
+Apple TV version anyone? 
+
+Other than that, there's plenty of opportunity to improve the training data and the 
+model considerably. I'd love to switch to transformers, but I'm using character level
+models due to the relatively small amount of data, and character transformers aren't 
+the very easiest.
+
 ## Follow the account
 
 To keep track, [follow @ScotsProverbBot on Twitter](https://twitter.com/ScotsProverbBot).
