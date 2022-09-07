@@ -47,7 +47,7 @@ So I wanted to achieve a few things:
 1. An artifact that celebrates the Scots language
 2. Playfully exploring the 'sound' of a language and how it interacts with rhetoric
 3. A demonstration of the [Slow AI](/2021/05/08/slow-ai/) approach
-4. Homage to my ancestral roots 
+4. A small homage to my ancestral roots in Aberdeenshire
 
 So, in this small project, I wanted to build a small Twitter bot using artificial intelligence, and specifically
 a small language model, to generate made-up Scots proverbs while preserving as much as
