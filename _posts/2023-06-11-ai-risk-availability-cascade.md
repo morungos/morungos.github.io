@@ -125,7 +125,7 @@ has already been successful enough to do significant damage to regulation that w
 intended, not only through pointless and expensive regulation that won't deal
 with the real risks, but also through reputational harms meted out -- and which
 continue to be meted out -- to those
-who haven't endorsed the existential risk perspective].
+who haven't endorsed the existential risk perspective.
 
 ## Further reading
 
