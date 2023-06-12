@@ -137,3 +137,7 @@ Kahneman, D. (2011). *Thinking, Fast and Slow*. Macmillan.
 
 Slovic, P., Fischhoff, B., & Lichtenstein, S. (1982). Facts versus fears: Understanding perceived risk.
 In  *Judgment under uncertainty: heuristics and biases*, eds. Kahneman, D., Slovic, P., & Tversky, A. Cambridge University Press.
+
+<hr>
+
+Image: copyright © 2022 Stuart Watt. All rights reserved.
