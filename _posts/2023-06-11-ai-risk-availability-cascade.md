@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'The AI existential risk availability cascade'
+title: 'Something must be done about AI: availability cascades and existential risk'
 author: Stuart
 background: '/img/posts/IMG_6794.jpeg'
 summary: |-
