@@ -104,7 +104,7 @@ our human lapses in logic and reason. There is no eternal truth to seek — all 
 matters is evolutionary survival against the risks of our own creations. 
 Frankly, it’s a bit of a mess, if you think about it as a philosophical position. 
 
-## Rationalism as a political agenda
+## Rationalism as a political project
 
 Of course, Silicon Valley Rationalism isn’t a philosophical position at all — it’s a political one. Its 
 goal is to shape policy, for people, for corporations, and for governments. That's
@@ -143,7 +143,8 @@ Oakeshott's essay is worth quoting in depth.
 > deplorable consequences of his success." (Ibid, p35-36)
 
 As political rationalism, Yudkowsky’s Rationalist project makes more sense, even 
-if it is far less appealing. Truth is irrelevant — instead, we have engineering 
+if it is far less appealing. Personally, I'd call it repugnant. 
+Truth is irrelevant — instead, we have engineering 
 applied to politics. A vision of a society run by the geeks, because they -- and only they -- are 
 the ones who have the sophisticated reasoning abilities to 'do the right thing'. The tragedy 
 of naive realism is that their belief in their superior assessments is simply 
