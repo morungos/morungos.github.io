@@ -140,4 +140,4 @@ In  *Judgment under uncertainty: heuristics and biases*, eds. Kahneman, D., Slov
 
 <hr>
 
-Image: copyright © 2022 Stuart Watt. All rights reserved.
+Image: copyright © 2023 Stuart Watt. All rights reserved.
