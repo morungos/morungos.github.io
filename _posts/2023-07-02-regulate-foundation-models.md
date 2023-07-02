@@ -146,3 +146,7 @@ very much like drivers are licensed for particular classes of vehicle. Or, alter
 they need to remove the protections of liability-shedding terms and conditions from
 foundation model vendors, so that application
 developers are not hung out to dry for any latent harms rooted in the foundation models they use.
+
+<hr>
+
+[Image used under Creative Commons License: Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)](http://pngimg.com/image/4275)
