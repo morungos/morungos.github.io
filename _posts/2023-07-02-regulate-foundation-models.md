@@ -30,7 +30,7 @@ model versions, removed from automatic regulation.
 
 In other words, when developing a high-risk application such as one in hiring decisions, 
 the liabilities are entirely placed on the application developer, and 
-OpenAI escapes through it's usual [Limitations of Liability](https://openai.com/policies/terms-of-use). 
+OpenAI escapes through its usual [Limitations of Liability](https://openai.com/policies/terms-of-use). 
 The application developer's liability may be at least tens of millions, where OpenAI 
 caps their liability at $100.
 
@@ -46,7 +46,7 @@ application developers to assume the whole risk of foundation models?
 
 Yes, there is. The reason can be found in 
 [James Reason and his team's work on accident causation](http://rstb.royalsocietypublishing.org/cgi/doi/10.1098/rstb.1990.0090) 
-at the University of Manchester. The best-known desacription of this is the ubiquitous "Swiss Cheese Model".
+at the University of Manchester. The best-known description of this is the ubiquitous "Swiss Cheese Model".
 
 Reason's model describes a system as if it is a stack of slices of Swiss cheese. Each 
 layer has some holes in it. One layer, obviously, has complete holes, so risks can 
@@ -60,7 +60,7 @@ protection combined together can create a "strength in depth" effective barrier 
 shown in Figure 1 below. In this figure, I've shown the foundation model as a kind of sandwich between
 application layers. After all, the application will handle some risks. It should
 attempt to detect and resolve as many risks as possible early, and to manage some failures from the
-model itself. And with decent testing, it may do a decent job for for many cases.
+model itself. And with decent testing, it may do a decent job for many cases.
 
 <figure class="figure w-100" style="text-align: center">
   <img class="img-fluid" src="/img/posts/swiss-cheese-model.png" style="width: 400px;"
