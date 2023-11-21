@@ -1,5 +1,5 @@
 title:              Morungos
-email:              stuart@morungos.com
+email:              morungos@gmail.com
 description:        ""
 author:             Stuart Watt
 baseurl:            ""
@@ -8,7 +8,7 @@ url:                "https://morungos.com"
 permalink:          pretty
 
 # Social Profiles
-twitter_username:   morungos
+twitter_username:
 mastodon_username:  morungos
 github_username:    morungos
 facebook_username:  
