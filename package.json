@@ -1,7 +1,7 @@
 {
     "title": "Morungos Blog Jekyll",
     "name": "morungos-blog-jekyll",
-    "version": "4.0.10",
+    "version": "5.0.0",
     "description": "Morungos Blog on Jekyll.",
     "keywords": [],
     "homepage": "https://morungos.github.io",
@@ -21,14 +21,12 @@
         "serve-drafts": "bundle exec jekyll serve --drafts"
     },
     "dependencies": {
-        "bootstrap": "4.5.0",
-        "font-awesome": "4.7.0",
-        "jquery": "3.5.1",
-        "startbootstrap-clean-blog": "5.0.9"
+        "@popperjs/core": "2.11.8",
+        "bootstrap": "5.3.2",
+        "font-awesome": "4.7.0"
     },
     "devDependencies": {
         "browser-sync": "2.26.14",
-        "gulp": "4.0.2",
         "xmlhttprequest-ssl": ">=1.6.2"
     }
 }

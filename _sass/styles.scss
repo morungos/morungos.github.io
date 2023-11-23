@@ -1,5 +1,37 @@
-// Import Core Clean Blog SCSS
-@import "../assets/vendor/startbootstrap-clean-blog/scss/clean-blog.scss";
+body {
+  color: #212529;
+  font-family: 'Lora', 'Times New Roman', serif;
+  font-size: 1.1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: left;
+}
+  
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 800;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  background-color: transparent;
+  color: #212529;
+}
+
+p {
+  line-height: 1.5;
+  margin: 30px 0;
+}
+
+p, ul, ol, dl {
+  a {
+    text-decoration: underline;
+  }
+}
+
+a:focus, a:hover {
+  color: #0085A1;
+}
 
 .about-image {
   width: 150px;
@@ -18,4 +50,200 @@
 blockquote {
   margin: 0 2rem 1rem;
   color: #565e66;
+}
+
+header.masthead {
+  margin-bottom: 50px;
+  background: no-repeat center center;
+  background-color: #868e96;
+  background-attachment: scroll;
+  position: relative;
+  background-size: cover;
+
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #212529;
+    opacity: 0.5;
+  }
+
+  .page-heading, .site-heading {
+    text-align: center;
+
+    h1 {
+      font-size: 32px;
+      margin-top: 0;
+      color: white; 
+    }
+  }
+
+  .page-heading, .site-heading, .post-heading {
+    position: relative;
+    padding: 110px 0 50px;
+    color: white;
+  }
+
+  .post-heading {
+    h1 {
+      font-size: 35px;
+    }
+  }
+
+  .post-heading .meta {
+    font-size: 18px;
+    font-weight: 300;
+    font-style: italic;
+    font-family: 'Lora', 'Times New Roman', serif;
+
+    a {
+      color: #fff;
+    }
+  }
+
+  .container {
+    max-width: 960px;
+  }
+}
+
+.post-preview > a {
+
+  color: #212529;
+
+  & > .post-title {
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+}
+
+.post-preview > a > .post-subtitle {
+  font-size: 18px;
+  font-weight: 300;
+  margin: 0 0 10px;
+}
+
+.post-preview > .post-meta {
+  font-size: 18px;
+  font-style: italic;
+  margin-top: 0;
+  color: #868e96;
+}
+
+footer .copyright {
+  font-size: 14px;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+#mainNav {
+  position: absolute;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  background-color: white;
+  border-bottom: 1px solid #e9ecef;
+
+  .navbar-brand {
+    font-weight: 800;
+    color: #212529;
+    &:focus, &:hover {
+      color: #0085A1;
+    }
+  }
+
+  .navbar-nav > li.nav-item > a.nav-link {
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 10px 20px 10px 0px;
+    color: #212529;
+    &:focus, &:hover {
+      color: #0085A1;
+    }
+  }
+
+  .container {
+    max-width: 960px;
+  }
+}
+
+.fixed-top {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+
+.container.page-body-container {
+  max-width: 960px;
+}
+
+@media only screen and (min-width: 992px) {
+  #mainNav {
+    border-bottom: 1px solid transparent;
+    background-color: transparent;
+    transition: background-color 0.2s;
+    transform: translate3d(0, 0, 0);
+
+    .navbar-brand {
+      padding: 10px 20px;
+    }
+
+    .navbar-brand, .navbar-brand:focus, .navbar-brand:hover {
+      color: rgba(255,255,255,0.9);
+    }
+
+    .nav-link {
+      color: rgba(255,255,255,0.9);
+      padding-left: 0;
+    }
+
+    .navbar-nav > li.nav-item > a.nav-link {
+      padding-left: 20px;
+      color: rgba(255,255,255,0.9);
+      &:focus, &:hover {
+        color: rgba(255,255,255,0.9);
+      }
+    }
+
+    &.is-fixed {
+      position: fixed;
+      top: -75px;
+      transition: transform 0.2s;
+      border-bottom: 1px solid #fff;
+      background-color: rgba(255,255,255,0.9);
+
+      .navbar-brand {
+        color: #212529;
+        &:focus, &:hover {
+          color: #0085A1;
+        }
+      }
+
+      .navbar-nav > li.nav-item > a {
+        color: #212529;
+        &:focus, &:hover {
+          color: #0085A1;
+        }
+      }
+    }
+
+    &.is-visible {
+      transform: translate3d(0, 100%, 0);
+    }
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  header.masthead .page-heading, header.masthead .post-heading, header.masthead .site-heading {
+    padding: 110px 0 70px;
+
+    h1 {
+      font-size: 48px;
+      margin-top: 20px;      
+    }
+  }
 }
