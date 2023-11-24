@@ -16,6 +16,7 @@ a {
   text-decoration: none;
   background-color: transparent;
   color: #212529;
+  transition: all 0.2s;
 }
 
 p {
@@ -108,6 +109,14 @@ header.masthead {
   }
 }
 
+.container.page-body-container {
+  max-width: 960px;
+}
+
+.container.footer-container {
+  max-width: 960px;
+}
+
 .post-preview > a {
 
   color: #212529;
@@ -189,23 +198,27 @@ footer .copyright {
     transform: translate3d(0, 0, 0);
 
     .navbar-brand {
-      padding: 10px 20px;
+      padding: 10px 20px 10px 0px;
     }
 
-    .navbar-brand, .navbar-brand:focus, .navbar-brand:hover {
-      color: rgba(255,255,255,0.9);
+    .navbar-brand {
+      color: #fff;
+    }
+
+    .navbar-brand:focus, .navbar-brand:hover {
+      color: rgba(255,255,255,0.8);
     }
 
     .nav-link {
-      color: rgba(255,255,255,0.9);
+      color: #fff;
       padding-left: 0;
     }
 
     .navbar-nav > li.nav-item > a.nav-link {
       padding-left: 20px;
-      color: rgba(255,255,255,0.9);
+      color: #fff;
       &:focus, &:hover {
-        color: rgba(255,255,255,0.9);
+        color: rgba(255,255,255,0.8);
       }
     }
 
@@ -214,7 +227,7 @@ footer .copyright {
       top: -75px;
       transition: transform 0.2s;
       border-bottom: 1px solid #fff;
-      background-color: rgba(255,255,255,0.9);
+      background-color: rgba(255,255,255,0.8);
 
       .navbar-brand {
         color: #212529;
