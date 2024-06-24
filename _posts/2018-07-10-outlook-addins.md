@@ -3,6 +3,8 @@ layout: post
 title: Outlook add-ins on the Mac
 author: Stuart
 ## background: '/img/posts/01.jpg'
+tagline: |-
+  Actually running an add-in for Outlook on a Mac is no small challenge
 ---
 
 One of our projects at [Turalt](https://turalt.com) involves an add-in component for Outlook, 

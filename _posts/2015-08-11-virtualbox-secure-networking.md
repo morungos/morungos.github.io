@@ -2,6 +2,10 @@
 layout: post
 title: Virtualbox secure networking
 author: Stuart
+tagline: |-
+  Yes, you too can lock down the networking
+  system for a virtual machine so that a VM can't bypass the host's firewall, but
+  you'll need to remove this component to do it
 ---
 
 A work challenge that came up today is: is it possible to lock down the networking

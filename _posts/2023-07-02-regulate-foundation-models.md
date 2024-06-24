@@ -7,8 +7,10 @@ summary: |-
   A blog post on the problems of regulating foundation
   models, based on Reason's "swiss cheese model"
   of accident causation.
-excerpt: |-
-  
+tagline: |-
+  Has OpenAI has consciously planned
+  its go-to-market strategy as a means to offload risks onto 
+  developers?
 image: '/img/posts/cheese_PNG7.png'
 image_description: "Slices of Swiss cheese"
 ---

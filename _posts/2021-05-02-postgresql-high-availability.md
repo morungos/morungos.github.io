@@ -6,6 +6,9 @@ background: '/img/posts/oakwood-station-construction.jpg'
 summary: |-
   We've updated our server platform to make it smaller,
   simpler, and easier to manage -- and save us money. This is how we did it.
+tagline: |-
+  We've updated our server platform to make it smaller,
+  simpler, and easier to manage -- and save us money. This is how we did it.
 image: '/img/posts/oakwood-station-construction.jpg'
 image_description: 'Construction cranes at Oakwood station on the new Eglinton line'
 ---

@@ -7,6 +7,10 @@ summary: |-
   A short blog post on the "existential risk" concern in artificial 
   intelligence, and why it is best understood as an availability
   cascade, as described by Timur Kuran and Cass Sunstein. 
+tagline: |-
+  "Existential risk" in artificial intelligence is an exemplary example of
+  an availability cascade, a special kind of viral phenomenon driven by strategic 
+  manipulation, and with a real risk of pointless and expensive regulation.
 excerpt: |-
   
 image: '/img/posts/IMG_6794.jpeg'

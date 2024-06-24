@@ -7,9 +7,9 @@ summary: |-
   Does Big Science break the way we collaborate in artificial intelligence? This
   article argues that yes, it excludes the bricoleurs, the explorers, who are 
   building the next generation of breakthroughs.
-excerpt: |-
+tagline: |-
   Does Big Science break the way we collaborate in artificial intelligence? Yes,
-  it excludes the bricoleurs, the explorers, who are building the next generation of breakthroughs...
+  it excludes the bricoleurs, the explorers, who are building the next generation of breakthroughs
 image: '/img/posts/complex-clock.jpg'
 image_description: "A complex fractal clock image"
 ---

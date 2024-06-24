@@ -8,14 +8,15 @@ summary: |-
   treating discovery very differently from creation, but both within
   a framework for economic democracy, as a way to escape the monopolization
   of intellectual property by the rich and powerful.
-excerpt: |-
-  
+tagline: |-
+  Is the concept of intellectual property implicitly forcing us to apply a feudal
+  style of ownership to ideas? And if so, what does this mean for society and the
+  greater good?
 image: '/img/posts/Reeve_and_Serfs.jpg'
 image_description: |-
   Medieval illustration of men harvesting wheat with reaping-hooks
   or sickles, on a calendar page for August. Queen Mary's Psalter 
   (Ms. Royal 2. B. VII), fol. 78v
-
 ---
 
 **Is the concept of intellectual property implicitly forcing us to apply a *feudal*

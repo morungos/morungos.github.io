@@ -2,6 +2,8 @@
 layout: post
 title: Stack ranking and Campbell's Law
 author: Stuart
+tagline: |-
+  Stack ranking is basically evil -- don't do it
 ---
 
 A friend of mine tweeted this today.
@@ -13,7 +15,7 @@ And I have to agree on the basic sentiment. The idea of software that "promises 
 review into a daily event" is enough to strike fear into the average -- and even the exceptional --
 employee.
 
-I've experienced it at a previous employer too. It wsn't even official there, it was just that
+I've experienced it at a previous employer too. It wan't even official there, it was just that
 the employer was sufficiently short of salary funding that their existing reward policy
 became quota-restricted to the point where it became a de facto equivalent.
 

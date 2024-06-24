@@ -3,6 +3,8 @@ layout: post
 title: Welcome to Halifax
 author: Stuart
 background: '/img/posts/kearney-lake.jpg'
+tagline: |-
+  Hey, I moved to Nova Scotia
 ---
 
 After a long year of working on the porch in Toronto, I moved to 

@@ -6,6 +6,9 @@ background: '/img/posts/monopoly-2636268_1920.jpg'
 summary: |-
   A short article on the fear business around artificial intelligence
   and AGI, with significant underpinnings from Ulrich Beck's "risk society" theory
+tagline: |-
+  There's a "fear business" driving much of today's artificial intelligence,
+  which is worth exploring through the theory of Ulrich Beck's "risk society"
 excerpt: |-
   
 image: '/img/posts/monopoly-2636268_1920.jpg'

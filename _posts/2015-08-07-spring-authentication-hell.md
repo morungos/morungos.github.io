@@ -2,6 +2,9 @@
 layout: post
 title: Spring authentication hell
 author: Stuart
+tagline: |-
+  Authentication can be the very worst, especially when you are using
+  OpenID Connect with Active Directory
 ---
 
 Don't get me wrong, I love the Spring framework.

@@ -8,8 +8,9 @@ summary: |-
   rationalism not a philosophical rationalism, and why that is
   a horrid prospect in reality, drawn largely from Michael
   Oakeshott's Rationalism in Politics.
-excerpt: |-
-  
+tagline: |-
+  Rationalism today, at least in Silicon Valley, is not your grandmother's 
+  rationalism.
 image: '/img/posts/negative0304.jpg'
 image_description: "Figure walking under double rainbow"
 ---

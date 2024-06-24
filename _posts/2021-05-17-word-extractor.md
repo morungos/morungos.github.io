@@ -7,6 +7,10 @@ summary: |-
   Announcing a major update to my Node.js module which extracts text
   from Word files. This new version also extracts text from newer "docx"
   format files.
+tagline: |-
+  Announcing a major update to my Node.js module which extracts text
+  from Word files. This new version also extracts text from newer "docx"
+  format files.
 image: '/img/posts/emigrant.jpg'
 image_description: "The Emigrant by Armando Barbon, Port of Halifax, Nova Scotia"
 excerpt_separator: "<!-- more -->"

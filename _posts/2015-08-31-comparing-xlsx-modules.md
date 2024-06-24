@@ -2,6 +2,9 @@
 layout: post
 title: Comparison of XLSX modules for Perl
 author: Stuart
+tagline: |-
+  Some experiences mapping out which of the many possible Perl 
+  modules for Excel are best.
 ---
 
 Excel is still one of the most common tools in science, so I'm routinely working

@@ -3,6 +3,9 @@ layout: post
 title: A story about data manipulation in science
 draft: true
 author: Stuart
+tagline: |-
+  A short story about the distinction between cherry-picking data and
+  removing bad data
 ---
 
 Science is having an interesting time of it recently, as it comes under
