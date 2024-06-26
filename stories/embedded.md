@@ -25,6 +25,28 @@ quotes in an e-ink display, using a couple of small language models.
     </figcaption>
 </figure>
 
+## Why inspirational quotes?
+
+The nice thing about inspirational quotes is that they have a definite
+structure. They have a rhetorical aspect to them which simple sentences do not.
+I've long been fascinated by the structural and rhetorical aspects of language
+and I wanted to see how well a small language model might pick up on them.
+
+The other nice thing about inspirational quotes is that much of their impact 
+depends on the reader's projection. We can, and do, read much more meaning into
+them than might really be there. So, even a bad inspirational quite -- so long
+as it has the right rhetorical structure -- might work. 
+
+For example, think about this typical example:
+
+> "If you cannot do great things, do small things in a great way” -- Napoleon Hill
+
+See that it has several repetitions ("things", "great") and that it opposes
+"small" and "great". Repetitions and oppositions like this are extremely common
+in inspirational quotes. Of course, there are quite a few other patterns too. I
+wanted to see if a language model might learn these and similar patterns, and
+then abuse them in a way that reveals how much of what happens when we read
+these is rhetorical rather than semantic.
 
 ## The hardware
 
@@ -70,7 +92,7 @@ memory.
 The simplest solution involved the following steps:
 
 1. Train the model, verify it, and save
-2. Convert the model to ONNX
+2. Convert the model to [ONNX](https://onnx.ai)
 3. Convert the ONNX model to pure C code
 4. Link and compile with a basic C driver to generate quotes
 5. Link with the rendering code to drive the e-ink display

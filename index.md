@@ -29,7 +29,7 @@ team that creates an effective and successful product."
 
 * [Syllabus -- constraint satisfaction for timetabling](/stories/syllabus)
 * [AI and technology for assessment in higher education](/stories/assessment)
-* [cBioPortal and Heliotrope -- translational genomics in the clinic](stories/translational)
+* [Heliotrope and cBioPortal -- translational genomics in the clinic](stories/translational)
 * [Tiny embedded language models](/stories/embedded)
 
 <hr class="separator">
