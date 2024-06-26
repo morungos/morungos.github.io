@@ -15,7 +15,8 @@ h1, h2, h3, h4, h5, h6 {
 a {
   text-decoration: none;
   background-color: transparent;
-  color: #212529;
+  text-decoration: none;
+  color: #944444;
   transition: all 0.2s;
 }
 
@@ -40,6 +41,10 @@ a:focus, a:hover {
   p {
     margin: 12px 0;
   }
+}
+
+hr.separator {
+  margin-top: 64px;
 }
 
 blockquote {
@@ -111,24 +116,24 @@ header.masthead {
   max-width: 960px;
 }
 
-.post-preview > a {
+.post-preview {
 
   color: #212529;
 
-  & > .post-title {
-    font-size: 30px;
+  & .post-title {
+    font-size: 24px;
     margin-top: 30px;
     margin-bottom: 10px;
   }
 }
 
-.post-preview > a > .post-subtitle {
+.post-preview .post-subtitle {
   font-size: 18px;
   font-weight: 300;
   margin: 0 0 10px;
 }
 
-.post-preview > .post-meta {
+.post-preview .post-meta {
   font-size: 18px;
   font-style: italic;
   margin-top: 0;
