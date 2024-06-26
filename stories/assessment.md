@@ -7,6 +7,25 @@ background: '/img/bg-about.jpg'
 When I worked in academia, one of the areas I was early involved with
 was using artificial intelligence in assessment. 
 
+My first encounter with this was thanks to one of our senior managers, 
+who asked me to look into the automated essay grading technology of the 
+time, and particularly ETS's work on e-rater, and its basis in latent semantic 
+analysis.
+
+In parallel with this, I'd had a very long involvement with automated surveying.
+I started using web based surveying almost as soon as forms were included in 
+HTML, back in the early days of HTML, while Netscape Navigator was the new kid
+on the block. The only way to capture data then was through CGI scripts, but
+all they really needed to do was append data to a big text file, and that was
+enough to make data recording from surveys work well. The web was still very
+new then, so this was novel enough that response rates were very high.
+
+We used this for a few different projects, but the real advantage was in 
+evaluation, especially where I worked at the UK's Open University. Course evaluation
+there was a big deal -- there was a decent-sized team of full-time staff, and a
+full evaluation cycle took a matter of months to collect the data, analyze it,
+generate the reports, and send them for review.
+
 ## Annotated bibliography
 
 An analysis of the language of feedback, using an interaction model. The short
