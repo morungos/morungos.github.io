@@ -141,3 +141,31 @@ ONNX well enough to get good quotes.
     </figcaption>
 </figure>
 
+## Gotchas
+
+There are a few challenges with a character-based model.
+It is capable of inventing words, for example, so even when
+a given word isn't present anywhere in the training set,
+it may still show up in output. In fact, there are a few
+generation parameters that influence this:
+
+- Temperature: this affects the sharpness of the distribution
+  of next token choice; with a high temperature, less likely 
+  tokens are more likely, but with a low temperature, the text
+  is (small 'c') conservative, and more 'typical' next tokens 
+  are preferred.
+- 'Top *p*': this sets a cutoff for unlikely next tokens,
+  allowing very unlikely next tokens to be prevented. For
+  example, 's' is rarely followed by 'v', so with a decent 
+  cutoff this never happens, helping generated text avoid 
+  unpredictable contexts. 
+- 'Top *k*': another kind of cutoff for next tokens is simply
+  to limit the number of candidate tokens at any step. If
+  only 20 tokens are permitted, at any step, only one of the
+  most likely 20 next tokens will be generated. Again, this 
+  helps prevent generation getting bogged down. 
+
+Getting these right can take a little trial and error, but
+fortunately these aren't used during model training, so you 
+can always experiment with your better models.
+
