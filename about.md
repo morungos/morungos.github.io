@@ -53,6 +53,7 @@ creative arts, and from technology services to education.
 - Testing: Jest. CUnit, JUnit, etc., Puppeteer
 - Databases: MySQL/MariaDB, PostgreSQL, MS SQL, MongoDB, Redis, SQLite
 - Deployment and infrastructure: Ansible, Linux administration
+- Embedded: basic circuit design and building, microcontrollers
 - Statistics: R, SPSS
 - Networking: socket-level programming, firewalls, routers
 - Selected libraries, coding for: ONNX, ffmpeg and gstreamer, OpenCV
