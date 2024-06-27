@@ -142,6 +142,30 @@ ONNX well enough to get good quotes.
     </figcaption>
 </figure>
 
+## Scots Proverbs
+
+I built a second, more recent, version of this in my [Random Scots
+Proverbs](https://bsky.app/profile/scotsproverbsbot.bsky.social) bot, initially
+on Twitter, but since I have bailed on Twitter, I moved it to Bluesky -- which
+was surprisingly much simpler, with fewer API shenanigans.
+
+This bot posts images a few times a day, integrating the generated proverbs into
+images, adding an `alt` tag, and posting. All is done using public domain
+sources for the original proverbs, and my personal photographs as the
+backgrounds, so it is copyright safe. ([*For more information on this project
+and the process I used, read this
+article*](/2022/09/05/scots-proverbs/))
+
+<figure class="figure">
+  <img class="img-fluid" src="/img/pages/scots-proverb-1.png" 
+       alt="AI generated Scots proverb against a moody mountainside loch with low cloud. “The wird o’ the hand is worth a bind o’ the wind”">
+    <figcaption class="figure-caption">
+    An automatically generated random Scots proverb, generated using another
+    tiny embedded language model. The background image is from my personal 
+    photo collection.
+    </figcaption>
+</figure>
+
 ## Gotchas
 
 There are a few challenges with a character-based model. It is capable of
