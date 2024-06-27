@@ -18,9 +18,9 @@ commercially-successful products in fields ranging from scheduling to
 application development to clinical decision-support. 
 {:.mt-0}
 
-Stuart is a skilled mentor and communicator with experience
-leading both research and development teams. He particularly enjoys empowering a
-team with new skills. His breadth of technical expertise ranges from artificial
+Stuart is a skilled mentor and communicator with experience leading both
+research and development teams. He particularly enjoys empowering a team with
+new skills. His breadth of technical expertise ranges from artificial
 intelligence to the web, from databases to interfaces, from embedded systems to
 browser extensions, using tools ranging from JavaScript to Java, from Python to
 C, and from R to assembler. 
@@ -49,6 +49,7 @@ creative arts, and from technology services to education.
 - Front end: HTML, JavaScript/TypeScript, React, Svelte, Angular
 - Server-side: Express, Laravel, ASP/JSP, Spring, Restlet
 - Coding: JavaScript/TypeScript, C/C++, Java, Scala, PHP, Python, Elixir, Perl, Common Lisp
+- Native interfaces: Visual Basic, React Native, NativeScript, Cordova
 - Testing: Jest. CUnit, JUnit, etc., Puppeteer
 - Databases: MySQL/MariaDB, PostgreSQL, MS SQL, MongoDB, Redis, SQLite
 - Deployment and infrastructure: Ansible, Linux administration

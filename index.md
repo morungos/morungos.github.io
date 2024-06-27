@@ -31,6 +31,7 @@ team that creates an effective and successful product."
 * [AI and technology for assessment in higher education](/stories/assessment)
 * [Heliotrope and cBioPortal -- translational genomics in the clinic](stories/translational)
 * [Tiny embedded language models](/stories/embedded)
+* [Hank: a novel visual modelling language](/stories/hank)
 
 <hr class="separator">
 
