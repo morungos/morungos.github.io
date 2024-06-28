@@ -124,6 +124,10 @@ because there really isn't the room in our models. This is one of the advantages
 in having a known target device with a limited capacity -- we can't have models
 that are too large.
 
+
+For more information on some of this, [I wrote a blog post looking in more
+detail at the effects of some of these parameters](/2022/01/09/language-model-bias/).
+
 I'd love to have a slightly better architecture too -- transformers are definitely
 better, but character-level transformers are not trivial. 
 
