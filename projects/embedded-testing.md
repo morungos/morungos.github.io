@@ -7,9 +7,9 @@ author: Stuart
 ## Overview
 
 This is a more technical account of the embedded small language model
-work that [I have described here](/stories/embedded.md), to help me 
+work that [I have described here](/stories/embedded), to help me 
 cover the testing aspects for WAIT 3. That earlier page is worth a
-read, as is [this video of the built hardware](/projects/quotes.md).
+read, as is [this video of the built hardware](/projects/quotes).
 
 In the rest of this account, I'll go through the main steps.
 
