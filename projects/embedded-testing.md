@@ -68,15 +68,22 @@ person, so I tend to think about the whole process of getting a model that's
 good enough through language that might be unusual for testing. Anyway, here
 goes.
 
-First off, a model is a *model*. It will never be perfect, but that doesn't 
+First off, a model is a *model*. It will never be perfect, but that doesn't
 necessarily matter. What we want here is something that captures the rhetorical
-and cultural flavour of quotes. So bias and oddity is complete okay, welcome in
-fact. There's a strong satirical aspect to this project, so magnifying those biases
-is not necessarily an issue. So, if I was trying to generate names for other purposes,
-I would definitely aim to reduce gender and cultural biases. Here, not so much. 
+and cultural feeling of quotes. So bias and oddity is completely okay, welcome
+in fact. There's a satirical flavour to this project, so magnifying those biases
+is not necessarily an issue. So, if I was trying to generate names for other
+purposes, I would definitely aim to reduce gender and cultural biases. Here, not
+so much. So, we can get a generated quote that reads:
 
-In other words, most of what I want is prima facie validity -- do these names look
-valid?
+> "Seek the truth in an error that we often weak success"
+
+It is meaningless garbage, but we still try to make sense of it.
+
+In other words, most of what I want is prima facie validity -- do these names.
+or the quotes, look valid? Have they got the right vibe? I was actually more
+interested in the superficial than the deep -- I don't want these to be aspirational,
+I want to show how the rhetoric mocks that. 
 
 We can check that by throwing any checkpoint into a generation engine, here we're
 still within the training world, so it's we use the same `predict` command. 
@@ -124,6 +131,16 @@ because there really isn't the room in our models. This is one of the advantages
 in having a known target device with a limited capacity -- we can't have models
 that are too large.
 
+The aspect the model struggles with most is grammatical. Pronouns don't agree,
+for example, and change midway through a quote so that they're inconsistent. A
+bigger data set would probably reduce that -- as might a better architecture.
+But it does put a limit on how small we can make the context. In my assessments,
+a context size of 256 characters is distinctly better even than 160 -- although
+mostly I haven't yet managed to get these into production on the Pico because
+LSTM models are almost twice the size -- I'd need to get GRU working (or
+quantize) to get those models embedded. Quantizing is also likely to make an
+enormous (!) difference to Pico performance. [Floating point on the Pico is
+slow.](https://github.com/tana/pico_float_bench)
 
 For more information on some of this, [I wrote a blog post looking in more
 detail at the effects of some of these parameters](/2022/01/09/language-model-bias/).
