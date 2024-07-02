@@ -46,7 +46,7 @@ creative arts, and from technology services to education.
 **Technologies**
 {:.mb-0}
 
-- Front end: HTML, JavaScript/TypeScript, React, Svelte, Angular
+- Front end: HTML, JavaScript/TypeScript, React, Svelte, Vue, Angular
 - Server-side: Express, Laravel, ASP/JSP, Spring, Restlet
 - Coding: JavaScript/TypeScript, C/C++, Java, Scala, PHP, Python, Elixir, Perl, Common Lisp
 - Native interfaces: Visual Basic, React Native, NativeScript, Cordova
