@@ -169,10 +169,10 @@ Now think about the likes of ChatGPT, or any large language model. These are
 just like Dennett's black boxes -- superficially simple but internally utterly
 incomprehensible -- even to their developers, for the most part. If we think
 about them as black boxes, we focus on behaviour. But that's misleading, because
-the complexity inside is conspicuous and undisguised, and it affects how we have
-to think and theorize about it. That knowledge forces us to treat the models as
-*intentional* things -- our entire ability to frame what they do within a design
-starts to fail.
+the complexity is conspicuous and undisguised -- central to the narrative in
+fact -- and it affects how we have to think and theorize about it. That
+knowledge forces us to treat the models as *intentional* things -- our entire
+ability to frame what they do within a design starts to fail.
 
 ## So, how do we test our kittens?
 
