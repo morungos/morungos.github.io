@@ -28,20 +28,28 @@ solve, and for which AI can show real promise, and they are on the sharp end of
 getting an AI system to do what they need it to do. Their persistence in this,
 when AIs routinely act up, is remarkable.
 
-Listening to them, it reminded me of [cat
-herding](https://www.youtube.com/watch?v=vTwJzTsb2QQ). In fact, these AI systems
-reminded me of small and wayward kittens, sometimes predictable, sometimes small
-agents of chaos and destruction. So, how do you test something that does not
-behave like a "machine", something wayward, something willful.
+Listening to them discuss the challenges of design applications powered by large
+language model, it reminded me of [cat
+herding](https://www.youtube.com/watch?v=vTwJzTsb2QQ). In fact, these LLM
+components reminded me of small and wayward kittens, sometimes predictable,
+sometimes small agents of chaos and destruction. So, how do you test something
+that does not behave like a "machine", but behaves more like something wayward,
+something willful.
 
 ## How to test your kitten
 
 As anyone who has ever had one will tell you, kittens are not easy to predict.
 They do not have a reset button that puts them into a known state. Even if you
-interact with them in an extremely consistent way, they may -- probably will --
-react entirely differently every time. Kittens are small agents of chaos. How
-can you test something like that -- or, worse, try to keep it focused on a real
-world task.
+interact with them in an extremely consistent way, they may react differently
+every time. They might be hassling you at feeding time, and then suddenly decide
+they don't like their brand of food any more. Kittens are small agents of chaos.
+How can you test something like that? 
+
+The problem becomes even worse if you try to put your kittens to work. Will they
+catch mice? Or will they just watch them for a bit, and then take a nap. And
+that's entirely natural cat behaviour -- what we're attempting is to direct LLMs
+and harness them into some extremely complex and demanding cognitive behaviours,
+it is like trying to get your kitten to assemble IKEA furniture
 
 <figure class="figure w-100" style="text-align: center">
   <img class="img-fluid" src="/img/posts/morag-kitten.jpeg" style="width: 500px;"
@@ -52,16 +60,17 @@ world task.
 </figure>
 
 We have developed quite a few tools for dealing with complex and unpredictable
-systems, especially in cybernetics (Ashby, 1957). You might think that
-cybernetics doesn't really apply to kittens, but it was certainly intended to.
-Weiner's concept was "the science of control and communication, in the animal
-and the machine”. In effect, with cybernetics, we have graduated from seeing
-things like toasters -- and kittens for that matter -- as things that have
-*behaviour*. It is not what they are made of that matters, it is what they do.
+systems, especially in cybernetics (Weiner, 1948; Ashby, 1957). You might think
+that cybernetics doesn't work well as a theory of kittens, but it was certainly
+intended to. Weiner's (1948) concept was "the science of control and
+communication, in the animal and the machine”. In effect, with cybernetics, we
+have graduated from seeing things like toasters -- and kittens for that matter
+-- as things that have *behaviour*. It is not what they are made of that
+matters, it is what they do.
 
-One of the strategies we have adopted from cybernetics is to think of 
-these things as of they are 'black boxes' -- where we cannot know what they
-are made from, so all we can do is make inferences from their behaviour. To
+One of the strategies we have adopted from cybernetics is to think of these
+things as of they are 'black boxes' (Ashby, 1957) -- where we cannot know what
+they are made from, so all we can do is make inferences from their behaviour. To
 quote Ross Ashby: 
 
 > The Problem of the Black Box arose in electrical engineering. The engineer is
@@ -70,15 +79,16 @@ quote Ross Ashby:
 > from which he may observe what he can. He is to deduce what he can of its
 > contents. (Ashby, 1957, p86)
 
-This gives us a methodlogical framework where we are not prejudiced by our
-knowledge. Instead, we have no option to become more experimental, more
+This gives us a methodological framework where we are no longer prejudiced by
+our knowledge. Instead, we have no option to become more experimental, more
 systematic in our exploration, and from those small experiments, make hypotheses
 about what is inside the box, whether it is a set of wires, a complex computer
-program, or even a small kitten.
+program, or even a small kitten. And this is testing: we are putting together
+theories that explain why we see what we see.
 
 ## Cats and boxes
 
-Academic literature has more than its fair share of cats in boxes. Schrödinger's
+The academic literature has more than its fair share of cats in boxes. Schrödinger's
 imaginary experiment is perhaps the most famous, but early psychology tended to
 do it for real -- Edward Thorndike created "puzzle boxes" to explore how animals
 could learn to solve problems. These experimental setups allowed him to explore 
@@ -86,7 +96,9 @@ learning behaviour in complex and unpredictable things, i.e., cats. Thorndike
 knew what was going on inside the box, but he didn't know what was going on inside
 the cat. Again, the goal was to control variables -- just as Ashby did with
 electrical boxes -- to make experimenting and theorizing easier. Skinner took
-the box concept a little further
+the box concept a little further with the "operant conditioning chamber", typically
+using  a series of levers and rewards to simplify things down, making it easier
+to assemble theories and explanations.
 
 <figure class="figure w-100" style="text-align: center">
   <img class="img-fluid" src="/img/posts/irritant.jpeg" style="width: 500px;"
@@ -102,10 +114,10 @@ bad thing in a setup like Ashby's, trying to make sense of the black box. We cou
 even argue that people can be pretty good *natural behaviourists*. We are good
 at theorizing what might be going on inside the box -- or the kitten. 
 
-## Testing in an era of manifest complexity
+## Dennett's stances: testing with manifest complexity
 
-But a kitten is not a black box. We do know -- or at least we think we know --
-what is going on inside, to a small extent. We know that kittens are unbelievably
+But a kitten is not a black box. We know -- or at least we think we know -- what
+is going on inside, to some small extent. We know that kittens are unbelievably
 complicated little things, so complex that we really can no longer think about
 them as designed objects. That whole way of thinking breaks down. Instead, we
 have to think about them as intentional beings, with their own desires, beliefs,
@@ -127,15 +139,16 @@ about the same kitten.
 
 | Stances   | Sources of information |
 |-----------|----------|
-| Physical stance | e.g., what it is, structure |
-| Design stance | e.g., what it does, behaviour |
-| Intentional stance | e.g., what it says, communication |
+| Physical stance | e.g., what it is, structure, common-sense physics |
+| Design stance | e.g., what it does, behaviour, causal inference |
+| Intentional stance | e.g., what it says, communication, common-sense psychology |
 {:.table}
 
 But beyond Dennett's philosophy, these are also different ways of framing our
-testing. Each 'stance' is built up of different frameworks of theories, and uses
-different sources of information. In particular, what we know about the system
-matters. 
+testing. Each 'stance' is built up of different systems or packages of theories
+(we might call them frameworks), and each stance uses different sources of
+information, and different modes of reasoning. What is particularly interesting, though, 
+is that the stance we choose depends on what we know about the thing we're looking at.
 
 Dennett tells a delightful fable about [two black
 boxes](https://www.researchgate.net/publication/28762339_Two_Black_Boxes_a_Fable)
@@ -162,23 +175,27 @@ designed.
 
 In other words, the stances we can take shift depending on the nature of the
 thing we're looking at, and what we know about its insides -- but, crucially, we
-can't use two of them at the same time. They're separate and distinct from each
-other.
+can't use two different stances at the same time. They're separate and distinct from each
+other. We either think of a volcano (to pick an example) as 'caused by' a buildup
+of something, or as 'caused by' an angry deity, but not both at the same time. We might
+switch between them depending on context, but the stances are mutually exclusive. Our
+explanatory theories only achieve consistency inside one or another stance.
 
 Now think about the likes of ChatGPT, or any large language model. These are
 just like Dennett's black boxes -- superficially simple but internally utterly
 incomprehensible -- even to their developers, for the most part. If we think
 about them as black boxes, we focus on behaviour. But that's misleading, because
-the complexity is conspicuous and undisguised -- central to the narrative in
-fact -- and it affects how we have to think and theorize about it. That
-knowledge forces us to treat the models as *intentional* things -- our entire
-ability to frame what they do within a design starts to fail.
+the complexity is conspicuous, undisguised, and beyond our reasoning capacity --
+central to the narrative in fact -- and it affects how we have to think and
+theorize about it. That grasp of their complexity forces us to treat the models
+as *intentional* things -- and our entire ability to frame what they do within a
+design starts to degrade. 
 
 ## So, how do we test our kittens?
 
-The careful observer will have noticed that I have failed to answer the
+The careful observer might have noticed that I have failed to answer the
 question: how should we test our kittens? How can we build systems with tiny
-agents of chaos inside, in such a way that we can still regulate them into
+agents of chaos inside, in such a way that we can still control them into
 functioning as part of a cohesive and effective system?
 
 <figure class="figure w-100" style="text-align: center">
@@ -204,7 +221,7 @@ science. More interesting versions (Skinner's radical behaviourism) included
 reporting on inner states as behaviour that was important to study. Watson's
 behaviourism is still alive and well in AI today, as machine learning by and
 large regards all hidden states as only meaningful for *post hoc* explanations,
-and possibly not even then. In any event, behavourism isn't all that helpful
+and possibly not even then. In either case, behavourism isn't all that helpful
 when we want to make or explore theories about what's going on inside a large
 language model. 
 
@@ -216,10 +233,11 @@ test will do, and we can never do that without full respect for the context.
 
 Some may laugh at the idea that we can test a kitten using discourse analysis.
 Although I'd counter that while, yes, kittens don't talk, they are pretty good
-communicators -- especially around feeding time. They use body language
-extensively -- tails and ears are very expressive. We know what cats think,
-surprisingly well.[^Wittgenstein] Re learn to recognize their different
-vocalizations, the angles of their ears. We can understand their environment. 
+communicators -- especially at feeding time. They use body language extensively
+-- tails and ears are very expressive. We know what our cats think surprisingly
+well, or at least we think we do[^Wittgenstein]. We learn to recognize their
+different vocalizations, the angles of their ears. We share their environment,
+and much of their biology, so we readily project our experiences onto them.
 
 [^Wittgenstein]: Wittgenstein famously said, "If a lion could talk, we could not
     understand him". The problem is, even if my kitten doesn't talk, I still do
@@ -232,10 +250,12 @@ vocalizations, the angles of their ears. We can understand their environment.
 I admit, I was fascinated at the workshop. I was constantly surprised by the
 richness of the theorization coming from the testers, especially on the details
 of the language coming out of these large language models. All of them[^AllTesters]. Although
-I was probably less surprised by Michael Bolton and James Bach doing this,
+I was maybe less surprised by Michael Bolton and James Bach doing this,
 because I know they've been deeply influenced by sociology. They're *always*
 peeling away the layers of language, why should I be surprised they do this with
-AI and its communications?
+AI and its communications? They're putting together some very good ways of 
+assessing systems including AIs, and if you need people to assess your systems, 
+you should definitely talk to them.
 
 [^AllTesters]: I am inspired by all the people at the workshop: James Bach, Jon
     Bach, Bernie Berger, Michael Bolton, Julie Caboutin, Alexander Carlsson, Nate Custer, Ben
@@ -247,11 +267,10 @@ of the language were central to handling these systems.
 
 So I believe this is how you start to evaluate complex systems -- you have to
 embrace their complexity. Design thinking about the mechanics becomes almost
-impossible due to the detail from that complexity, but you can switch to
+impossible due to the detail from that complexity, but you will probably switch to
 intentional thinking instead -- in fact, you probably won't even realize you're
 doing it. That will mean embracing the richness of language, but -- I think --
 that's a good thing.
-
 
 ## Notes
 
@@ -264,5 +283,7 @@ that's a good thing.
 
 [Dennett, D. C. (2010). Two black boxes: a fable. *Activitas Nervosa Superior* *52*(2), 81-84](https://link.springer.com/content/pdf/10.1007/BF03379570.pdf)
 ## Images
+
+[Weiner, N. (1948). *Cybernetics, or Control and Communication in the Animal and the Machine*. Cambridge: MIT Press](https://direct.mit.edu/books/oa-monograph/4581/Cybernetics-or-Control-and-Communication-in-the)
 
 Photographs are copyright by Stuart Watt, except for Figure 3, which is in the public domain.
