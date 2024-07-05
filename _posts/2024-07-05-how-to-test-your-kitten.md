@@ -282,8 +282,9 @@ that's a good thing.
 [Ashby, W. Ross (1957). *Principles of cybernetics*. London: Chapman & Hall.](http://pespmc1.vub.ac.be/books/IntroCyb.pdf)
 
 [Dennett, D. C. (2010). Two black boxes: a fable. *Activitas Nervosa Superior* *52*(2), 81-84](https://link.springer.com/content/pdf/10.1007/BF03379570.pdf)
-## Images
 
 [Weiner, N. (1948). *Cybernetics, or Control and Communication in the Animal and the Machine*. Cambridge: MIT Press](https://direct.mit.edu/books/oa-monograph/4581/Cybernetics-or-Control-and-Communication-in-the)
+
+## Images
 
 Photographs are copyright by Stuart Watt, except for Figure 3, which is in the public domain.
