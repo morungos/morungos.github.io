@@ -64,7 +64,7 @@ systems, especially in cybernetics (Weiner, 1948; Ashby, 1957). You might think
 that cybernetics doesn't work well as a theory of kittens, but it was certainly
 intended to. Weiner's (1948) concept was "the science of control and
 communication, in the animal and the machine”. In effect, with cybernetics, we
-have graduated from seeing things like toasters -- and kittens for that matter
+have graduated to seeing things like toasters -- and kittens for that matter
 -- as things that have *behaviour*. It is not what they are made of that
 matters, it is what they do.
 
