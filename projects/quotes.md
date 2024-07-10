@@ -8,6 +8,7 @@ summary: |-
   to build objects in the manner of Slow AI, that help reflect on our use of
   language.
 background: '/img/pages/IMG_1141.jpeg'
+image: '/img/pages/IMG_1141.jpeg'
 image_description: 'A small assembly of wires an an e-ink display showing an imaginary quotation'
 ---
 
