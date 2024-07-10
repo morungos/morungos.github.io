@@ -3,6 +3,12 @@ layout: page
 title: The "Cite-a-tron"
 draft: true
 author: Stuart
+summary: |-
+  An exploration of tiny embedded language models, and how we can use them
+  to build objects in the manner of Slow AI, that help reflect on our use of
+  language.
+background: '/img/pages/IMG_1141.jpeg'
+image_description: 'A small assembly of wires an an e-ink display showing an imaginary quotation'
 ---
 
 The "cite-a-tron" (I need a better name, but "quotes device" is even worse and 
