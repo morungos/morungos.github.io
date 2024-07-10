@@ -17,7 +17,7 @@
   <meta name="theme-color" content="#ffffff">
 
   {% if page.summary %}
-  <meta nane="description" content="{{ page.summary }}">
+  <meta nane="description" content="{{ page.summary | strip_html | strip_newlines | escape }}">
   {% else %}
   <meta nane="description" content="{% if page.excerpt %}{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}{% else %}{{ site.description }}{% endif %}">
   {% endif %}
@@ -40,9 +40,9 @@
   {% endif %}
   <meta property="og:site_name" content="{{ site.title }}" />
   <meta property="og:locale" content="en_CA" />
-  <meta property="og:title" content="{% if page.title %}{{ page.title | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.title }}{% endif %}">
+  <meta property="og:title" content="{% if page.title %}{{ page.title | strip_html | strip_newlines | truncate: 160 | escape }}{% else %}{{ site.title }}{% endif %}">
   {% if page.summary %}
-  <meta property="og:description" content="{{ page.summary }}">
+  <meta property="og:description" content="{{ page.summary | escape }}">
   {% else %}
   <meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}{% else %}{{ site.description }}{% endif %}">
   {% endif %}
@@ -51,10 +51,10 @@
   <!-- Twitter cards -->
   <meta name="twitter:site"    content="@{{ site.twitter_username }}">
   <meta name="twitter:creator" content="@{{ site.twitter_username }}">
-  <meta name="twitter:title"   content="{{ page.title }}">
+  <meta name="twitter:title"   content="{{ page.title | strip_html | escape }}">
 
   {% if page.summary %}
-  <meta name="twitter:description" content="{{ page.summary }}">
+  <meta name="twitter:description" content="{{ page.summary | strip_html | escape }}">
   {% else %}
   <meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}{% else %}{{ site.description }}{% endif %}">
   {% endif %}
@@ -64,7 +64,7 @@
   <meta name="twitter:card"  content="summary_large_image">
   <meta name="twitter:image" content="{{ site.url }}{{ page.image }}">
   {% if page.image_description %}
-  <meta name="twitter:image:alt" content="{{ page.image_description }}">
+  <meta name="twitter:image:alt" content="{{ page.image_description | strip_html | escape }}">
   {% endif %}
   {% else %}
   <meta property="og:image" content="{{ site.title_image }}" />
