@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Upgrade your product mindset
+title: Let's make great products
 summary: |-
   Stuart Watt: consulting developer by day, cognitive scientist by night
 background: '/img/bg-index.jpg'
