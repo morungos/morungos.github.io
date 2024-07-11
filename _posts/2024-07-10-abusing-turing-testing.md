@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Abusing Turing for profit: 7 deadly sins of Turing tests in industry'
+title: 'Misusing Turing for profit: 7 deadly sins of Turing tests in industry'
 author: Stuart
 background: '/img/posts/48349530722_4b0e1706ac_k.jpg'
 summary: |-
@@ -14,7 +14,7 @@ image_description: |-
   Two small kittens, one black and white, the other a grey tabby, cuddling each other.
 ---
 
-Okay, I've just about had it with folks in today's artificial intelligence community abusing the Turing test.
+Okay, I've just about had it with folks in today's artificial intelligence community misusing the Turing test.
 I'm so *done* with the lot of them. They're making all sorts of misrepresentations and misunderstandings,
 sinning left, right, centre. 
 
