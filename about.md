@@ -46,14 +46,14 @@ creative arts, and from technology services to education.
 **Technologies**
 {:.mb-0}
 
-- Front end: HTML, JavaScript/TypeScript, React, Svelte, Vue, Angular
-- Server-side: Express, Laravel, ASP/JSP, Spring, Restlet
-- Coding: JavaScript/TypeScript, C/C++, Java, Scala, PHP, Python, Elixir, Perl, Common Lisp
-- Native interfaces: Visual Basic, React Native, NativeScript, Cordova
-- Testing: Jest. CUnit, JUnit, etc., Puppeteer
+- Front end: JavaScript/TypeScript, React, Svelte, Vue, Angular, HTML, CSS
+- Server-side: Node.js, Express, Laravel/PHP, ASP/JSP, Spring, Restlet
+- Coding: JavaScript/TypeScript, C/C++, Java, Scala, C#, PHP, Python, Elixir, Perl, Common Lisp
+- Native UX and apps: Visual Basic/C#, React Native, NativeScript, Cordova
+- Testing: Jest, Vitest, CUnit, JUnit, etc., Puppeteer
 - Databases: MySQL/MariaDB, PostgreSQL, MS SQL, MongoDB, Redis, SQLite
-- Deployment and infrastructure: Ansible, Linux administration
+- Deployment and infrastructure: Github Actions, continuous integration, Ansible, Linux administration
 - Embedded: basic circuit design and building, microcontrollers
 - Statistics: R, SPSS
-- Networking: socket-level programming, firewalls, routers
-- Selected libraries, coding for: ONNX, ffmpeg and gstreamer, OpenCV
+- Networking: socket-level programming, firewalls, routers, nginx hardening
+- Expertise coding for: ONNX, ffmpeg and gstreamer, OpenCV
