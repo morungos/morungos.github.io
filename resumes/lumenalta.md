@@ -5,8 +5,6 @@ background: '/img/bg-about.jpg'
 summary: |-
   Dr Stuart Watt is a consulting developer who loves the challenges of
   transforming rough ideas and hard problems into well-engineered technology. 
-  If you have a problem, if no one else can help, call Stuart today — maybe 
-  together, you can create the solution.
 ---
 
 <style lang="text/css">
@@ -45,9 +43,9 @@ h4 + p {
     
     <p>
     Consultant, contract, technology architect and full-stack developer with proven
-    experience transforming concepts into innovative well-engineered products
+    experience transforming concepts into innovative well-engineered solutions
     and bringing them to market in sectors from healthcare to energy, from
-    finance to education.
+    finance to education. Proactive, inclusive, and driven to make better technology.
     </p>
 
     <h3>EDUCATION</h3>
@@ -119,7 +117,7 @@ h4 + p {
       </p>
 
       <p class="text-success-emphasis fst-italic">
-      Achievements: the chat component: re-designed the web loading process to use SystemJS and Rollup, enabling layers for per-client language customization; completed WCAG compliance with client coordination.
+      Achievements: the chat component: re-designed the web loading process to use SystemJS and Rollup, enabling layers for per-client language customization; completed WCAG compliance with senior client and offshore test team coordination.
       </p>
 
       <h4>Consultant, Ambiesense Ltd., Aberdeen, UK	&mdash; 2018-present</h4>
