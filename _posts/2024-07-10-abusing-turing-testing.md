@@ -4,14 +4,14 @@ title: 'Misusing Turing for profit: 7 deadly sins of Turing tests in industry'
 author: Stuart
 background: '/img/posts/48349530722_4b0e1706ac_k.jpg'
 summary: |-
-  A blog post on the challenges of theorizing about complex systems such
-  as large language models, seen through the lens of testing kittens.
+  A blog post on the numerous ways that the Turing test can be misunderstood. 
 tagline: |-
-  How do we build ways to think about what's going on inside a really
-  complex system, such as a large language model or a kitten?
+  How does the Turing test work? Well, it isn't a definition of intelligence. It
+  is rooted in cybernetics, and explores the differences between machines and people.
+  Here are some of the many ways it can go wrong.
 image: '/img/posts/48349530722_4b0e1706ac_k.jpg'
 image_description: |-
-  Two small kittens, one black and white, the other a grey tabby, cuddling each other.
+  A mural of Alan Turing
 ---
 
 Okay, I've just about had it with folks in today's artificial intelligence community misusing the Turing test.
