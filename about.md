@@ -1,5 +1,5 @@
 ---
-layout: about
+layout: page
 title: About Stuart
 background: '/img/bg-about.jpg'
 summary: |-
@@ -36,24 +36,27 @@ Over 30 years experience developing and consulting across a wide range of
 business sectors, from telecommunications to energy, from finance to the
 creative arts, and from technology services to education.
 
-**Application areas**
+**Application types**
 {:.mb-0}
 
-- Web application design and development; artificial intelligence; real-time and
-  embedded systems; information retrieval; database administration; machine
-  learning; web services
+- Web application design and development -- front and back end; artificial
+  intelligence and machine learning; real-time and embedded systems; information
+  retrieval and natural language processing
 
 **Technologies**
 {:.mb-0}
 
 - Front end: JavaScript/TypeScript, React, Svelte, Vue, Angular, HTML, CSS
-- Server-side: Node.js, Express, Laravel/PHP, ASP/JSP, Spring, Restlet
+- Server-side: Node.js, Express, Laravel/PHP, ASP/JSP, Spring, Restlets
 - Coding: JavaScript/TypeScript, C/C++, Java, Scala, C#, PHP, Python, Elixir, Perl, Common Lisp
-- Native UX and apps: Visual Basic/C#, React Native, NativeScript, Cordova
+- Native UX and apps: Visual Basic/C#, React Native, NativeScript,
+  Ionic/Capacitor/Cordova
 - Testing: Jest, Vitest, CUnit, JUnit, etc., Puppeteer
 - Databases: MySQL/MariaDB, PostgreSQL, MS SQL, MongoDB, Redis, SQLite
-- Deployment and infrastructure: Github Actions, continuous integration, Ansible, Linux administration
+- Infrastructure: Github Actions, cloud services, continuous
+  integration, Ansible, Linux administration
 - Embedded: basic circuit design and building, microcontrollers
 - Statistics: R, SPSS
-- Networking: socket-level programming, firewalls, routers, nginx hardening
-- Expertise coding for: ONNX, ffmpeg and gstreamer, OpenCV
+- Networking and security: socket-level programming, firewalls, routers, nginx
+  hardening, intrusion detection
+- Expertise coding for: MQTT, ONNX, ffmpeg and gstreamer, OpenCV
