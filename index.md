@@ -27,6 +27,7 @@ team that creates an effective and successful product."
 
 ## Selected development stories
 
+* [Live chat component -- Svelte, Vite, and TypeScript for the win](/stories/chat)
 * [Syllabus -- constraint satisfaction for timetabling](/stories/syllabus)
 * [AI and technology for assessment in higher education](/stories/assessment)
 * [Heliotrope and cBioPortal -- translational genomics in the clinic](stories/translational)
