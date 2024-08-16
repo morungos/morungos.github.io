@@ -1,35 +1,26 @@
 ---
 layout: home
-title: Let's make great products
+title: Building technology with craft
 summary: |-
   Stuart Watt: consulting developer by day, cognitive scientist by night
 background: '/img/bg-index.jpg'
 ---
 
-"Today's technology applications are increasingly complex, with components
-interacting between customer's smartphones, cloud servers, databases, and third
-party components such as artificial intelligence models. It takes unique skills to see the
-big picture, and to design products that can solve problems without burdening
-users.
+Hi, [I'm Stuart](/about), and welcome. I'm a developer with an extra: a background
+in the cognitive and social sciences. I love to create products and solutions that 
+make people's everyday lives better. But more than that, I treat every
+application I create as a performance, a demonstration of skill and craft. So 
+please feel free to read on, browse, or [contact me to find out more](/contact).
 {:.lead}
-
-I can help you build those skills. I have decades of experience as a developer
-working across artificial intelligence, embedded technology, front end
-interfaces, and back office systems. I'm a practicing qualified cognitive and
-social scientist, so I can show you the value of those perspectives, and help you shape a
-team that creates an effective and successful product."
-{:.lead.mb-0}
-
-**Stuart Watt, PhD**
-{:.text-end.mt-2}
+{:.mt-2}
 
 <hr class="separator">
 
 ## Selected development stories
 
+* [Stuart’s guide to high-availability services on a budget](2024/08/14/cheap-infrastructure)
 * [Live chat component -- Svelte, Vite, and TypeScript for the win](/stories/chat)
 * [Syllabus -- constraint satisfaction for timetabling](/stories/syllabus)
-* [AI and technology for assessment in higher education](/stories/assessment)
 * [Heliotrope and cBioPortal -- translational genomics in the clinic](stories/translational)
 * [Tiny embedded language models](/stories/embedded)
 * [Hank: a novel visual modelling language](/stories/hank)

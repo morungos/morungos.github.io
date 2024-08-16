@@ -436,13 +436,13 @@ So let's see if we can use this to improve our explanation.
 > One of its foundational assumptions, that it was economically viable to capture
 > and use knowledge to build applications, was found to be false. Other research
 > traditions, not incorporating this assumption, such as the neural network community, 
-> were less affected. The GOFAI expert system communitybranched into knowledge management, 
+> were less affected. The GOFAI expert system community branched into knowledge management, 
 > early recommender systems, and methodologies, repositioning itself to maintain funding.
 > Time passed. One day, a neural network researcher saw a departmental seminar by a 
 > computer vision researcher, who was using GPUs to greatly improve performance. They
 > adapted the idea to neural networks, and it showed promise, as they gradually scaled
 > to bigger datasets. By the early 2010s, GPUs
-> had provem to make the high compute costs of machine learning much more affordable. And by
+> had proven to make the high compute costs of machine learning much more affordable. And by
 > the mid 2010s, there was proof of viability via AlexNet, proof of need in
 > recommender system usage in Amazon etc., and a step change in compute economics -- enough
 > to create conditions for a Big Science scale investment.
