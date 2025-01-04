@@ -1,0 +1,17 @@
+<div class="spotlight-group gallery-group mb-5">
+
+    {% for photo in site.photos %}
+    {% if photo.categories contains include.category %}
+
+    <a class="spotlight" href="{{ photo.image }}" 
+       data-title="{{ photo.title }}" 
+       data-description="{{ photo.description }}"
+       data-button="Show details"
+       data-button-href="{{ photo.url }}"
+       >
+        <img src="{{ photo.thumbnail }}">
+    </a>
+
+    {% endif %}
+    {% endfor %}
+</div>

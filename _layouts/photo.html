@@ -1,0 +1,50 @@
+---
+layout: default
+title: "{{ page.title }}"
+custom_js_assets:
+  - 'https://rawcdn.githack.com/nextapps-de/spotlight/0.7.8/dist/js/spotlight.min.js'
+custom_css_assets:
+  - 'https://rawcdn.githack.com/nextapps-de/spotlight/0.7.8/dist/css/spotlight.min.css'
+---
+
+  <header class="masthead">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col px-3">
+          <div class="page-heading">
+            <h1>{{ page.title }}</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="container page-body-container">
+    <div class="row justify-content-center">
+      <div class="col px-3">
+
+        <h3 class="mt-0 mb-4">
+            {{page.description }}
+        </h3>
+
+        <div class="spotlight-group">
+            <a class="spotlight" href="{{ page.image }}" data-title="{{ page.title }}" data-description="{{ page.description }}">
+                <img src="{{ page.image }}" class="w-100">
+            </a>
+        </div>
+
+        {% if page.details %}
+        <p>
+            {{ page.details }}
+        </p>
+        {% endif %}
+
+        {% include image-copyright.html %}
+
+      </div>
+    </div>
+  </div>
+
+
+

@@ -189,6 +189,11 @@ footer .copyright {
   max-width: 960px;
 }
 
+.gallery-group {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 @media only screen and (min-width: 992px) {
   #mainNav {
     border-bottom: 1px solid transparent;

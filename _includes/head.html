@@ -73,4 +73,25 @@
   {% endif %}
   <!-- end of Twitter cards -->
 
+  {% if layout.custom_js_assets %}
+  {% for js_url in layout.custom_js_assets %}
+  <script type="text/javascript" src="{{ js_url }}"></script>
+  {% endfor %}
+  {% endif %}
+  {% if page.custom_js_assets %}
+  {% for js_url in page.custom_js_assets %}
+  <script type="text/javascript" src="{{ js_url }}"></script>
+  {% endfor %}
+  {% endif %}
+  {% if layout.custom_css_assets %}
+  {% for css_url in layout.custom_css_assets %}
+  <link rel="stylesheet" type='text/css' href="{{ css_url }}">
+  {% endfor %}
+  {% endif %}
+  {% if page.custom_css_assets %}
+  {% for css_url in page.custom_css_assets %}
+  <link rel="stylesheet" type='text/css' href="{{ css_url }}">
+  {% endfor %}
+  {% endif %}
+
 </head>
