@@ -1,6 +1,6 @@
 ---
 layout: about
-title: 'Publications by Stuart Watt
+title: 'Publications by Stuart Watt'
 background: '/img/bg-about.jpg'
 summary: |-
   Dr Stuart Watt is a consulting developer who loves the challenges of
