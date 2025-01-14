@@ -11,14 +11,19 @@ custom_css_assets:
 ---
 
 Here are a sampling of some of my favourite photographs. Most were taken
-when out hiking in my local wildernesses. 
+when out hiking or spending time in my local wildernesses, on the edge of
+Halifax, Nova Scotia. 
 
 ## Birds
 
 {% include gallery-category.html category='birds' %}
 
-## Squirrels
+## Otters
 
-{% include gallery-category.html category='squirrels' %}
+{% include gallery-category.html category='otters' %}
+
+## Places
+
+{% include gallery-category.html category='places' %}
 
 {% include image-copyright.html %}
