@@ -24,13 +24,9 @@ custom_css_assets:
     <div class="row justify-content-center">
       <div class="col px-3">
 
-        <h3 class="mt-0 mb-4">
-            {{page.description }}
-        </h3>
-
         <div class="spotlight-group">
             <a class="spotlight" href="{{ page.image }}" data-title="{{ page.title }}" data-description="{{ page.description }}">
-                <img src="{{ page.image }}" class="w-100">
+                <img src="{{ page.image }}" class="w-100" alt="{{page.description }}">
             </a>
         </div>
 

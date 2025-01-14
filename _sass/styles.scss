@@ -192,6 +192,11 @@ footer .copyright {
 .gallery-group {
   display: flex;
   flex-wrap: wrap;
+
+  img {
+    width: 187px;
+    height: 140px;
+  }
 }
 
 @media only screen and (min-width: 992px) {
