@@ -3,8 +3,12 @@ layout: page
 title: "Chapter {{ page.chapter }}"
 ---
 
+<div class="book-chapter">
 {% for section in site.sections %}
 {% if section.chapter == page.chapter %}
+<div class="book-section">
 {{ section.output }}
+</div>
 {% endif %}
 {% endfor %}
+</div>
