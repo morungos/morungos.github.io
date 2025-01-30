@@ -2,10 +2,9 @@
 chapter: 09
 ---
 
-The history of our modern world is interwoven with the evolution of
-a new kind of property -- intellectual property. Copyright, patents,
-trademarks, and an array of similar concepts have allowed us to 
-move beyond 
+The history of our modern world is interwoven with the evolution of a new kind
+of property -- intellectual property. Copyright, patents, trademarks, and an
+array of similar concepts have allowed us to move beyond 
 
 Without intellectual property, capitalism itself would not exist.
 
@@ -25,3 +24,6 @@ intended to be used to verify the authority to print. These early letters patent
 evolved into the systems for granting rights to exploit inventions that we still
 use today.
 
+In some cases, these assets are entirely manufactured. Domain names are a good 
+example. Once the domain name system was invented, it enabled an almost infinite
+variety of domain names to be created and owned. 

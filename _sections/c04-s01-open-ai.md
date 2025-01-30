@@ -10,9 +10,16 @@ a socially transformative technology.
 One particularly intriguing part of Open AI is its valuation. As with a range of
 modern technology companies, the valuation of Open AI has almost nothing to do
 with its sales. Instead, its valuation is based almost entirely on its
-*potential* for future market domination.[^Tesla] With this kind of company,
-it is increasingly common for the bottom line to become almost irrelevant 
-compared to, say, "fear of missing out"
+*potential* for future market domination.[^Tesla] With this kind of technology
+company, it is increasingly common for the bottom line to become almost
+irrelevant compared to, say, "fear of missing out". The phrasing is
+illuminating: the risk of other people succeeding forces people into
+participating.
+
+Open AI is far from the only company like this. Amazon and Tesla both took over
+a decade to generate a profit. High growth industries do tend to generate higher
+valuations -- again, this backs up our thesis that a positive risk (a future
+potential, if you like) can dominate a valuation. 
 
 A second illuminating aspect of Open AI is its response to regulation. It has
 been a vocal advocate for self-regulation, and against government intervention
@@ -38,14 +45,66 @@ in large measure, to establish the technology companies as the only actors
 capable of making decisions about the technology -- a kind of self-regulation on
 steroids. 
 
-[^Tesla]:
-    Another good example is Tesla, which, relative to its actual sales,
-    is valued very differently to its competitors. One could argue: 
-    that is because it's not a car company but a technology company. 
-    This is a reasonable analysis, but it is incomplete: why would a 
-    technology company have such a different valuation? Because technology
-    companies are, as a whole, not valued on current sales but on future
-    potential.
+[^Tesla]: Another good example is Tesla, which, relative to its actual sales, is
+    valued very differently to its competitors. One could argue: that is because
+    it's not a car company but a technology company. This is a reasonable
+    analysis, but it is incomplete: *why would a technology company have such a
+    different valuation?* The short answer to this is: because technology
+    companies are, generally speaking, valued less on their current sales than on their
+    future potential.
 
-Open AI was founded in ???? by ????. 
+Open AI was founded in ???? by ????. Its initial stated mission in 2016 was: "to
+build safe AI, and ensure AI's benefits are as widely and evenly distributed as
+possible".
 
+### The strange case of Open AI
+
+As with Stevenson's Dr Jekyll, there are two sides to Open AI, two sides in
+conflict. There is the respectable and outwardly ethical company, investing in
+social policies such as a universal basic income. And there is the malevolent
+and barbaric company, crawling the internet to appropriate all the data it can
+in the name of "fair use", only to transform it into services which compete
+directly with those who created that data in the first place.
+
+The similarity does not end there. After all, Jekyll's motive for creating his
+serum was to eliminate his dark side, his evil impulses. Of course, it did not
+work out well for Jekyll either. What began as occasional lapses into malice
+gradually increased in frequency, with a slow loss of control until, eventually,
+only Hyde was left to face the consequences of his actions.
+
+When it was published in the Victorian era, Stevenson's tale explored the way
+respectability and morality worked in Victorian society. It reflected the 
+modernity of that age, science and medicine used for human betterment.
+
+In many ways, we live today in a corporate analogue of that time. Science and
+medicine have progressed, but they are no longer the province if individual
+researchers: today, only universities, corporations, and other institutions have
+the resources to deliver. The thin line between good and evil in individuals has
+become an equally thin line between the positive and negative impacts of
+corporations[^Google]. And just as in Victorian society, there is a pressure on
+corporations to maintain a respectable image, a pressure for social
+responsibility. 
+
+In this corporate retelling of *The strange case...*, what, then, is the serum?
+Maybe it is artificial intelligence itself. It is a technology and a product of
+science, and it is intended (at least in part) to separate the gold of reason
+from the dross of ignorance. And yet, it fails. The technology itself has an
+addictive quality that, while seeming to strengthen reason, actually does the
+opposite. Jekyll's humanity is itself destroyed, not by his dark side, but by
+the gradual erasure of his light side. That is the corporate risk of artificial
+intelligence: rather than buttressing us against our lapses to the asinine, it
+undermines what's left of our reason.
+
+A second duality that can give us an illuminating perspective on corporate AI is
+Ulrich Beck's original one, between 'goods' and 'bads', between benefits and
+risks. Despite Beck's punning, he's firm that risks are not intrinsically bad. A
+balanced state involves some risk -- they are necessary to a healthy state.
+Attempting to eliminate risk can, paradoxically, create even more risk. 
+
+[^Google]:
+    An even more striking version might be Google, starting out with "don't be
+    evil", yet within a couple of decades, designing and building battlefield
+    robots. And yet, Google couldn't be Jekyll -- despite its mission statement, 
+    Google was never explicitly striving to be good. 
+
+### Notes
