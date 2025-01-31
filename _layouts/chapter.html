@@ -1,18 +1,52 @@
 ---
-layout: page
+layout: default
 ---
 
-<ul class="list-unstyled chapter-info">
-    <li>
-        <b>Chapter last updated:</b>
-        {{ page.date | date_to_long_string: "ordinal" }}
-    </li>
-    <li>
-        <b>Word count:</b>
-        {{ content | number_of_words }} words
-    </li>
-</ul>
+<!-- Page Header -->
+{% if page.background %}
+  <header class="masthead" style="background-image: url('{{ page.background | prepend: site.baseurl | replace: '//', '/' }}')">
+{% else %}
+  <header class="masthead">
+{% endif %}
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col px-3">
+          <div class="page-heading">
+            <h1>Chapter {{ page.chapter }}<br>{{ page.title }}</h1>
+            {% if page.subtitle %}
+            <h2>{{ page.subtitle }}</h2>
+            {% endif %}
+            {% if page.description %}
+            <span class="subheading">{{ page.description }}</span>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
 
-<div class="book-chapter">
-    {{ content }}
-</div>
+  <div class="container page-body-container">
+    <div class="row justify-content-center">
+      <div class="col px-3">
+
+        <ul class="list-unstyled chapter-info">
+            <li>
+                <b>Chapter last updated:</b>
+                {{ page.date | date_to_long_string: "ordinal" }}
+            </li>
+            <li>
+                <b>Word count:</b>
+                {{ content | number_of_words }} words
+            </li>
+        </ul>
+        
+        <div class="book-chapter">
+            {{ content }}
+        </div>
+        
+      </div>
+    </div>
+  </div>
+
+
