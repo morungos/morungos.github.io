@@ -102,7 +102,7 @@ work.
 
 > "If the computer scientist is a toolsmith, and if our delight is to fashion
 > power tools and amplifiers for minds, we must partner with those who will use
-> our tools, those whose intelligences" (Brooks, 1996, p64).
+> our tools, those whose intelligences we hope to amplify" (Brooks, 1996, p64).
 
 Brooks's argument also matches my personal experience: we should never foist our
 tools onto users, we should collaborate with them. In fact, that is how we learn
