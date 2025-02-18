@@ -37,7 +37,7 @@ to understand how these fields work.
 
 Many of the challenges in the broad field of computing are analyzed in this
 article: is it science or engineering? Is it about discovery or creation?
-Brook's answer is, computing is broadly about *making tools*, we are toolmakers,
+Brooks's answer is, computing is broadly about *making tools*, we are toolmakers,
 nothing more, and nothing else. "An honourable calling", in his terms.
 
 But there's also some Tolkein in there. Brooks builds on Tolkein, following
@@ -55,7 +55,7 @@ brains into something else: building tools that were *assistants and advisors*.
 Instead of attempting to 'be' an entire entity (as the 'general AI' folks would
 have it), they help people. 
 
-Brook's thesis was:
+Brooks's thesis was:
 
 > IA (intelligence amplifying) > AI (artificial intelligence)
 
