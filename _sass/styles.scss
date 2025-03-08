@@ -230,6 +230,16 @@ footer .copyright {
   }
 }
 
+.tariff-buttons .result {
+  margin-left: 1em;
+}
+
+.chart-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
 @media only screen and (min-width: 992px) {
   #mainNav {
     border-bottom: 1px solid transparent;
