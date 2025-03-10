@@ -71,30 +71,33 @@ function getRandomInt(min, max) {
 
 // SYNC FUNCTIONS
 function render() {
-    const padding   = { top: 20, right: 20, bottom: 20, left: 20};
-    const width     = 500 - padding.left - padding.right;
-    const height    = 500 - padding.top - padding.bottom;
+    const chartNode = d3.select('#spinner').node()
+    const padding   = { top: 0, right: 0, bottom: 0, left: 0};
+    const width     = chartNode.clientWidth - padding.left - padding.right;
+    const height    = chartNode.clientHeight - padding.top - padding.bottom;
     const radius    = Math.min(width, height) / 2;
     const spins     = 3;
     const degrees   = spins * 360;
     const color     = d3.scaleOrdinal(["#e5dff6","#e5f6df","#dfe5f6","#ebd4f3", "#f6f0df"]);
     let counter     = 0;
-    let picked      = 1000;
 
-    let fontSize;
-    if(data.length > 50) {
-        fontSize = '10px';
-    } else {
-        fontSize = '18px';
-    }
+    // let fontSize;
+    // if(data.length > 50) {
+    //     fontSize = '10px';
+    // } else {
+    //     fontSize = '18px';
+    // }
 
-    let svg = d3.select('#chart').selectAll('svg').data([null]);
+    let svg = d3.select('#spinner').selectAll('svg').data([null]);
     svg = svg
-        .enter().append('svg')
+        .enter()
+        .append('svg')
         .merge(svg)
         .data([data])
-            .attr('width', 500)
-            .attr('height', 500);
+            .attr('width', width)
+            .attr('height', height);
+
+    svg.selectAll('g').remove()
     
     const container = svg.append('g')
         .attr('class', 'chartcontainer')
@@ -129,12 +132,12 @@ function render() {
         .text( function(d, i) {
             return data[i].ticker;
         })
-        .style('font-size', fontSize);
+        // .style('font-size', fontSize);
     
     // arrow
     svg.append('g')
             .attr('class', 'arrow')
-            .attr('transform', `translate(${(width + padding.left + padding.right)/2 - 15}, 12)`)
+            .attr('transform', `translate(${(width + padding.left + padding.right)/2 - 15})`)
         .append('path')
             .attr('d', `M0 0 H30 L 15 ${Math.sqrt(3)/2*30}Z`)
             .style('fill', '#000809');
@@ -217,3 +220,9 @@ function updateSelection(e) {
 // // closeBtn.addEventListener('click', closeModal);
 // window.addEventListener('click', outsideClick);
 window.onload = render;
+
+const resizeObserver = new ResizeObserver((entries) => {
+    render()
+})
+
+resizeObserver.observe(document.getElementById("spinner").firstElementChild)
