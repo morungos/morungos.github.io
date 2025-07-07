@@ -4,11 +4,6 @@ title: 'Silicon Valley and Political Rationalism'
 author: Stuart
 background: '/img/posts/negative0304.jpg'
 summary: |-
-  A blog post on why Yudkowsky's rationalism is a political 
-  rationalism not a philosophical rationalism, and why that is
-  a horrid prospect in reality, drawn largely from Michael
-  Oakeshott's Rationalism in Politics.
-tagline: |-
   Rationalism today, at least in Silicon Valley, is not your grandmother's 
   rationalism.
 image: '/img/posts/negative0304.jpg'

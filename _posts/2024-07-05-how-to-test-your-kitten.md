@@ -4,9 +4,6 @@ title: 'How to test your kitten'
 author: Stuart
 background: '/img/posts/kittens.jpeg'
 summary: |-
-  A blog post on the challenges of theorizing about complex systems such
-  as large language models, seen through the lens of testing kittens.
-tagline: |-
   How do we build ways to think about what's going on inside a really
   complex system, such as a large language model or a kitten?
 image: '/img/posts/kittens.jpeg'

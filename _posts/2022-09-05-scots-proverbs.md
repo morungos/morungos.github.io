@@ -5,8 +5,6 @@ author: Stuart
 background: '/img/posts/slidey0131.jpg'
 summary: |-
   A new Twitter bot, to generate Scots proverbs.
-tagline: |-
-  A new Twitter bot, to generate Scots proverbs.
 excerpt: |-
   
 image: '/img/posts/slidey0131.jpg'

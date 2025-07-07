@@ -4,10 +4,6 @@ title: 'Cheese and the latent harms of foundation models'
 author: Stuart
 background: '/img/posts/cheese_PNG7.png'
 summary: |-
-  A blog post on the problems of regulating foundation
-  models, based on Reason's "swiss cheese model"
-  of accident causation.
-tagline: |-
   Has OpenAI has consciously planned
   its go-to-market strategy as a means to offload risks onto 
   developers?

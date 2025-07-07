@@ -4,10 +4,6 @@ title: "LLMs: intelligence amplification doesn't work on stupid people"
 author: Stuart
 background: '/img/posts/kearney-lake.jpg'
 summary: |-
-  A blog post on why large language models are better thought of as
-  intelligence amplifiers, and, therefore, don't compensate for 
-  stupidity -- if anything, they make it worse.
-tagline: |-
   Giving a fool a large language model simply makes them faster
   at their foolishness, it does not make them equal to 
   a skilled or experienced person.

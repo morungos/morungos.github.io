@@ -2,7 +2,7 @@
 layout: post
 title: Using the maven-release-plugin
 author: Stuart
-tagline: |-
+summary: |-
   A few challenges getting release processes to work with Apache Maven
 ---
 

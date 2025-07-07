@@ -4,9 +4,6 @@ title: 'Stuart’s guide to high-availability services on a budget'
 author: Stuart
 background: '/img/posts/slidey0136.jpg'
 summary: |-
-  A blog post on the how we put together a lightweight high-availability 
-  platform, without all the burdensome complexities.
-tagline: |-
   Do you need to put together a high-availability application platform on 
   a budget? This post is for you
 image: '/img/posts/slidey0136.jpg'

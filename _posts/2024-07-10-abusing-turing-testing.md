@@ -4,8 +4,6 @@ title: 'Misusing Turing for profit: 7 deadly sins of Turing tests in industry'
 author: Stuart
 background: '/img/posts/48349530722_4b0e1706ac_k.jpg'
 summary: |-
-  A blog post on the numerous ways that the Turing test can be misunderstood. 
-tagline: |-
   How does the Turing test work? Well, it isn't a definition of intelligence. It
   is rooted in cybernetics, and explores the differences between machines and people.
   Here are some of the many ways it can go wrong.

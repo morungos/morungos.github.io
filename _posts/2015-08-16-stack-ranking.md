@@ -2,7 +2,7 @@
 layout: post
 title: Stack ranking and Campbell's Law
 author: Stuart
-tagline: |-
+summary: |-
   Stack ranking is basically evil -- don't do it
 ---
 

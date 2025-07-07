@@ -4,11 +4,6 @@ title: 'Engines of rhetoric: the true nature of artificial intelligence'
 author: Stuart
 background: '/img/posts/inspirational-quote.jpeg'
 summary: |-
-  A blog post on some of my more recent work on building small language
-  models for inspirational quotes. This time, it starts to dig into the
-  form versus content issue, and specifically, on AI's ability to 
-  model rhetoric.
-tagline: |-
   Inspirational quotes are a distinctive genre of text, with a strongly rhetorical
   twist -- that makes them perfect for assessing AI's ability to model the form of texts. 
 image: '/img/posts/inspirational-quote.jpeg'

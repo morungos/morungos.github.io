@@ -4,11 +4,6 @@ title: 'Intellectual property and feudalism'
 author: Stuart
 background: '/img/posts/Reeve_and_Serfs.jpg'
 summary: |-
-  A blog post on intellectual property, putting forward a case for
-  treating discovery very differently from creation, but both within
-  a framework for economic democracy, as a way to escape the monopolization
-  of intellectual property by the rich and powerful.
-tagline: |-
   Is the concept of intellectual property implicitly forcing us to apply a feudal
   style of ownership to ideas? And if so, what does this mean for society and the
   greater good?

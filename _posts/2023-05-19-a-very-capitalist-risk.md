@@ -5,8 +5,6 @@ author: Stuart
 background: '/img/posts/ultraviolet.jpg'
 summary: |-
   What if artificial intelligence meant that a technological elite could dispose of humanity
-tagline: |-
-  What if artificial intelligence meant that a technological elite could dispose of humanity
 excerpt: |-
   
 image: '/img/posts/ultraviolet.jpg'
