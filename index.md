@@ -1,7 +1,7 @@
 ---
 layout: home
 title: Building technology with craft
-summary: |-
+summary: >-
   Stuart Watt: consulting developer by day, cognitive scientist by night
 background: '/img/bg-index.jpg'
 ---

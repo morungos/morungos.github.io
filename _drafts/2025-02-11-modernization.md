@@ -3,7 +3,7 @@ layout: post
 title: "Tariffs and technology: building resilience against rogue corporations"
 author: Stuart
 background: '/img/posts/slidey0136.jpg'
-summary: |-
+summary: >-
   A blog post -- almost a small manifesto -- on how we need to handle 
   the technology sector under an aggressive US political regime.
 tagline: |-

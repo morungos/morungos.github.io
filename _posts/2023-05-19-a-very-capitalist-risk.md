@@ -3,7 +3,7 @@ layout: post
 title: 'Artificial Intelligence: A Very Capitalist Risk'
 author: Stuart
 background: '/img/posts/ultraviolet.jpg'
-summary: |-
+summary: >-
   What if artificial intelligence meant that a technological elite could dispose of humanity
 excerpt: |-
   

@@ -3,7 +3,7 @@ layout: post
 title: 'Cheese and the latent harms of foundation models'
 author: Stuart
 background: '/img/posts/cheese_PNG7.png'
-summary: |-
+summary: >-
   A blog post on the problems of regulating foundation
   models, based on Reason's "swiss cheese model"
   of accident causation.

@@ -3,7 +3,7 @@ layout: post
 title: 'Stuart’s guide to high-availability services on a budget'
 author: Stuart
 background: '/img/posts/slidey0136.jpg'
-summary: |-
+summary: >-
   Do you need to put together a high-availability application platform on 
   a budget? This post is for you
 image: '/img/posts/slidey0136.jpg'

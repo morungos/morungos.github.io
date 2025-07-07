@@ -3,7 +3,7 @@ layout: post
 title: Punching out artificial intelligence
 author: Stuart
 background: '/img/posts/punch-and-policeman.jpg'
-summary: |-
+summary: >-
   Artificial intelligence has a power problem, and we need to think of it
   as a trickster character, one that can cause chaos and abuse, but —
   properly channeled — has the potential to expose and confront those abuses

@@ -2,7 +2,7 @@
 layout: post
 title: Comparison of XLSX modules for Perl
 author: Stuart
-summary: |-
+summary: >-
   Some experiences mapping out which of the many possible Perl 
   modules for Excel are best.
 ---

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Photographs
-summary: |-
+summary: >-
   Stuart Watt: consulting developer by day, cognitive scientist by night
 background: '/img/bg-index.jpg'
 custom_js_assets:

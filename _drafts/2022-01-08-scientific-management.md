@@ -3,7 +3,7 @@ layout: post
 title: The end of scientific management?
 author: Stuart
 background: '/img/posts/angry-cat-laptop.jpg'
-summary: |-
+summary: >-
   
 image: '/img/posts/angry-cat-laptop.jpg'
 image_description: "An angry cat sitting on a laptop"

@@ -3,7 +3,7 @@ layout: post
 title: A story about data manipulation in science
 draft: true
 author: Stuart
-summary: |-
+summary: >-
   A short story about the distinction between cherry-picking data and
   removing bad data
 ---

@@ -3,7 +3,7 @@ layout: post
 title: A sociology of biologists and bioinformaticians
 draft: true
 author: Stuart
-summary: |-
+summary: >-
   In which I commit sociology on identity in science.
 ---
 

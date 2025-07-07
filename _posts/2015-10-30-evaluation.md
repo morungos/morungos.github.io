@@ -2,7 +2,7 @@
 layout: post
 title: Evaluating courses without making tutors feel censured
 author: Stuart
-summary: |-
+summary: >-
   Most tutor evaluation forms are terrible, and here's the trick
   with Likert scales that you need to build a better approach.
 ---

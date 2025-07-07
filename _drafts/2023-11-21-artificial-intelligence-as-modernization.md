@@ -3,7 +3,7 @@ layout: post
 title: 'Breaking the machines'
 author: Stuart
 background: '/img/posts/iphone-3635262_1920.jpg'
-summary: |-
+summary: >-
   A blog post ...  
 image: '/img/posts/iphone-3635262_1920.jpg'
 image_description: |-

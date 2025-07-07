@@ -2,7 +2,7 @@
 layout: page
 title: 'Resume - Stuart Watt'
 background: '/img/bg-about.jpg'
-summary: |-
+summary: >-
   Dr Stuart Watt is a consulting developer who loves the challenges of
   transforming rough ideas and hard problems into well-engineered technology. 
 ---

@@ -3,7 +3,7 @@ layout: post
 title: Welcome to Halifax
 author: Stuart
 background: '/img/posts/kearney-lake.jpg'
-summary: |-
+summary: >-
   Hey, I moved to Nova Scotia
 ---
 

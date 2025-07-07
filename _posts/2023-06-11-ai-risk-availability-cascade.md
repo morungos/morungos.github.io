@@ -3,7 +3,7 @@ layout: post
 title: 'Something must be done about AI: availability cascades and existential risk'
 author: Stuart
 background: '/img/posts/IMG_6794.jpeg'
-summary: |-
+summary: >-
   "Existential risk" in artificial intelligence is an exemplary example of
   an availability cascade, a special kind of viral phenomenon driven by strategic 
   manipulation, and with a real risk of pointless and expensive regulation.

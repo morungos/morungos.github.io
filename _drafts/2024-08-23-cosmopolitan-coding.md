@@ -3,7 +3,7 @@ layout: post
 title: 'Cosmopolitan coding: the new risks of late modern software'
 author: Stuart
 background: '/img/posts/48349530722_4b0e1706ac_k.jpg'
-summary: |-
+summary: >-
   A blog post on the challenges of theorizing about complex systems such
   as large language models, seen through the lens of testing kittens.
 tagline: |-
