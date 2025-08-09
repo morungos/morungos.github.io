@@ -27,35 +27,42 @@ faster"](https://www.theguardian.com/technology/2025/aug/04/demis-hassabis-ai-fu
 Is this argument, to quote the late, great, Douglas Adams, "a load of dingo's
 kidneys"? I think so, and here's why.
 
-## 1. Modernization
+## The industrial revolution
 
-Over the past five centuries or so, particularly in the Western
-world[^Modernity], there was a clear break from the medieval world, with its
-strict hierarchies and agricultural economies. While the modern world did not
-arrive all at once, piece by piece a series of innovations transformed the world
-into the modern, industrialized, interconnected one that we see today.
+The story behind the industrial revolution is one of modernization, of progress.
+An array of innovators, inventors, and entrepreneurs created technical
+innovations that rapidly enhanced the productivity of industrial work. [John
+Kay's "flying shuttle"](https://en.wikipedia.org/wiki/Flying_shuttle) enabled
+each weaver to be twice as productive, so yarn came into demand, James
+Hargreaves "spinning jenny" made the spinners able to produce multiple balls of
+yarn at once, all with the assistance of water -- and eventually steam -- power.
+Each innovation pushed the demand to other critical parts of the overall value
+chain, incentivizing synergistic innovations, and what once required hundreds of
+people to produce could be the work of a few.
 
-Throughout that transformation there was a theme of *progress* -- a marked break
-from the medieval world, where people were the subjects of God, nature, and our
-lords and masters. In the medieval world, what technological innovation there
-was (not much!) was firmly under the control of the Church and the nobles. 
+This is classical automation in manufacturing: using 'technology'[^Technology]
+to improve productivity, or quality, or whatever else enabled higher prices and
+higher margins for profit.
 
-The modern world changed that — progress itself became a Good Thing. We could
-start to shape our environment, make a new and better world, improved over the
-one that we inherited from our forbears. Along the way, we developed
-technologies that both helped us shape the world, and they, in turn, laid the
-foundations for the innovations yet to come.
+[^Technology]: The word "technology" here is anachronistic. The term wasn't used
+    much until the 1940s and 1950s. 
 
-[^Modernity]: 
-    Yes, this is a more-than-a-little colonialist way of summarizing it —
-    perhaps inevitably, given that colonialism was a direct product of this
-    process of modernization. It is also likely that the key phases were
-    directly shaped by forces elsewhere — in particular, the Islamic Golden Age
-    presaged early modernization by over a hundred years. 
+But remember: the impact of the innovations was dependent on the transformation
+from an earlier collective system, with carders and spinners creating the yarns
+before it could be woven by the weavers, to be dyed, sold, and marketed by
+others, before finally being transformed into wearable garments. Hundreds of
+people might be involved in a single shirt. 
 
-The peak of this process was the industrial revolution that we know and 
-love -- especially those in my home town of Manchester. 
+## Artificial intelligence
 
+Today's artificial intelligence is not interested in manufacturing -- it is
+firmly oriented to the service sector[^Robots].
+
+[^Robots]: Yes, robots have played a huge part in industry since the 1970s --
+    and these robots are the lineal descendants of the spinning jenny, no more.
+    So much so that nobody is really interested in putting today's artificial
+    intelligence inside any of them -- except, maybe, in a very few complex and
+    high risk settings, where they may be able to reduce risks for people.
 
 2. The Agricultural Revolution
 
