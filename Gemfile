@@ -17,3 +17,11 @@ gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem "wdm", "~> 0.1.0" if Gem.win_platform?
 
 gem "jekyll-image-size", "~> 1.2"
+
+gem "csv", "~> 3.3"
+
+gem "logger", "~> 1.7"
+
+gem "base64", "~> 0.3.0"
+
+gem "bigdecimal", "~> 3.2"
