@@ -27,36 +27,44 @@ faster"](https://www.theguardian.com/technology/2025/aug/04/demis-hassabis-ai-fu
 Is this argument, to quote the late, great, Douglas Adams, "a load of dingo's
 kidneys"? I think so, and here's why.
 
-## The industrial revolution
+## What was the industrial revolution?
 
-The story behind the industrial revolution is one of modernization, of progress.
-An array of innovators, inventors, and entrepreneurs created technical
-innovations that rapidly enhanced the productivity of industrial work. [John
-Kay's "flying shuttle"](https://en.wikipedia.org/wiki/Flying_shuttle) enabled
-each weaver to be twice as productive, so yarn came into demand, James
-Hargreaves "spinning jenny" made the spinners able to produce multiple balls of
-yarn at once, all with the assistance of water -- and eventually steam -- power.
-Each innovation pushed the demand to other critical parts of the overall value
-chain, incentivizing synergistic innovations, and what once required hundreds of
-people to produce could be the work of a few.
+The story behind the industrial revolution is part of the story of
+modernization, of progress. An array of innovators, inventors, and entrepreneurs
+created technical innovations that rapidly enhanced the productivity of
+industrial work. [John Kay's "flying
+shuttle"](https://en.wikipedia.org/wiki/Flying_shuttle) enabled a single weaver
+to be twice as productive, so yarn became a pressing demand, James Hargreaves
+"spinning jenny" helped the spinners able to produce multiple balls of yarn at
+once, all with the assistance of water power -- and then steam power. Each
+innovation pushed the demand to other critical parts of the overall value chain,
+incentivizing synergistic innovations, and what once required hundreds of people
+to produce could be the work of a few.
 
-This is classical automation in manufacturing: using 'technology'[^Technology]
+This is typical automation in manufacturing: using 'technology'[^Technology]
 to improve productivity, or quality, or whatever else enabled higher prices and
 higher margins for profit.
 
 [^Technology]: The word "technology" here is anachronistic. The term wasn't used
-    much until the 1940s and 1950s. 
+    much until the 1940s and 1950s.
 
-But remember: the impact of the innovations was dependent on the transformation
+Together, the impact of the innovations was dependent on the transformation
 from an earlier collective system, with carders and spinners creating the yarns
 before it could be woven by the weavers, to be dyed, sold, and marketed by
 others, before finally being transformed into wearable garments. Hundreds of
-people might be involved in a single shirt. 
+people might be involved in a single shirt.
+
+This was the industrial revolution, like a fire, it gradually spread from sector
+to sector, transforming processes through innovation, consuming the old traditional
+ways and leaving a new, transformed, recognizable global economy in its wake.
 
 ## Artificial intelligence
 
-Today's artificial intelligence is not interested in manufacturing -- it is
-firmly oriented to the service sector[^Robots].
+Although artificial intelligence has only recently become a global phenomenon,
+automation was a significant part of its 
+
+Today's artificial intelligence is not interested in manufacturing -- instead,
+it is firmly oriented to the service sector[^Robots].
 
 [^Robots]: Yes, robots have played a huge part in industry since the 1970s --
     and these robots are the lineal descendants of the spinning jenny, no more.
@@ -64,7 +72,18 @@ firmly oriented to the service sector[^Robots].
     intelligence inside any of them -- except, maybe, in a very few complex and
     high risk settings, where they may be able to reduce risks for people.
 
-2. The Agricultural Revolution
+## The Agricultural Revolution
 
-3. Patrick Sellars
+Behind the industrial revolution was a social transformation. Look at how the
+textile industry changed, from a network of individual and skilled tradespeople
+into a structured system. Skills changed, and the revenue associated with it
+flowed elsewhere.
+
+
+| Device          | Description         | Example quote            |
+|---------------- | ------------------- | ------------------------ |
+| Landowners      | Investors           |                          |
+
+
+> 3. Patrick Sellars
 
