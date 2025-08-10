@@ -101,9 +101,9 @@ As with other displacements, and as with Sellar, it is hard to disentangle the
 desire for self-aggrandizement from the belief in a greater good. Sellar himself
 grew wealthy as a tenant sheep farmer among the ruins of the villages he had
 burned. When I look at the White House AI Action Plan, I see McKinsey, DOGE and
-their ilk as a modem Patrick Sellar — I am sure they genuinely believe COBOL
+their ilk as modern Patrick Sellars — I am sure they genuinely believe COBOL
 programmers should learn AI, but I am equally sure they want to be the vendors.
-Displacement of others is good for business. 
+Displacement of others is good for their business. 
 
 ## The technology sector and agriculture compared
 
