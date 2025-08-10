@@ -60,6 +60,16 @@ Estates in northern Scotland. Sellar was from a farm labourers’ family, a
 self-made man, lawyer, beneficiary of a Scottish educational system that was
 surprisingly good at enabling social mobility on occasion. 
 
+<figure class="figure w-100 text-center">
+  <img class="img-fluid border" src="/img/posts/Patrick_Sellar_Plaque.jpg" 
+       alt="Memorial plaque for Patrick Sellar">
+    <figcaption class="figure-caption">
+    Memorial plaque for Patrick Sellar.<br>
+    Copyright © Douglas Nelson, used under Creative Commons Attribution-ShareAlike 2.0 license
+    </figcaption>
+</figure>
+
+
 Sellar’s view throughout was that evicting people from the land and replacing
 them by sheep was, in fact, morally correct, a Good Thing[^2]. Displacement was
 the right course of action. His “modern” world, shaped by the views of Adam
@@ -80,11 +90,12 @@ Displacement, then, is not a new phenomenon. To this day we live with questions
 of how to handle an old industry that has, in effect, become non-viable. The
 same discussions happened about coal mining in the 1980s. 
 
-Displacement, then, is the traditionally Conservative response to a changed
+Instead, displacement is the traditionally Conservative response to a changed
 economy. It is an incentive for workers with obsolete skills to retrain
 themselves for this new world. In this framing, displacement is to be welcomed,
-not avoided. It should not be a surprise that the same process is happening to
-today’s programmers, call centre workers, and even artists. 
+not avoided. It should not be a surprise that the same framing is being applied
+to today’s programmers, call centre workers, and even artists. Of course, that
+doesn't make it right. 
 
 As with other displacements, and as with Sellar, it is hard to disentangle the
 desire for self-aggrandizement from the belief in a greater good. Sellar himself
@@ -170,6 +181,21 @@ So where does artificial intelligence fit in this? We can see the narrative of
 displacement is already a force to be reckoned with. We can see that the number of 
 actual vendors in the space is relatively small -- as with industry, wealth itself
 limits modernization to the wealthy. 
+
+And I, for one, brought up on stories of the Clearances, and with memories of
+Strathnaver in its aftermath, look on those who eagerly promote displacement as
+the descendants of Patrick Sellar: people who would burn down your house in their
+search for profit, while firmly believing that it is all in your own interests. 
+
+<figure class="figure w-100 text-center">
+  <img class="img-fluid border" src="/img/posts/501139_562ef1f7.jpg" 
+       alt="Grummore Settlement, Strathnaver, today">
+    <figcaption class="figure-caption">
+    Grummore Settlement, Strathnaver, today.<br>
+    Copyright © Jude Dobson, used under Creative Commons Attribution-ShareAlike 2.0 license
+    </figcaption>
+</figure>
+
 
 ---
 
