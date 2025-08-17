@@ -1,0 +1,184 @@
+---
+layout: post
+title: 'Micro-management by proxy: reflections on generative AI in the workplace'
+author: Stuart
+background: '/img/posts/IMG_6794.jpeg'
+summary: >-
+  This article describes how generative artificial intelligence tends to
+  break apart teams, driving a wedge into the deep asymmetry between generating 
+  information and using it. The result can be stressful for employees, but just
+  as destructive on managers' strategy and vision.
+image: '/img/posts/IMG_6794.jpeg'
+image_description: "Cascade on the River Etherow"
+---
+
+As a software developer I've seen big changes in the way managers work with
+teams, but generative artificial intelligence has taken it to a whole new level.
+One of my managers is using generative AI to create a sequence of report
+documents that -- they hope -- will assist me to solve some of the technical
+challenges. Let's see how well that particular scenario will play out.
+
+For context, this work involves deep, low-level coding; almost entirely in C
+and C++ on embedded systems with complex image processing pipelines and
+dedicated hardware. There are a wide range of existing APIs involved, some old,
+some very new.
+
+To date, I've received about 35 different reports, averaging around 10 pages
+each, but some are up to 50 pages of content, varying from code samples to
+detailed tables comparing alternative techniques. And on some days, I'd have
+three new ones before breakfast.
+
+I will also readily admit that as a developer, I have firm views on how managers
+need to behave to a software team. We are not the easiest folks to manage. We
+have a distinct tendency to show ADHD-like traits -- and my perception of the
+move to agile-like approaches (broadly) was that it helps teams manage the
+managers, by limiting the tendency to surprises.[^LasVegas].
+
+[^LasVegas]: On one memorable occasion, I got three entirely different radical
+    changes in project direction in as many days, while my boss was at a trade
+    show in Las Vegas, as each person spoke to had different needs. That is
+    fine, but moving from idea to active task that frequently and inconsistently
+    is a surefire way to push developers to the limits of their tolerance. 
+
+So, with that caveat, here are some of the reflections I had on the effects of using
+generative AI reports during day-to-day project work.
+
+### 1. Strong use of the report genre.
+
+The reports looked good, they were glossy and well-structured. That itself makes
+them seem persuasive. [As I have argued before, persuasiveness is one of the
+strengths of artificial intelligence](#), and not in a good way. These are the
+kinds of document that higher levels of management love, as they create the
+illusion of considered thought. But in these reports, it is entirely illusory. 
+
+You do not need to look far to see how thin this veneer is. For example, one
+executive summary ends with: 
+
+> "... This document uses UK English, adheres to ACM citation style, and ensures
+> originality and copyright compliance." 
+
+No real executive summary would ever say that -- especially as a final sentence,
+which is where you want a nice punchy recommendation or conclusion. Firstly,
+it's all obvious anyway, and secondly, it's off-topic. This is a theme we shall 
+return to.
+
+### 2. Long on comparison, short on depth
+
+Consistently, in all reports, they put a lot of words into comparing and
+contrasting things. I've seen this very consistently since the early days of
+ChatGPT, and I'm convinced they're using a lot of essay-type data, either in
+plain training, or, more likely, during reinforcement learning when, for
+example, folks try to use them for undergraduate courseworks. 
+
+Now there is a place for comparing and contrasting, but in Bloom's taxonomy,
+we usually want to get beyond that, to critical evaluation.
+
+### 3. "Hallucinations" aren't the only big problem, off-topic content is too
+
+I was expecting a lot of what we might impolitely call "bollocks" -- information
+that is frankly wrong, or at best misleading. There is plenty of incorrect
+information, but it's not as obvious as you might like.
+
+For example, latency is a big factor in this project. We need a fast response.
+And these reports will merrily give you quantitative latency values, One of our
+reports quoted the latency of the MJPEG image compression as "< 15ms" -- without
+any source. Following up, an AI summary attributed a similar value to [this
+StarLab
+article](https://www.cuiyong.net/lunwen/2017/Furion-Engineering%20High-Quality%20Immersive%20Virtual%20Reality%20on%20Todays%20Mobile%20Devices.pdf),
+which benchmarks virtual reality apps on smartphones. 
+
+Problem is, these benchmarks are for *decompression*, which often does have hardware
+acceleration. Hardware acceleration for MJPEG *compression* is a completely different
+issue, and the computational challenges are much more significant. 
+
+Is this hallucination? Not really. It is just missing the point. And it could
+have been serious -- leading to a lot of investment in development effort that
+might be entirely wasted. At least in this context, the big problem is the LLM
+has missed the point -- and likely whoever was using it was not even aware of
+the point -- so they were unable to correct it.
+
+### 4. Management by information overload
+
+In this case, the effect was to establish a novel form of micromanagement,
+effectively by proxy. Now, I know the person and like them and trust them -- and
+I am certain it was not due to a lack of confidence in the team. But I believe
+there was a need to feel fully engaged in the development process, and
+generative AI enabled that.
+
+The problem is that there's a new asymmetry: it is very much faster to *create*
+a large document than it is to *use* it. In the context of management, this
+asymmetry enables more work and more risk to be pushed onto employees, faster.
+Autonomy and delegation are reduced, because of this new form of micromanagement. 
+I would put it this way: 
+
+> **Because of the assymetry between production and usage, generative artificial
+> intelligence can, and likely will, enable harmful and** **dysfunctional
+> patterns of interaction within a workplace.**
+
+Speaking honestly, once or twice, the misunderstandings that these reports
+introduced into the project direction had me wanting to bail out of
+participating entirely -- until we managed to repair the overall view of the
+project. I ended up saying: "This constant rapid change of direction gets me
+stressed and frustrated." I attribute that lack of direction to the tendency of
+these generative AI reports to go off topic without those who prepared them
+being aware of it. 
+
+### 5. Generative AI as a direct threat to reflection
+
+Big picture, then, there are problems. But I think my biggest concern was that,
+on reflection, generative artificial intelligence actually prevented reflection,
+and therefore makes it harder for us to handle our emotions and grow in the
+workplace. 
+
+Donald Schön described a model of reflection in professional practice that has three
+aspects:
+
+* Knowledge in action
+    - e.g., what do you know about the situation? How does that help?
+
+* Reflection in action
+    - e.g., what is going on, how do you feel in the moment?
+
+* Reflection on action
+    - e.g., what happened? why? how can we avoid it in future?
+
+Table 1 below sketches out my different assessments of the impact of these
+reports, both for and the manager, and how they impact reflection. My quick and
+off-the-cuff thought is that, effectively, reflection (which is usually
+considered a Good Thing for professional improvement) does take work. It does
+not happen for free.
+
+| Aspect of reflection | Me                         | Manager                                                         |
+| -------------------- | -------------------------- | --------------------------------------------------------------- |
+| Knowledge in action  | Reports don't add much; may solidify pre-conceived ideas, on occasion open new ones     | Reports create the illusion of knowing the situation and engaging in the work |
+| Reflection in action | Information overload; frustration; lack of strategic thinking  | "Fire and forget" -- the report genre itself makes reflection redundant |
+| Reflection on action | Technical debt; oriented to responsiveness rather than planning | Missing in action |
+
+Table 1. Aspects of reflection impacted during this work.
+
+I would draw special attention to the overall pattern. It was bad for me, on the
+receiving end, due to the stress and lack of strategy. But I think it is likely
+even more harmful for the manager, who runs the risk of being completely
+disconnected from all reflection processes entirely.
+
+## Reflections on reflection
+
+This is why I think the kind of "micromanagement by proxy" that we ended up
+with, however we did end up with it, felt like a bad process. I understand the
+appeal: it is always good for managers to feel like they are key to a successful
+project outcome. But that does require work, on both sides. Generative AI makes
+it much to easy to "fire and forget" information-rich missives than can cause
+total chaos.
+
+Particularly in anything involving technology, hardware and software, where
+there are a gazillion competing constraints, it is really hard to stay focused
+on a solid product outcome. The tendency of the generative LLMs to introduce the
+occasional left-field surprise throughout the process -- not in a controlled way
+-- was stressful, to say the least. And the tendency for sloppiness, off-topic
+information, like casually ignoring the distinction between performance in
+compression and in decompression,leads to making the whole information base for
+the project harder to work with.
+
+So, if you want to look at generative LLMs in the workplace, don't think only of
+the errors and the hallucinations. This technology transforms the interaction
+dynamics too -- in ways we may all come to regret. 
