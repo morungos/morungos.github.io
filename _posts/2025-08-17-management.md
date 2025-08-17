@@ -47,9 +47,10 @@ generative AI reports during day-to-day project work.
 
 The reports looked good, they were glossy and well-structured. That itself makes
 them seem persuasive. [As I have argued before, persuasiveness is one of the
-strengths of artificial intelligence](#), and not in a good way. These are the
-kinds of document that higher levels of management love, as they create the
-illusion of considered thought. But in these reports, it is entirely illusory. 
+strengths of artificial intelligence](/2024/08/03/more-quotes/), and not in a
+good way. These are the kinds of document that higher levels of management love,
+as they create the illusion of considered thought. But in these reports, it is
+entirely illusory. 
 
 You do not need to look far to see how thin this veneer is. For example, one
 executive summary ends with: 
@@ -70,8 +71,9 @@ ChatGPT, and I'm convinced they're using a lot of essay-type data, either in
 plain training, or, more likely, during reinforcement learning when, for
 example, folks try to use them for undergraduate courseworks. 
 
-Now there is a place for comparing and contrasting, but in Bloom's taxonomy,
-we usually want to get beyond that, to critical evaluation.
+Now there is a place for comparing and contrasting, but in [Bloom's
+taxonomy](https://en.wikipedia.org/wiki/Bloom's_taxonomy), we usually want to
+get beyond that, to critical evaluation.
 
 ### 3. "Hallucinations" aren't the only big problem, off-topic content is too
 
@@ -130,7 +132,7 @@ on reflection, generative artificial intelligence actually prevented reflection,
 and therefore makes it harder for us to handle our emotions and grow in the
 workplace. 
 
-Donald Schön described a model of reflection in professional practice that has three
+[Donald Schön, in 1992's "The Reflective Practitioner"](https://www.taylorfrancis.com/books/mono/10.4324/9781315237473/reflective-practitioner-donald-sch%C3%B6n) described a model of reflection in professional practice that has three
 aspects:
 
 * Knowledge in action
@@ -153,8 +155,9 @@ not happen for free.
 | Knowledge in action  | Reports don't add much; may solidify pre-conceived ideas, on occasion open new ones     | Reports create the illusion of knowing the situation and engaging in the work |
 | Reflection in action | Information overload; frustration; lack of strategic thinking  | "Fire and forget" -- the report genre itself makes reflection redundant |
 | Reflection on action | Technical debt; oriented to responsiveness rather than planning | Missing in action |
+{:.table.table-striped}
 
-Table 1. Aspects of reflection impacted during this work.
+**Table 1. Aspects of reflection impacted during this work.**
 
 I would draw special attention to the overall pattern. It was bad for me, on the
 receiving end, due to the stress and lack of strategy. But I think it is likely
