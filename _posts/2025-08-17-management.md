@@ -43,7 +43,7 @@ managers, by limiting the tendency to surprises.[^LasVegas].
 So, with that caveat, here are some of the reflections I had on the effects of using
 generative AI reports during day-to-day project work.
 
-### 1. Strong use of the report genre.
+### 1. Strong use of the report genre
 
 The reports looked good, they were glossy and well-structured. That itself makes
 them seem persuasive. [As I have argued before, persuasiveness is one of the
@@ -67,7 +67,7 @@ return to.
 
 Consistently, in all reports, they put a lot of words into comparing and
 contrasting things. I've seen this very consistently since the early days of
-ChatGPT, and I'm convinced they're using a lot of essay-type data, either in
+ChatGPT, and I'm convinced they're using a lot of essay-type tasks, either in
 plain training, or, more likely, during reinforcement learning when, for
 example, folks try to use them for undergraduate courseworks. 
 
@@ -75,13 +75,13 @@ Now there is a place for comparing and contrasting, but in [Bloom's
 taxonomy](https://en.wikipedia.org/wiki/Bloom's_taxonomy), we usually want to
 get beyond that, to critical evaluation.
 
-### 3. "Hallucinations" aren't the only big problem, off-topic content is too
+### 3. Off-topic content is as big a problem as "hallucination"
 
 I was expecting a lot of what we might impolitely call "bollocks" -- information
 that is frankly wrong, or at best misleading. There is plenty of incorrect
 information, but it's not as obvious as you might like.
 
-For example, latency is a big factor in this project. We need a fast response.
+To pick an example, latency is a big factor in this project. We need a fast response.
 And these reports will merrily give you quantitative latency values, One of our
 reports quoted the latency of the MJPEG image compression as "< 15ms" -- without
 any source. Following up, an AI summary attributed a similar value to [this
@@ -99,12 +99,12 @@ might be entirely wasted. At least in this context, the big problem is the LLM
 has missed the point -- and likely whoever was using it was not even aware of
 the point -- so they were unable to correct it.
 
-### 4. Management by information overload
+### 4. Management by proxy and information overload
 
 In this case, the effect was to establish a novel form of micromanagement,
 effectively by proxy. Now, I know the person and like them and trust them -- and
 I am certain it was not due to a lack of confidence in the team. But I believe
-there was a need to feel fully engaged in the development process, and
+there was a need for them to feel fully engaged in the development process, and
 generative AI enabled that.
 
 The problem is that there's a new asymmetry: it is very much faster to *create*
