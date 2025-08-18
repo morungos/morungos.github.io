@@ -13,10 +13,12 @@ image_description: "Cascade on the River Etherow"
 ---
 
 As a software developer I've seen big changes in the way managers work with
-teams, but generative artificial intelligence has taken it to a whole new level.
-One of my managers is using generative AI to create a sequence of report
+teams, but generative artificial intelligence has taken it to a new level.
+One of my colleagues -- loosely in the role of a 
+["product owner"](https://www.scrum.org/resources/what-is-a-product-owner) -- is 
+using generative AI to create a sequence of report
 documents that -- they hope -- will assist me to solve some of the technical
-challenges. Let's see how well that particular scenario will play out.
+challenges. Let's see how well that particular scenario played out.
 
 For context, this work involves deep, low-level coding; almost entirely in C
 and C++ on embedded systems with complex image processing pipelines and
@@ -25,14 +27,19 @@ some very new.
 
 To date, I've received about 35 different reports, averaging around 10 pages
 each, but some are up to 50 pages of content, varying from code samples to
-detailed tables comparing alternative techniques. And on some days, I'd have
+detailed tables comparing alternative techniques. And some days, I'd have
 three new ones before breakfast.
 
-I will also readily admit that as a developer, I have firm views on how managers
+I will also readily admit that as a developer, I have firm (and occasionally 
+inflexible) views on how managers
 need to behave to a software team. We are not the easiest folks to manage. We
-have a distinct tendency to show ADHD-like traits -- and my perception of the
-move to agile-like approaches (broadly) was that it helps teams manage the
+have a tendency to ADHD-like traits -- and my perception of the
+move to agile-like approaches[^Agile] (broadly) was that it helps teams manage the
 managers, by limiting the tendency to surprises.[^LasVegas].
+
+[^Agile]: Please do not assume that any of us are recommending a "proper" agile method. we 
+    don't. That said, I love the spirit of the agile manifesto, because it tries 
+    to straddle the fine line of embracing flexibility while to some extent containing it. 
 
 [^LasVegas]: On one memorable occasion, I got three entirely different radical
     changes in project direction in as many days, while my boss was at a trade
@@ -75,6 +82,16 @@ Now there is a place for comparing and contrasting, but in [Bloom's
 taxonomy](https://en.wikipedia.org/wiki/Bloom's_taxonomy), we usually want to
 get beyond that, to critical evaluation.
 
+Instead, what we get is a flood of informatiom containing detailed 
+numerid performance indications of the different options, often missing 
+cital contextual information (as we will see in a moment). 
+
+What we miss is a framework for assessing the options, and linking them
+back to the project needs. When high throughput is a need, we need a 
+coherent overview of that, but we don't get it. Instead, what we get
+resembles a patchwork of vendor comparison tables, injected into the
+tactical project decision-making.
+
 ### 3. Off-topic content is as big a problem as "hallucination"
 
 I was expecting a lot of what we might impolitely call "bollocks" -- information
@@ -93,7 +110,9 @@ Problem is, these benchmarks are for *decompression*, which often does have hard
 acceleration. Hardware acceleration for MJPEG *compression* is a completely different
 issue, and the computational challenges are much more significant. 
 
-Is this hallucination? Not really. It is just missing the point. And it could
+Is this hallucination? Not really -- the informwtiom is correct, in a different context. 
+It is more like missing the point. Within imformwrion retrieval, it would not be 
+considered "relevant" -- although to an untrained eye it looks relevant. And it could
 have been serious -- leading to a lot of investment in development effort that
 might be entirely wasted. At least in this context, the big problem is the LLM
 has missed the point -- and likely whoever was using it was not even aware of
@@ -102,7 +121,11 @@ the point -- so they were unable to correct it.
 ### 4. Management by proxy and information overload
 
 In this case, the effect was to establish a novel form of micromanagement,
-effectively by proxy. Now, I know the person and like them and trust them -- and
+effectively by proxy. The reports function -- this is one of the consequences 
+of text genre of reports -- as a forceful factor in decision-making. The form
+and structure of reports gives them a purpose: to tell us what to do. 
+
+Now, I know the person and like them and trust them -- and
 I am certain it was not due to a lack of confidence in the team. But I believe
 there was a need for them to feel fully engaged in the development process, and
 generative AI enabled that.
@@ -132,16 +155,17 @@ on reflection, generative artificial intelligence actually prevented reflection,
 and therefore makes it harder for us to handle our emotions and grow in the
 workplace. 
 
-[Donald Schön, in 1992's "The Reflective Practitioner"](https://www.taylorfrancis.com/books/mono/10.4324/9781315237473/reflective-practitioner-donald-sch%C3%B6n) described a model of reflection in professional practice that has three
-aspects:
+[Donald Schön, in 1992's "The Reflective Practitioner"](https://www.taylorfrancis.com/books/mono/10.4324/9781315237473/reflective-practitioner-donald-sch%C3%B6n) 
+described a model of reflection in professional practice that has three
+phases or aspects:
 
-* Knowledge in action
+* Knowledge in action -- in the situation
     - e.g., what do you know about the situation? How does that help?
 
-* Reflection in action
+* Reflection in action -- in the situation
     - e.g., what is going on, how do you feel in the moment?
 
-* Reflection on action
+* Reflection on action -- after the situation
     - e.g., what happened? why? how can we avoid it in future?
 
 Table 1 below sketches out my different assessments of the impact of these
