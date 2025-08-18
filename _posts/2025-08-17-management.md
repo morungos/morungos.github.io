@@ -216,7 +216,7 @@ This is why I think the kind of "micromanagement by proxy" that we ended up
 with, however we did end up with it, felt like a bad process. I understand the
 appeal: it is always good for managers to feel like they are key to a successful
 project outcome. But that does require work, on both sides. Generative AI makes
-it much to easy to "fire and forget" information-rich missives than can cause
+it much too easy to "fire and forget" information-rich missives than can cause
 total chaos.
 
 Particularly in anything involving technology, hardware and software, where
@@ -225,7 +225,7 @@ on a solid product outcome. The tendency of the generative LLMs to introduce the
 occasional left-field surprise throughout the process -- not in a controlled way
 -- was stressful, to say the least. And the tendency for sloppiness, off-topic
 information, like casually ignoring the distinction between performance in
-compression and in decompression,leads to making the whole information base for
+compression and in decompression, leads to making the whole information base for
 the project harder to work with.
 
 So, if you want to look at generative LLMs in the workplace, don't think only of
