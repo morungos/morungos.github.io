@@ -23,7 +23,7 @@ challenges. Let's see how well that particular scenario played out.
 For context, this work involves deep, low-level coding; almost entirely in C
 and C++ on embedded systems with complex image processing pipelines and
 dedicated hardware. There are a wide range of existing APIs involved, some old,
-some very new.
+some new and fluid.
 
 To date, I've received about 35 different reports, averaging around 10 pages
 each, but some are up to 50 pages of content, varying from code samples to
@@ -47,17 +47,17 @@ managers, by limiting the tendency to surprises.[^LasVegas].
     fine, but moving from idea to active task that frequently and inconsistently
     is a surefire way to push developers to the limits of their tolerance. 
 
-So, with that caveat, here are some of the reflections I had on the effects of using
-generative AI reports during day-to-day project work.
+So, with that caveat, here are some of the reflections I had on the effects of 
+this usage of generative AI reports during day-to-day project work.
 
 ### 1. Strong use of the report genre
 
-The reports looked good, they were glossy and well-structured. That itself makes
-them seem persuasive. [As I have argued before, persuasiveness is one of the
-strengths of artificial intelligence](/2024/08/03/more-quotes/), and not in a
-good way. These are the kinds of document that higher levels of management love,
-as they create the illusion of considered thought. But in these reports, it is
-entirely illusory. 
+The reports looked good, visually they were glossy, professionally laid out, and
+well-structured. That itself makes them seem persuasive. [As I have argued
+before, persuasiveness is one of the strengths of artificial
+intelligence](/2024/08/03/more-quotes/), and not in a good way. These are the
+kinds of document that higher levels of management love, as they create the
+illusion of considered thought. But in these reports, it is entirely illusory. 
 
 You do not need to look far to see how thin this veneer is. For example, one
 executive summary ends with: 
@@ -82,9 +82,9 @@ Now there is a place for comparing and contrasting, but in [Bloom's
 taxonomy](https://en.wikipedia.org/wiki/Bloom's_taxonomy), we usually want to
 get beyond that, to critical evaluation.
 
-Instead, what we get is a flood of informatiom containing detailed 
-numerid performance indications of the different options, often missing 
-cital contextual information (as we will see in a moment). 
+Instead, what we get is a flood of information containing detailed 
+numeric performance indications of the different options, often missing 
+vital contextual information (as we will see in a moment). 
 
 What we miss is a framework for assessing the options, and linking them
 back to the project needs. When high throughput is a need, we need a 
@@ -110,13 +110,17 @@ Problem is, these benchmarks are for *decompression*, which often does have hard
 acceleration. Hardware acceleration for MJPEG *compression* is a completely different
 issue, and the computational challenges are much more significant. 
 
-Is this hallucination? Not really -- the informwtiom is correct, in a different context. 
-It is more like missing the point. Within imformwrion retrieval, it would not be 
-considered "relevant" -- although to an untrained eye it looks relevant. And it could
-have been serious -- leading to a lot of investment in development effort that
-might be entirely wasted. At least in this context, the big problem is the LLM
-has missed the point -- and likely whoever was using it was not even aware of
-the point -- so they were unable to correct it.
+Is this hallucination? Not really -- the information is correct, in a different
+context. It is more like missing the point. Within information retrieval, it
+would not be considered
+["relevant"](https://en.wikipedia.org/wiki/Relevance_(information_retrieval)) --
+although to an untrained eye it *looks* relevant. And it could have been serious
+-- leading to a lot of investment in development effort that might be entirely
+wasted -- in effect creating a new source of [technical
+debt](https://www.ibm.com/think/topics/technical-debt). At least in this
+context, the big problem is the LLM has missed the point -- and likely whoever
+was using it was not even aware of the point -- so they were unable to correct
+it.
 
 ### 4. Management by proxy and information overload
 
@@ -136,24 +140,24 @@ asymmetry enables more work and more risk to be pushed onto employees, faster.
 Autonomy and delegation are reduced, because of this new form of micromanagement. 
 I would put it this way: 
 
-> **Because of the assymetry between production and usage, generative artificial
+> **Because of the asymmetry between production and usage, generative artificial
 > intelligence can, and likely will, enable harmful and** **dysfunctional
 > patterns of interaction within a workplace.**
 
 Speaking honestly, once or twice, the misunderstandings that these reports
 introduced into the project direction had me wanting to bail out of
 participating entirely -- until we managed to repair the overall view of the
-project. I ended up saying: "This constant rapid change of direction gets me
-stressed and frustrated." I attribute that lack of direction to the tendency of
-these generative AI reports to go off topic without those who prepared them
-being aware of it. 
+project. I ended up saying, with feeling: "This constant rapid change of
+direction gets me stressed and frustrated." On reflection, I attribute that lack
+of direction to the tendency of these generative AI reports to go off topic
+without those who prepared them being aware of it. So let's reflect a little more.
 
 ### 5. Generative AI as a direct threat to reflection
 
-Big picture, then, there are problems. But I think my biggest concern was that,
-on reflection, generative artificial intelligence actually prevented reflection,
-and therefore makes it harder for us to handle our emotions and grow in the
-workplace. 
+Big picture, then, there are problems. But I think my biggest concern was that
+generative artificial intelligence directly prevented reflection -- particularly
+reflection in the moment -- and therefore made it harder for us to handle our
+emotions and grow in the workplace. 
 
 [Donald Schön, in 1992's "The Reflective Practitioner"](https://www.taylorfrancis.com/books/mono/10.4324/9781315237473/reflective-practitioner-donald-sch%C3%B6n) 
 described a model of reflection in professional practice that has three
@@ -183,7 +187,15 @@ not happen for free.
 
 **Table 1. Aspects of reflection impacted during this work.**
 
-I would draw special attention to the overall pattern. It was bad for me, on the
+The report genre itself was a big part of the problem. [Trevor Collins, Paul
+Mulholland and I wrote an article whole
+ago](https://isls.org/cscl/Euro2001/Papers/28.doc), discussing how textual
+genres used play a vital role on managing how people grasp information,
+especially within learning communities. I think there are some hard discussions
+to be had on the impact of generative AI on communities of practice -- and these
+impacts really haven't been considered yet, let alone addressed.
+
+But I would draw particular attention to the overall pattern. It was bad for me, on the
 receiving end, due to the stress and lack of strategy. But I think it is likely
 even more harmful for the manager, who runs the risk of being completely
 disconnected from all reflection processes entirely.
