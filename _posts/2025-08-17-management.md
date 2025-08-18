@@ -188,7 +188,7 @@ not happen for free.
 **Table 1. Aspects of reflection impacted during this work.**
 
 The report genre itself was a big part of the problem. [Trevor Collins, Paul
-Mulholland and I wrote an article whole
+Mulholland and I wrote an article a good while
 ago](https://isls.org/cscl/Euro2001/Papers/28.doc), discussing how textual
 genres used play a vital role on managing how people grasp information,
 especially within learning communities. I think there are some hard discussions
