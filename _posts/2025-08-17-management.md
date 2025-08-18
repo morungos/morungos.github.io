@@ -128,9 +128,9 @@ although to an untrained eye it *looks* relevant. And it could have been serious
 -- leading to a lot of investment in development effort that might be entirely
 wasted -- in effect creating a new source of [technical
 debt](https://www.ibm.com/think/topics/technical-debt). At least in this
-context, the big problem is the LLM has missed the point -- and likely whoever
-was using it was not even aware of the point -- so they were unable to correct
-it.
+context, the big problem is the LLM is generating so much apparently-relevant
+information that it's beyond the skill -- or the resources -- of *anyone* to
+correct it.
 
 ### 4. Management by proxy and information overload
 
