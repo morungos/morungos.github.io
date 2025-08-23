@@ -19,78 +19,149 @@ processes and stimuli?[^trauma]
 [^trauma]: Let's leave trauma out of this, and focus more on more everyday
 experiences.
 
+One way to think about this is through the framework of Abraham Maslow, and
+especially his "hierarchy of needs", today usually depicted as a pyramid
+(although Maslow never depicted it that way). At the bottom are the basic needs,
+and only once those are being met are we able to explore higher ones. At the top
+was "self-actualization".
 
+Maslow studied a fair number of "self-actualizers" (ranging from Einstein to
+Harriet Tubman), to find out what they had in common, and what marked them apart
+from the rest of us. All in all, he found about fifteen common behaviours,
+summarised in the table below. 
 
-Next, addiction. THere certainly is evidence that a kind of addiction to large
-language models both exists and [can be
-measured](https://www.sciencedirect.com/science/article/abs/pii/S0268401225000209). 
+It's worth noting here that I'm talking about Maslow's original
+(semi-)qualitative work, not the abuses of his description that came later,
+especially in the popularization of his framework within the business community.
 
-One way to think about this is through tye work of Abraham Maslow, and especially 
-his "hierarch of needs", usually shown as a pyramid (although Maslow never depicted
-it that way). At the bottom are the basic needs, and only once those are being met 
-are we able to explore higher ones. Originally at the top was "self actualization".
+| Maslow's self-actualization               | Naive generative AI                                                   |
+| ----------------------------------------- | --------------------------------------------------------------------- | 
+| Efficient perception of reality           | Increasing distortion of reality, recursive environment drift[^Ruane] |
+| Acceptance of self, others, and nature    | Perceptions of guilt, shame, anxiety                                  |
+| Spontaneity, simplicity, naturalness      | Greater salience of social norms                                      |
+| Goal centered, long-term mission in life  | Satisficing, local optimization                                       |
+| Accepting solitude without discomfort     | Constant need for social interaction                                  |
+| Autonomy and independence                 | Increasing dependency on the perceptions of others                    |
+| Continued freshness of appreciation       | Digital amnesia[^Deckker]                                             |
+| Mystic (flow) experiences, awe            | Diminishing cognitive control and attention regulation[^Deckker]      |
+| Gemeinschaftsgegühl (community feeling)   | Loss of community boundaries and identities, individualization        |
+| Profound interpersonal relations          | Wider but shallower social networks                                   |
+| Democratic character; humility, justice   | Halo effects, judgements are shaped by overall perceptions            |
+| Discrimination between good and evil      | Moral relativism, both-sidesing, the paradox of tolerance             |
+| Philosophical, un-hostile sense of humour | Satire, "punch down" comedy                                           |
+| Child-like creativity                     | Creativity shaped by other people's perceptions and expectations.     |
+| Resistance to enculturation               | "Fast culture", rapidly-evolving, viral, imitative              .     |
 
-Maslow interviewed a fair number of "selr-actualizers", to find out ehat they had in common,
-and what marked them apart from the rest of us. All in all, he found about fourteen
-common behaviours. 
+Now, as a mostly careful cognitive scientist, I should not pin my argument only
+on Maslow's work, which was distinctly sloppy by today's standards. Fortunately,
+I don't need to. One more respectable related concept is *need for cognition*, a
+personality-linked behavioural disposition (Cacioppo & Petty, 1982), which uses
+psychometrics to measure individual differences. 
 
-1. Efficient perception of reality
-2. Acceptance of Self, Others and Nature
-3. Spontaneity; Simplicity; Naturalness
-4. Problem Centering -- they have a missiom in life
-5. they can be solitary without discomfort
-6. Autonomy (Independence of Culture and Environment)
-7. Continued Freshness of Appreciation
-8. Mystic Experiences (Peak Experiences)
-9. Gemeinschaftsgegühl 
-10. deeper and more profound interpersonal relations
-11. friendly with anyone of a suitable character regardless of class, education, political belief, race or color
-12. Discrimination Between Good and Evil
-13. Philosophical, Un-Hostile Sense of Humor
-14. Creativeness, "akin to the universal creativeness of unspoiled children"
-15. The Transcendence of Culture; Resistance to Enculturation
+## Relations to business
 
-Now lets go through these and reflect on how they relate to generative AI.
+It's intriguing that by far and away the biggest impact of Maslow's framework
+was in the business literature, where it very quickly caught on -- and the
+pyramid diagrams today associated with Maslow were generated and propagated
+entirely within this community. 
 
-So the case is this: generative AI creates the comditions not for self-actualizatiom,
-but for a distortion of it. 
+However when you read, there's an ironic tension in the literature. It is
+invariably aimed at managers -- and it is not a coincidence that the pyramid
+resembles a corporate structure, so self-actualization becomes more the realm of
+managers, and basic needs that of lower rank employees. 
 
-In fact, one or the more insightful criticisms of the concept of self-actualization
-was Fritz Perls, who suggested that one of the risks of it as a concept was a
-short cut to "self-image actualization". 
+And yet, to Maslow, it was all about personal growth: "the desire to become more
+and more what one is, to become everything that one is capable of becoming"
+(Maslow, 1943). 
 
-This is the point, then: generative AI -- in its current dominant form as a tool -- 
-is directly harmful to self-actualization.
+Reading the business literature, much of it reads like senior managers yelling
+at their more junior employees: "grow, damn you!". The "self" part of
+"self-actualization" is entirely missing. 
 
-Of coyrse, there are other ways the technoloyy can work -- Slow AI is ome example, 
+## Self-actualization versus self-image actualization
+
+In a rare moment of insight, Fritz Perls (Perls was often a bit of an asshole,
+to be honest -- especially to his wife) revealed a piece of the framework that
+Maslow had missed. As Perls put it: "Many people dedicate their lives to
+actualize a concept of what they *should* be like, rather than to actualize
+*themselves*" (Perls, 1969, p20, original emphasis).
+
+This is crucial: Maslow's framework was all about people growing, becoming all
+that they could be. But, all to easily, a need for esteem, other other needs,
+provides a kind of saccharine substitute, a simulation of growth. 
+
+## Artificial intelligence as a dark mirror
+
+One of the few true experts in both artificial intelligence and in
+psychoanalytic thinking is Sherry Turkle. Her classic, *The Second Self*,
+explores the mirror as a metaphor for intelligent machines (for want of a better
+term), in some depth. One passage is worth quoting in full:
+
+> Ours has been called a culture of narcissism. The label is apt but can be
+> misleading. It reads colloquially as selfishness and self-absorption. But
+> these images do not capture the anxiety behind our search for mirrors. We are
+> insecure in our understanding of ourselves, and this insecurity breeds a new
+> preoccupation with the question of who we are. We search for ways to see
+> ourselves. The computer is a new mirror, the first psychological machine.
+> Beyond its nature as an analytical engine lies its second nature as an
+> evocative object. (Turkle, 1984, p279).
+
+Turkle's insight completes the puzzle. Maslow's needs are basic drives, and as
+we see ourselves in the mirror of new artificial intelligence, we all too easily
+see a false self-image -- ourselves as we wish to be seen: creative, autonomous,
+rich, powerful, beautiful, loved. We want our super-sized brain -- and, more
+importantly, we *need* everyone else to see it.
+
+And ChatGPT, the evocative mirror of our new technological world, can persuade
+us that this self-image is real. While we think we are busily self-actualizing,
+we are building the image, not the reality.
+
+Generative AI -- in its current dominant form as a tool -- is directly harmful
+to self-actualization.
+
+## One alternative: slow AI
+
+Of course, there are other ways the technology can work -- Slow AI is one example, 
 
 > [There] is a playfulness to slow technology, an artistic aspect that encourages 
 > time to reflect. We need to start building AI applications that focus less on 
 > the goal, and more on our experiences living in the world we do.
 
-Tye problem is, slow AI is harder to design ans ro build. it requires thought 
-to help build an experience -- and, oddly, the kinds of skills that great artists and great
-game designers often excel at. i want the technology experiences of a Banksy, not a Musk.
+The problem is, slow AI is harder to design and to build. it requires thought
+and skill to help build an experience that goes beyond this illusion -- and,
+oddly, the kinds of skills that great artists and great game designers often
+excel at. I want the technology experiences of a Banksy, not a Musk.
 
----
+## Another alternative: stories
 
-* https://pubmed.ncbi.nlm.nih.gov/40073725/ "People are not becoming "AIholic": Questioning the "ChatGPT addiction" construct"
+Another approach is to step away from reflecting one person, and instead show
+reflections of other -- real -- people. That was the basis of Roger Schank's 
+"ASK Systems". One great example was the "Sounding Board" -- it had a chat-like
+interface but instead of using generative text to tell you what to do, it 
+presented short video clips of what other real people had done, maybe even in
+slightly different situations. 
 
-"we are not saying that problematic use of AI chatbots does not exist, but
-rather that existing evidence provides very weak evidence to potentially
-consider intensive AI chatbot use as an addictive behavior."
+This changes the way we perceive the information: we have to work, cognitively,
+to apply the information. And we get to see the value in other people's
+expertise, so we can see the value our own more accurately. 
 
----
+## Generative artificial intelligence:
 
-* https://educationaltechnologyjournal.springeropen.com/articles/10.1186/s41239-024-00467-0 "Do you have AI dependency? The roles of academic self-efficacy, academic stress, and performance expectations on problematic AI usage behavior"
+So, will generative artificial intelligence make us into cognitive couch
+potatoes? Will it exert a pressure that makes self-actualization harder? 
+There hasn't been a whole lot of research on this, but I think there is a 
+case to answer.
 
-"However, this study identified an indirect connection between academic
-self-efficacy and AI dependency mediated by academic stress. Therefore, although
-academic self-efficacy does not directly affect students’ problematic AI usage
-behavior, students with low academic self-efficacy still rely on AI when they
-are under academic pressure."
+In a way, it all comes down to the basic question we asked at the start: are our
+mental capacities malleable or not? 
 
-"However, a significant relationship between performance expectations and AI
-dependency was found."
+If they aren't, then generative artificial intelligence is 
 
-"Academic self-efficacy was negatively correlated with AI dependency"
+But if they are, if we need to rise towards self-actualization to be happy 
+
+
+## Notes
+
+
+Recursive environment drift
+* https://www.psychologytoday.com/us/blog/the-algorithmic-mind/202508/how-ai-chatbots-may-blur-reality
