@@ -1,39 +1,75 @@
 ---
-title: Super size my brain: self-actualization and AI
+layout: post
+title: "Super size my brain: self-actualization and AI"
 ---
 
 When I hear the increasing stories of the effects of large language models --
-which increasingly seem to be transforming people's mental capacities in
-ways that are obviously harmful -- I wonder if there's a useful analogy with
-[Morgan Spurlock's "Super Size Me"](https://www.imdb.com/title/tt0390521/)?
+which increasingly seem to be transforming people's mental capacities in ways
+that are harmful -- I wonder if there's a useful analogy with [Morgan Spurlock's
+"Super Size Me"](https://www.imdb.com/title/tt0390521/)?
 
-In effect, is there a kind of “cognitive diet” that can be good — or bad — for
-us? Can we end up consuming information in a way that slowly poisons us,
-destroying our ability to function independently. 
+To put it simply, if we spend our days immersed, not in human society, but in a
+soup of synthetic information, tailored to reflect the internet at large, what
+will be the impact on us? Is there a kind of “cognitive diet” that can be good —
+or bad — for us? Can we end up consuming information in a way that slowly
+transforms us, destroying our ability to function independently. In effect, are
+our mental capacities malleable or not? 
 
-In effect, are our mental capacities malleable or not? 
+And if our mental capacities are not fixed, but constantly shift according to
+our context and experiences -- what if they are capable of being significantly
+harmed by some external stimuli?[^trauma]
 
-If they are malleable -- what if they are capable of being damaged by certain
-processes and stimuli?[^trauma]
-
-[^trauma]: Let's leave trauma out of this, and focus more on more everyday
-experiences.
+[^trauma]: Although trauma is a known example of this, it is by its nature
+    extreme, so I will leave trauma out of this, and focus on more everyday
+    experiences.
 
 ## Maslow's hierarchy of needs
 
 One way to think about this is through the framework of Abraham Maslow, and
 especially his "hierarchy of needs", today usually depicted as a pyramid
-(although Maslow never depicted it that way). At the bottom are the basic needs,
-and only once those are being met are we able to explore higher ones. At the top
-was "self-actualization", which is most relevant here[^Maslow].
+(although Maslow himself never depicted it that way). At the bottom are a number
+of more basic needs (food, safety, love, self-esteem), and only once those are
+being met are we able to explore higher ones. At the top was
+"self-actualization"[^SA], which is most relevant here[^Maslow].
+
+[^SA]: In fact, self-actualization wasn't Maslow's idea -- he'd learned it from
+    his mentor, Kurt Goldstein, a pioneer in neuroscience, Jewish refugee from
+    Nazi, and another manor influence on humanistic psychology. Maslow's version
+    of self-actualization was a little different, centred more on personal
+    growth.
 
 [^Maslow]: This is the simple version of Maslow's model, which is more nuanced
     than commonly presented. Maslow himself mentioned that levels of need could
     be switched around from person to person and context to context. However, Maslow's
     point was that people who are fulfilled and happy tend to have a significant
-    proportion of self-actualization in their mix. 
+    proportion of self-actualization in their mix.
 
-Maslow studied a fair number of "self-actualizers" (ranging from Einstein to
+Today, the field that uses Maslow's model most often is business. His hierarchy
+of needs, and the pyramid diagram that evolved within the business literature
+after Maslow, are ubiquitous -- often bearing little resemblance to Maslow's.
+For example [Salesforce use the structure to describe corporate growth from
+startups to unicorns and corporate
+citizenship](https://www.salesforce.com/ca/blog/business-hierarchy-of-needs/).
+
+Similarly, Keith Davis, whose *Human Relations at Work* (Davis, 1957) popularised
+Maslow's ideas within business, argued (contra Maslow) that too much safety was a 
+bad thing. 
+
+> "The problem is faced alike by father with son, employer with personnel, and
+> government with citizens. A dangerous aspect of too much security is that if it
+> goes far enough to make man overly dependent on his securers, he may become
+> complacently unproductive" (Davis, 1957, p26).
+
+For Davis, the different hierarchies have the same basic structure, and Maslow's
+framework showed them how to achieve motivation by using the stick to remove
+safety, rather than the by offering the carrot of self-actualization.
+
+But I digress. Like Maslow, let's focus more on growth, and how this framework helps 
+us understand how people can become better, focusing on self-actualization.
+
+## Self-actualization
+
+Maslow studied a fair number of people he considered self-actualizers (ranging from Einstein to
 Harriet Tubman), to find out what they had in common, and what marked them apart
 from the rest of us. All in all, he found about fifteen common behaviours,
 summarised in the table below. 
@@ -44,8 +80,8 @@ especially in the popularization of his framework within the business community.
 
 | Maslow's self-actualization               | Naive generative AI                                                   |
 | ----------------------------------------- | --------------------------------------------------------------------- | 
-| Efficient perception of reality           | Increasing distortion of reality, recursive environment drift[^Ruane] |
-| Acceptance of self, others, and nature    | Guilt, shame, anxiety                                  |
+| Efficient perception of reality           | Increasing distortion of reality, recursive environment drift[^Goudy] |
+| Acceptance of self, others, and nature    | Guilt, shame, anxiety[^Chan]                                          |
 | Spontaneity, simplicity, naturalness      | Greater salience of social norms                                      |
 | Goal centered, long-term mission in life  | Satisficing, local optimization                                       |
 | Accepting solitude without discomfort     | Constant need for social interaction                                  |
@@ -53,12 +89,19 @@ especially in the popularization of his framework within the business community.
 | Continued freshness of appreciation       | Digital amnesia[^Deckker]                                             |
 | Mystic (flow) experiences, awe            | Diminishing cognitive control and attention regulation[^Deckker]      |
 | Gemeinschaftsgegühl (community feeling)   | Loss of community boundaries and identities, individualization        |
-| Profound interpersonal relations          | Wider but shallower social networks                                   |
+| Profound interpersonal relations          | Larger but shallower social networks                                  |
 | Democratic character; humility, justice   | Halo effects, judgements are shaped by overall perceptions            |
 | Discrimination between good and evil      | Moral relativism, both-sidesing, the paradox of tolerance             |
 | Philosophical, un-hostile sense of humour | Satire, "punch down" comedy                                           |
-| Child-like creativity                     | Creativity shaped by other people's perceptions and expectations.     |
-| Resistance to enculturation               | "Fast culture", rapidly-evolving, viral, imitative              .     |
+| Child-like creativity                     | Creativity shaped by other people's perceptions and expectations      |
+| Resistance to enculturation               | "Fast culture", rapidly-evolving, viral, imitative                    |
+{:.table.table-striped}
+
+[^Goudy]: See Goudy (2025).
+
+[^Chan]: See Chan (2025).
+
+[^Deckker]: See Deckker & Sumanasekara (2025)
 
 Now, as a mostly careful cognitive scientist, I will be careful not pin my
 argument only on Maslow's work, which was distinctly sloppy by today's
@@ -70,6 +113,12 @@ Also, it is not clear that these effects are causal. It is very likely that
 individual cognitive differences lead people to choose to interact with
 generative Ai tools. THere's a selection bias in the mix. 
 
+And finally, Maslow's original (1943) article is more nuanced than most might
+think. It is not the same as it is communicated -- especially in the business
+literature. Read it as a reaction against Freudian determinism, and an early
+step towards what would eventually become humanistic psychology, not as a naive
+model of motivation.
+
 ## Relations to business
 
 It's intriguing that by far and away the biggest impact of Maslow's framework
@@ -77,30 +126,33 @@ was in the business literature, where it very quickly caught on -- and the
 pyramid diagrams today associated with Maslow were generated and propagated
 entirely within this community. 
 
-However when you read, there's an ironic tension in the literature. It is
-invariably aimed at managers -- and it is not a coincidence that the pyramid
-resembles a corporate structure, so self-actualization becomes more the realm of
-managers, and basic needs that of lower rank employees. 
+However when you read the articles that build on Maslow, there's an ironic
+tension in the literature. It is usually aimed at managers -- and it is not a
+coincidence that the pyramid resembles a corporate structure, so
+self-actualization becomes the realm of managers, and basic needs that of lower
+rank employees. There are many examples of this framing, like [this one in
+Forbes](https://www.forbes.com/councils/forbeshumanresourcescouncil/2021/06/10/maslows-hierarchy-of-needs-in-your-organization-how-to-support-your-employees-at-every-stage/),
+and [another used by
+Salesforce](https://www.salesforce.com/ca/blog/business-hierarchy-of-needs/).
 
-And yet, to Maslow, it was all about personal growth: "the desire to become more
-and more what one is, to become everything that one is capable of becoming"
-(Maslow, 1943). 
-
-Reading the business literature, much of it reads like senior managers yelling
-at their more junior employees: "grow, damn you!". The "self" part of
-"self-actualization" is entirely missing. 
+And yet, to Maslow, the analysis -- and particular self-actualization -- was all
+about personal growth: "the desire to become more and more what one is, to
+become everything that one is capable of becoming" (Maslow, 1943). Instead, when
+you look at the business literature, much of it reads like senior managers
+yelling at their more junior employees: *"grow, damn you!"* The "self" part of
+"self-actualization" is missing. 
 
 ## Self-actualization versus self-image actualization
 
-In a rare moment of insight, Fritz Perls (Perls was often a bit of an asshole,
-to be honest -- especially to his wife) revealed a piece of the framework that
+In a rare moment of insight, Fritz Perls (Perls was a bit of an asshole, to be
+honest -- especially to his wife) highlighted an issue with this framework that
 Maslow had missed. As Perls put it: "Many people dedicate their lives to
 actualize a concept of what they *should* be like, rather than to actualize
 *themselves*" (Perls, 1969, p20, original emphasis).
 
-This is crucial: Maslow's framework was all about people growing, becoming all
-that they could be. But, all to easily, a need for esteem, other other needs,
-provides a kind of saccharine substitute, a simulation of growth. 
+This is crucial: Maslow's focus was on people growing, becoming all that they
+could be. But, all to easily, a need for esteem, or other needs, provides a
+kind of saccharine substitute, a simulation of growth. 
 
 One great example of this is [this
 article](https://www.cbc.ca/documentaries/the-passionate-eye/does-being-manly-make-you-healthier-and-happier-the-top-5-reasons-the-answer-is-nope-1.7358633)
@@ -108,16 +160,25 @@ and the accompanying CBC documentary [*Harder Better Faster
 Stronger*](https://gem.cbc.ca/harder-better-faster-stronger). Remember: Maslow's
 point is essentially that happiness and fulfillment come with
 self-actualization. This documentary shows the harms of actualizing self-image
-(as a "real man") instead. As with the generative AI in the table above, all too
-easily guilt, shame, and anxiety replace the acceptance of self and others in
-true self-actualization.
+(in this case, as a "real man") instead. There are some intriguing parallels
+with generative AI in the table above, all too easily guilt, shame, and anxiety
+replace the acceptance of self and others in true self-actualization.
+
+In effect, there is a general principle: when self-image actualization replaces
+self-actualization, it results in psychological harm. Not only do we stop
+growing, we regress.[^positive]
+
+[^positive]: There is an argument that this is a significant risk within all
+    approaches broadly within the field of modern positive psychology, which is
+    a little ironic given that Maslow called his approach "positive psychology",
+    predating and significantly inspiring Seligman's and others work.
 
 ## Artificial intelligence as a dark mirror
 
 One of the few true experts in both artificial intelligence and in
-psychoanalytic thinking is Sherry Turkle. Her classic, *The Second Self*,
-explores the mirror as a metaphor for intelligent machines (for want of a better
-term), in some depth. One passage is worth quoting in full:
+psychoanalytic thinking is Sherry Turkle. Her classic, *The Second Self*
+(Turkle, 1984), explores the mirror as a metaphor for intelligent machines (for
+want of a better term), in some depth. One passage is worth quoting in full:
 
 > Ours has been called a culture of narcissism. The label is apt but can be
 > misleading. It reads colloquially as selfishness and self-absorption. But
@@ -128,32 +189,26 @@ term), in some depth. One passage is worth quoting in full:
 > Beyond its nature as an analytical engine lies its second nature as an
 > evocative object. (Turkle, 1984, p279).
 
-Turkle's insight completes the puzzle. Maslow's needs are basic drives, and as
-we see ourselves in the mirror of new artificial intelligence, we all too easily
-see a false self-image -- ourselves as we wish to be seen: creative, autonomous,
-rich, powerful, beautiful, loved. We want our super-sized brain -- and, more
-importantly, we *need* everyone else to see it.
+Turkle's insight completes the puzzle. As we see ourselves in the mirror of new
+artificial intelligence, we all too easily see a false self-image -- ourselves
+as we wish to be seen: creative, autonomous, rich, powerful, beautiful, loved.
+We *want* our super-sized brain -- and, more importantly, we *need* everyone else
+to see it.
 
-And ChatGPT, the evocative mirror of our new technological world, can persuade
-us that this self-image is real. Whether or not this is by design, it happens:
-psychological mirroring and boundary dissolution were two of the most
-significant patterns identified by Ruane in her analysis of maladaptive human-AI
-relationships,
+<figure>
+</figure>
 
-Generative AI -- in its current dominant form as a tool -- is directly harmful
-to self-actualization.
+And all too easily, ChatGPT and its fellows, the evocative mirrors of our new
+technological world, can persuade us that this self-image is real. That we are
+right, smart, creative, and talented. Whether or not this is by design, it
+happens: [psychological mirroring and boundary dissolution were two of the most
+significant patterns identified by Goudy](https://zenodo.org/records/16879563)
+in her analysis of maladaptive human-AI relationships (Goudy, 2025).
 
-## Positive psychology
-
-Maslow called his approach "positive psychology", predating and significantly
-inspiring Seligman's and others work.
-
-Vibe coding, for example, has a lot of positive psychology in it -- emphasis
-on feeling rather than thinking, 
-
-And like positive psychology, it brings new problems -- again, usually, where
-the image overtakes the realization. Oddly, negativity is actually associated
-with a better perception of reality.
+And when it does happen, when we start to lose the more accurate self-awareness
+we learn through interaction with family and friends, from colleagues and
+strangers, then generative AI -- in its current dominant form as a tool -- is
+directly harmful to self-actualization.
 
 ## One alternative: slow AI
 
@@ -202,9 +257,24 @@ Cacioppo, J. T., & Petty, R. E. (1982). The need for cognition. *Journal of
 Personality and Social Psychology*, **42**(1), 116–131.
 https://doi.org/10.1037/0022-3514.42.1.116
 
-Maslow, A. H. (1943). A theory of human motivation. *Psychological Review*, **50**(4),
-370–396. https://doi.org/10.1037/h0054346
+Chan, C. K. Y. (2025). Understanding AI guilt: The development, pilot-testing,
+and validation of an instrument for students. *Education and Information
+Technologies*. https://doi.org/10.1007/s10639-025-13629-y
 
+Davis, K. (1957). *Human relations at work* (2nd ed., 1962). McGraw Hill.
+
+Deckker, D., & Sumanasekara, S. (2025). A Systematic Review of the Impact of Artificial Intelligence, Digital Technology, and Social Media on Cognitive Functions. International Journal of Research and Innovation in Social Science, IX(III), 134–154. https://doi.org/10.47772/IJRISS.2025.90300011
+
+Goudy, A. (2025). the entanglement spiral: an exploratory framework for
+recursive entanglement drift in Human-AI relationships.
+https://zenodo.org/records/16879563
+
+Maslow, A. H. (1943). A theory of human motivation. *Psychological Review*,
+**50**(4), 370–396. https://doi.org/10.1037/h0054346
+
+Schank, R. C. (1999). *Dynamic memory revisited*. Cambridge University Press.
+
+Turkle, S. (1984). *The second self: computers and the human spirit*. Simon & Schuster.
 
 ## Notes
 
