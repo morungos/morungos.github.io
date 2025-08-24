@@ -5,7 +5,7 @@ title: Super size my brain: self-actualization and AI
 When I hear the increasing stories of the effects of large language models --
 which increasingly seem to be transforming people's mental capacities in
 ways that are obviously harmful -- I wonder if there's a useful analogy with
-Morgan Spurlock's "Super Size Me"?
+[Morgan Spurlock's "Super Size Me"](https://www.imdb.com/title/tt0390521/)?
 
 In effect, is there a kind of “cognitive diet” that can be good — or bad — for
 us? Can we end up consuming information in a way that slowly poisons us,
@@ -19,11 +19,19 @@ processes and stimuli?[^trauma]
 [^trauma]: Let's leave trauma out of this, and focus more on more everyday
 experiences.
 
+## Maslow's hierarchy of needs
+
 One way to think about this is through the framework of Abraham Maslow, and
 especially his "hierarchy of needs", today usually depicted as a pyramid
 (although Maslow never depicted it that way). At the bottom are the basic needs,
 and only once those are being met are we able to explore higher ones. At the top
-was "self-actualization".
+was "self-actualization", which is most relevant here[^Maslow].
+
+[^Maslow]: This is the simple version of Maslow's model, which is more nuanced
+    than commonly presented. Maslow himself mentioned that levels of need could
+    be switched around from person to person and context to context. However, Maslow's
+    point was that people who are fulfilled and happy tend to have a significant
+    proportion of self-actualization in their mix. 
 
 Maslow studied a fair number of "self-actualizers" (ranging from Einstein to
 Harriet Tubman), to find out what they had in common, and what marked them apart
@@ -37,7 +45,7 @@ especially in the popularization of his framework within the business community.
 | Maslow's self-actualization               | Naive generative AI                                                   |
 | ----------------------------------------- | --------------------------------------------------------------------- | 
 | Efficient perception of reality           | Increasing distortion of reality, recursive environment drift[^Ruane] |
-| Acceptance of self, others, and nature    | Perceptions of guilt, shame, anxiety                                  |
+| Acceptance of self, others, and nature    | Guilt, shame, anxiety                                  |
 | Spontaneity, simplicity, naturalness      | Greater salience of social norms                                      |
 | Goal centered, long-term mission in life  | Satisficing, local optimization                                       |
 | Accepting solitude without discomfort     | Constant need for social interaction                                  |
@@ -52,11 +60,15 @@ especially in the popularization of his framework within the business community.
 | Child-like creativity                     | Creativity shaped by other people's perceptions and expectations.     |
 | Resistance to enculturation               | "Fast culture", rapidly-evolving, viral, imitative              .     |
 
-Now, as a mostly careful cognitive scientist, I should not pin my argument only
-on Maslow's work, which was distinctly sloppy by today's standards. Fortunately,
-I don't need to. One more respectable related concept is *need for cognition*, a
-personality-linked behavioural disposition (Cacioppo & Petty, 1982), which uses
-psychometrics to measure individual differences. 
+Now, as a mostly careful cognitive scientist, I will be careful not pin my
+argument only on Maslow's work, which was distinctly sloppy by today's
+standards. Fortunately, I don't need to. One more respectable related concept is
+*need for cognition*, a personality-linked behavioural disposition (Cacioppo &
+Petty, 1982), which uses psychometrics to measure individual differences. 
+
+Also, it is not clear that these effects are causal. It is very likely that
+individual cognitive differences lead people to choose to interact with
+generative Ai tools. THere's a selection bias in the mix. 
 
 ## Relations to business
 
@@ -90,6 +102,16 @@ This is crucial: Maslow's framework was all about people growing, becoming all
 that they could be. But, all to easily, a need for esteem, other other needs,
 provides a kind of saccharine substitute, a simulation of growth. 
 
+One great example of this is [this
+article](https://www.cbc.ca/documentaries/the-passionate-eye/does-being-manly-make-you-healthier-and-happier-the-top-5-reasons-the-answer-is-nope-1.7358633)
+and the accompanying CBC documentary [*Harder Better Faster
+Stronger*](https://gem.cbc.ca/harder-better-faster-stronger). Remember: Maslow's
+point is essentially that happiness and fulfillment come with
+self-actualization. This documentary shows the harms of actualizing self-image
+(as a "real man") instead. As with the generative AI in the table above, all too
+easily guilt, shame, and anxiety replace the acceptance of self and others in
+true self-actualization.
+
 ## Artificial intelligence as a dark mirror
 
 One of the few true experts in both artificial intelligence and in
@@ -113,11 +135,25 @@ rich, powerful, beautiful, loved. We want our super-sized brain -- and, more
 importantly, we *need* everyone else to see it.
 
 And ChatGPT, the evocative mirror of our new technological world, can persuade
-us that this self-image is real. While we think we are busily self-actualizing,
-we are building the image, not the reality.
+us that this self-image is real. Whether or not this is by design, it happens:
+psychological mirroring and boundary dissolution were two of the most
+significant patterns identified by Ruane in her analysis of maladaptive human-AI
+relationships,
 
 Generative AI -- in its current dominant form as a tool -- is directly harmful
 to self-actualization.
+
+## Positive psychology
+
+Maslow called his approach "positive psychology", predating and significantly
+inspiring Seligman's and others work.
+
+Vibe coding, for example, has a lot of positive psychology in it -- emphasis
+on feeling rather than thinking, 
+
+And like positive psychology, it brings new problems -- again, usually, where
+the image overtakes the realization. Oddly, negativity is actually associated
+with a better perception of reality.
 
 ## One alternative: slow AI
 
@@ -158,6 +194,16 @@ mental capacities malleable or not?
 If they aren't, then generative artificial intelligence is 
 
 But if they are, if we need to rise towards self-actualization to be happy 
+
+
+## References
+
+Cacioppo, J. T., & Petty, R. E. (1982). The need for cognition. *Journal of
+Personality and Social Psychology*, **42**(1), 116–131.
+https://doi.org/10.1037/0022-3514.42.1.116
+
+Maslow, A. H. (1943). A theory of human motivation. *Psychological Review*, **50**(4),
+370–396. https://doi.org/10.1037/h0054346
 
 
 ## Notes
