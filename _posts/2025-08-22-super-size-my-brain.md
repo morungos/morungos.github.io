@@ -1,6 +1,14 @@
 ---
 layout: post
 title: "Super size my brain: self-actualization and AI"
+background: '/img/posts/wile-e-coyote.jpg'
+summary: >-
+  This article describes how generative artificial intelligence tends to
+  break apart teams, driving a wedge into the deep asymmetry between generating 
+  information and using it. The result can be stressful for employees, but just
+  as destructive on managers' strategy and vision.
+image: '/img/posts/wile-e-coyote.jpg'
+image_description: "Cascade on the River Etherow"
 ---
 
 When I hear the increasing stories of the effects of large language models --
@@ -261,24 +269,25 @@ But if they are, if we need to rise towards self-actualization to be happy
 
 ## References
 
-Cacioppo, J. T., & Petty, R. E. (1982). The need for cognition. *Journal of
-Personality and Social Psychology*, **42**(1), 116–131.
-https://doi.org/10.1037/0022-3514.42.1.116
+[Cacioppo, J. T., & Petty, R. E. (1982). The need for cognition. *Journal of
+Personality and Social Psychology*, **42**(1), 116–131.](https://doi.org/10.1037/0022-3514.42.1.116)
 
-Chan, C. K. Y. (2025). Understanding AI guilt: The development, pilot-testing,
+[Chan, C. K. Y. (2025). Understanding AI guilt: The development, pilot-testing,
 and validation of an instrument for students. *Education and Information
-Technologies*. https://doi.org/10.1007/s10639-025-13629-y
+Technologies*.](https://doi.org/10.1007/s10639-025-13629-y) 
 
 Davis, K. (1957). *Human relations at work* (2nd ed., 1962). McGraw Hill.
 
-Deckker, D., & Sumanasekara, S. (2025). A Systematic Review of the Impact of Artificial Intelligence, Digital Technology, and Social Media on Cognitive Functions. International Journal of Research and Innovation in Social Science, IX(III), 134–154. https://doi.org/10.47772/IJRISS.2025.90300011
+[Deckker, D., & Sumanasekara, S. (2025). A Systematic Review of the Impact of
+Artificial Intelligence, Digital Technology, and Social Media on Cognitive
+Functions. International Journal of Research and Innovation in Social Science,
+IX(III), 134–154.](https://doi.org/10.47772/IJRISS.2025.90300011)
 
-Goudy, A. (2025). the entanglement spiral: an exploratory framework for
-recursive entanglement drift in Human-AI relationships.
-https://zenodo.org/records/16879563
+[Goudy, A. (2025). the entanglement spiral: an exploratory framework for
+recursive entanglement drift in Human-AI relationships.](https://zenodo.org/records/16879563)
 
-Maslow, A. H. (1943). A theory of human motivation. *Psychological Review*,
-**50**(4), 370–396. https://doi.org/10.1037/h0054346
+[Maslow, A. H. (1943). A theory of human motivation. *Psychological Review*,
+**50**(4), 370–396.](https://doi.org/10.1037/h0054346)
 
 Schank, R. C. (1999). *Dynamic memory revisited*. Cambridge University Press.
 
