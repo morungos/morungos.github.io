@@ -81,9 +81,7 @@ tension in the literature. It is usually aimed at managers -- and it is not a
 coincidence that the pyramid resembles a corporate structure, so
 self-actualization becomes the realm of managers, and basic needs that of lower
 rank employees. There are many examples of this framing, like [this one in
-Forbes](https://www.forbes.com/councils/forbeshumanresourcescouncil/2021/06/10/maslows-hierarchy-of-needs-in-your-organization-how-to-support-your-employees-at-every-stage/),
-and [another used by
-Salesforce](https://www.salesforce.com/ca/blog/business-hierarchy-of-needs/).
+Forbes](https://www.forbes.com/councils/forbeshumanresourcescouncil/2021/06/10/maslows-hierarchy-of-needs-in-your-organization-how-to-support-your-employees-at-every-stage/).
 
 But I digress. Like Maslow, let us focus more on growth than on needs, and see how this framework helps 
 us understand how people can become better, focusing on self-actualization.
@@ -110,9 +108,9 @@ whether it be vibe coding or helping students write essays.
 | Gemeinschaftsgegühl (community feeling)   | Loss of community boundaries and identities, individualization        |
 | Profound interpersonal relations          | Larger but shallower social networks                                  |
 | Democratic character; humility, justice   | Halo effects, judgements are shaped by overall perceptions            |
-| Discrimination between good and evil      | Moral relativism, both-sidesing, the paradox of tolerance             |
-| Philosophical, un-hostile sense of humour | Satire, "punch down" comedy                                           |
-| Child-like creativity                     | Creativity shaped by other people's perceptions and expectations      |
+| Discrimination between good and evil      | Moral relativism, [utilitarian ethics](https://www.sciencedirect.com/science/article/abs/pii/S0022103122000464)             |
+| Philosophical, un-hostile sense of humour | Satire, ["punch down" comedy, stereotyping](https://www.bbc.com/future/article/20240724-can-artificial-intelligence-be-genuinely-funny)                                           |
+| Child-like creativity                     | [Creativity shaped by other people's perceptions and expectations](https://link.springer.com/article/10.1007/s00146-025-02341-7)      |
 | Resistance to enculturation               | "Fast culture", rapidly-evolving, viral, imitative                    |
 {:.table.table-striped}
 
@@ -215,14 +213,14 @@ to see it.
 </figure>
 
 And all too easily, ChatGPT and its fellows, the evocative mirrors of our new
-technological world, can persuade us that this self-image is real. That we are
+technological world, persuade us that this self-image is real. That we are
 right, smart, creative, and talented. Whether or not this is by design, it
 happens: [psychological mirroring and boundary dissolution were two of the most
 significant patterns identified by Goudy](https://zenodo.org/records/16879563)
 in her analysis of maladaptive human-AI relationships (Goudy, 2025).
 
-And when it does happen, when we start to lose the more accurate self-awareness
-we learn through interaction with family and friends, from colleagues and
+And when it does happen, when we start to lose the more genuine self-awareness
+we learn through interaction with family and friends, colleagues and
 strangers, then generative AI -- in its current dominant form as a tool -- is
 directly harmful to self-actualization.
 
