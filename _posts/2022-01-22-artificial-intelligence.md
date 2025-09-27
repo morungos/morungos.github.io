@@ -264,7 +264,7 @@ look for a better explanation.
 
 The problem with a Kuhnian account is that it denies the possibility of any
 kind of *evolution* in a science. There's essentially two states: stability 
-and crisis. In practice, this is why more sophisticed philosophers of science,
+and crisis. In practice, this is why more sophisticated philosophers of science,
 like Larry Laudan, use more nuanced models.
 
 [Barbara Von Eckardt's excellent "What is Cognitive Science?"](https://mitpress.mit.edu/books/what-cognitive-science) 
