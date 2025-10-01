@@ -23,7 +23,7 @@ AI the "Fourth Industrial
 Revolution"](https://www.mckinsey.com/capabilities/operations/our-insights/adopting-ai-at-speed-and-scale-the-4ir-push-to-stay-competitive).
 Trump's White House also uses this analogy in its ["Winning the Race" AI action
 plan](https://www.whitehouse.gov/wp-content/uploads/2025/07/Americas-AI-Action-Plan.pdf).
-Demis Hassabis, founder of Google's Deep Mind, says claimed that artificial
+Demis Hassabis, founder of Google's Deep Mind, has claimed that artificial
 intelligence will be ["10 times bigger than the industrial revolution -- and
 maybe 10 times
 faster"](https://www.theguardian.com/technology/2025/aug/04/demis-hassabis-ai-future-10-times-bigger-than-industrial-revolution-and-10-times-faster). 
