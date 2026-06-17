@@ -112,7 +112,7 @@ issue, and the computational challenges are much more significant[^MJPEG].
 
 [^MJPEG]: Technical folks might want more context here. Most hardware
     acceleration for compression focuses on H.264 and H.265, which are more
-    common, and better at compressing bigger videos, because they to compression
+    common, and better at compressing bigger videos, because they do compression
     over multiple frames. However, for low latency, MJPEG is (in theory) faster,
     because there's no need to wait for multiple frames before compressing. We
     can start to compress before we even have a full frame. Because the project
